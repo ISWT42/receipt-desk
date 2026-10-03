@@ -1,7 +1,6 @@
 .env
 .env.*
 node_modules/
-inputs/
 scoring/
 work/
 results/private/

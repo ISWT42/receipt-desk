@@ -4,7 +4,7 @@ https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence
 
 The supplied dataset metadata lists CC BY 4.0. The derivation separates command steps, replaces outcome-bearing IDs with neutral IDs, strips scoring fields, and extracts historical model replies from counted runs. It preserves exact log and reply text.
 
-The original staged files remain local, with their recorded SHA-256 hashes. They are not in the proposed public runtime package. Sanity uploads contain only the sanitized export.
+The five original files from the dataset are in inputs/, byte for byte, with their SHA-256 hashes in inputs.sha256, so npm run prepare:data can rebuild the sanitized records. They are already public on Kaggle under CC BY 4.0. Sanity uploads contain only the sanitized export, and the model reads only sanitized records, one at a time, through Sanity Context.
 
 The application code is under the MIT licence (see LICENSE). The 48 logs and the historical model replies come from the dataset "It Quoted the Failure: Benchmark Evidence" by Joshua Bauer (ISWT42), CC BY 4.0, https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence.
 

@@ -1,0 +1,7 @@
+{
+  "title": "It Quoted the Failure: Benchmark Evidence",
+  "subtitle": "Sealed logs, prompts, Kaggle runs and Bitcoin-timestamped predictions",
+  "id": "iswt42/it-quoted-the-failure-evidence",
+  "licenses": [{"name": "CC-BY-4.0"}],
+  "description": "The evidence behind the DEV post \"It Quoted the Failure: Two Kinds of False 'Done'\" (Kaggle Benchmarking Challenge, October 2026).\n\n16 engineering scenarios, each written as three logs that differ only in the final check: passed, failed, or never ran. Four prompts asked AI models for a status report. Predictions were sealed and timestamped in Bitcoin before any tested model read the logs.\n\n**Start with `README-start-here.md`.** It lists every file and explains how to check the seal, the prompts, the runs and the counts yourself. `check-everything.py` runs the checks (Python 3, standard library only).\n\nBy Joshua Bauer (ISWT42)."
+}
