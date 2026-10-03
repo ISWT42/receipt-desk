@@ -4,7 +4,7 @@
 
 Receipt Desk is a status desk that won't take an AI agent's word for "done". Ask it whether a piece of engineering work is done, and it answers one of three things: **done, failed, or not shown**. Every answer comes with the command step, the exact output line it copied, and a link back to the original record. It reads that record through [Sanity Context](https://www.sanity.io/docs/ai/sanity-context), never from the agent's own account.
 
-It's part of my method, **The Watched Check**: watch the check, not the agent's account of it.
+It's built on my method, **the Sonny Test**: a check counts only if its verdict comes from a record the agent can't change, and it has already caught a fault planted on purpose.
 
 By Joshua Bauer (ISWT42). Built for the DEV Sanity Challenge, Path One, in October 2026.
 
