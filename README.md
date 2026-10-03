@@ -1,5 +1,7 @@
 # Receipt Desk
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23116559.svg)](https://doi.org/10.5281/zenodo.23116559)
+
 **Show me the line, or it isn't done.**
 
 Receipt Desk is a status desk that won't take an AI agent's word for "done". Ask it whether a piece of engineering work is done, and it answers one of three things: **done, failed, or not shown**. Every answer comes with the command step, the exact output line it copied, and a link back to the original record. It reads that record through [Sanity Context](https://www.sanity.io/docs/ai/sanity-context), never from the agent's own account.
@@ -54,6 +56,10 @@ The sealed file's SHA-256 is `a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2
 - Each arm ran once, the raw arm first, and backend changes or sampling could change another run.
 - The weaker-model costs are an upper bound, because the broker reported tokens, not charges.
 - The comparison with my earlier benchmark is exploratory: the prompts and counting differ.
+
+## Cite
+
+Bauer, J. (2026). *Receipt Desk: show me the line, or it isn't done* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23116560
 
 ## Licence
 
