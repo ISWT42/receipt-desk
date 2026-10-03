@@ -46,7 +46,7 @@ npm run build            # the Sanity Studio, built locally
 | `docs/` | The recorded demo |
 | `public/` | The sanitized content and earlier viewers |
 
-The sealed file's SHA-256 is `a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f`. You can check it with `sha256sum PREDICTIONS-WEAKER-MODELS.md`, and check the timestamp with `ots verify`.
+The sealed file's SHA-256 is `a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f`. You can check it with `sha256sum PREDICTIONS-WEAKER-MODELS.md`, and check the timestamp with `ots verify`. The proof is complete: it is anchored in Bitcoin block 969650, timestamped 00:20 UTC on 3 October 2026, before the first weaker-model call (after 00:36:49 UTC, see `results/`).
 
 ## Limits
 

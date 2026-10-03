@@ -100,3 +100,5 @@ This cross-study note is exploratory. It was not one of the five sealed predicti
 - The bound proves actual billing. The broker reported no costUsd. The approved conservative price method is labelled as a bound.
 - Every uncredited receipt is invented. The retained text shows wrong identifiers, altered spaces, wrong step references, and the fixed criterion, as well as wrong statuses.
 - A matching proof fingerprint verifies the timestamp chain. No external chain verification occurred.
+
+**Update, 3 October 2026, about 05:10 UTC.** The OpenTimestamps proof for `PREDICTIONS-WEAKER-MODELS.md` is now complete and checked against Bitcoin: block 969650, timestamped 00:20 UTC on 3 October 2026, with three calendar attestations whose merkle roots all match. That is before the first weaker-model call, which came after 00:36:49 UTC. The upgraded `.ots` file is in this repository; the sealed file and its correction are unchanged.
