@@ -9,3 +9,4 @@ dist/
 *.log
 .env*
 *.zip
+!inputs/kaggle-runs.zip
