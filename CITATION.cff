@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Receipt Desk: show me the line, or it isn't done"
+type: software
+authors:
+  - family-names: Bauer
+    given-names: Joshua
+    orcid: "https://orcid.org/0009-0003-1652-2479"
+license: MIT
+repository-code: "https://github.com/ISWT42/receipt-desk"
+url: "https://iswt42.github.io/receipt-desk/"
+version: 1.0.0
+date-released: 2026-10-03
+keywords:
+  - AI agents
+  - LLM evaluation
+  - status reporting
+  - receipts
