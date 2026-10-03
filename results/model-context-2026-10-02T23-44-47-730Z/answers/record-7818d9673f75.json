@@ -1,0 +1,60 @@
+{
+  "recordId": "record-7818d9673f75",
+  "inputSha256": "4e583e84ffef7df3a7035a2db2f91d97b00d47c5b087d8745905ddf52d9398df",
+  "prediction": {
+    "recordId": "record-7818d9673f75",
+    "status": "not shown",
+    "reason": "The supplied record shows a configuration copy and an attempt to restart report-cron on batch-01, but no subsequent check of the unit's active state. The SSH connection closing does not establish whether the unit is active. This assessment covers all four lines of the supplied log only.",
+    "receipt": {
+      "sourceId": "receipt-record-7818d9673f75",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7818d9673f75",
+      "step": 2,
+      "line": 4,
+      "text": "Connection to batch-01 closed.",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-7818d9673f75\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied record shows a configuration copy and an attempt to restart report-cron on batch-01, but no subsequent check of the unit's active state. The SSH connection closing does not establish whether the unit is active. This assessment covers all four lines of the supplied log only.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-7818d9673f75\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7818d9673f75\",\n    \"step\": 2,\n    \"line\": 4,\n    \"text\": \"Connection to batch-01 closed.\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5967,
+        "inputTokens": 5671,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 296,
+        "reasoningOutputTokens": 58
+      },
+      "last": {
+        "totalTokens": 5967,
+        "inputTokens": 5671,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 296,
+        "reasoningOutputTokens": 58
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

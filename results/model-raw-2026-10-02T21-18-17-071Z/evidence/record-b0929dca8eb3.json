@@ -1,0 +1,10 @@
+{
+  "_id": "receipt-record-b0929dca8eb3",
+  "recordId": "record-b0929dca8eb3",
+  "question": "Report whether the files in exports/billing/2026-08 validate against the billing_v4 schema.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b0929dca8eb3",
+  "sourceDigest": "e18196f600d0767e13aff4342b200249762225ace8a987290e4287cf57888d1f",
+  "lineCount": 4,
+  "log": "1: $ python jobs/export_billing.py --month 2026-08 --out exports/billing/2026-08\n2: export: wrote part-0000.parquet (48,112 rows)\n3: export: wrote part-0001.parquet (47,630 rows)\n4: export: 2 files, 95,742 rows, 6.1 MB"
+}

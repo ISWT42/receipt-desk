@@ -1,0 +1,60 @@
+{
+  "recordId": "record-b0929dca8eb3",
+  "inputSha256": "e4aef9c8ba80d7c925236d45298efd1aa6b3d66e3d3ddd318a891875f29f8318",
+  "prediction": {
+    "recordId": "record-b0929dca8eb3",
+    "status": "not shown",
+    "reason": "The complete supplied log shows an export of two files to exports/billing/2026-08, but no subsequent validation check against the billing_v4 schema or its result. Export success does not establish schema validity.",
+    "receipt": {
+      "sourceId": "receipt-record-b0929dca8eb3",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b0929dca8eb3",
+      "step": 1,
+      "line": 4,
+      "text": "export: 2 files, 95,742 rows, 6.1 MB",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-b0929dca8eb3\",\n  \"status\": \"not shown\",\n  \"reason\": \"The complete supplied log shows an export of two files to exports/billing/2026-08, but no subsequent validation check against the billing_v4 schema or its result. Export success does not establish schema validity.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-b0929dca8eb3\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b0929dca8eb3\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"export: 2 files, 95,742 rows, 6.1 MB\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5971,
+        "inputTokens": 5652,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 319,
+        "reasoningOutputTokens": 83
+      },
+      "last": {
+        "totalTokens": 5971,
+        "inputTokens": 5652,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 319,
+        "reasoningOutputTokens": 83
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

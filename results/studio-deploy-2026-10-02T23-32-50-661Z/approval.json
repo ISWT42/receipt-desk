@@ -1,0 +1,17 @@
+{
+  "status": "done",
+  "projectId": "ixoe9uvf",
+  "dataset": "production",
+  "studioUrl": "https://receipt-desk-ixoe9uvf.sanity.studio",
+  "manifestFile": "results/studio-candidate-2026-10-02T22-39-00-675Z/deployment-manifest.json",
+  "manifestSha256": "8cef59f21eef59cf2bb3ecbdfb3a41f9a2dcdfa97b01c56741c80411b84e5dd5",
+  "files": 30,
+  "totalBytes": 7139137,
+  "protocolFile": "CONTEXT-PROTOCOL-ADDENDUM-2026-10-02.md",
+  "protocolSha256": "44a6cd7b390634847be2166ace5209feb8f20d680ed88c1252c89166c5f6c0e6",
+  "recordedAt": "2026-10-02T23:32:50.662Z",
+  "authorization": "Owner approved registration and hosting of this exact checked Studio, only if free and no new sign-in.",
+  "freeHostingSource": "https://www.sanity.io/pricing",
+  "freeHostingEvidence": "Sanity Studio: Free hosting; Included on Free, Growth, and Enterprise.",
+  "limits": "No paid API, no plan change, no new sign-in, no issue resolution or Knowledge Base mutation."
+}

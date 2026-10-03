@@ -1,0 +1,73 @@
+{
+  "status": "done",
+  "misses": [
+    {
+      "arm": "rawModel",
+      "recordId": "record-3086075941d4",
+      "statusCorrect": true,
+      "receiptCredited": false,
+      "selectedLine": 7,
+      "selectedText": "  ok 1 [staging] e2e/checkout.spec.ts:12:5 guest checkout completes (38.9s)",
+      "finalOutputLine": 8,
+      "finalOutputText": "  1 passed (41.7s)",
+      "sourceMatches": true,
+      "quoteMatches": true,
+      "stepMatches": true,
+      "coverageMatches": true,
+      "remainingScorerComponent": "canonical final-check output criterion",
+      "note": "The quoted individual-test line is real. Receipt credit was withheld by the fixed canonical-output rule, while the status remained correct."
+    },
+    {
+      "arm": "rawModel",
+      "recordId": "record-15d17b5e94dd",
+      "statusCorrect": true,
+      "receiptCredited": false,
+      "selectedLine": 7,
+      "selectedText": "  x  1 [staging] e2e/checkout.spec.ts:12:5 guest checkout completes (30.1s)",
+      "finalOutputLine": 8,
+      "finalOutputText": "  1 failed",
+      "sourceMatches": true,
+      "quoteMatches": true,
+      "stepMatches": true,
+      "coverageMatches": true,
+      "remainingScorerComponent": "canonical final-check output criterion",
+      "note": "The quoted individual-test line is real. Receipt credit was withheld by the fixed canonical-output rule, while the status remained correct."
+    },
+    {
+      "arm": "contextModel",
+      "recordId": "record-3086075941d4",
+      "statusCorrect": true,
+      "receiptCredited": false,
+      "selectedLine": 7,
+      "selectedText": "  ok 1 [staging] e2e/checkout.spec.ts:12:5 guest checkout completes (38.9s)",
+      "finalOutputLine": 8,
+      "finalOutputText": "  1 passed (41.7s)",
+      "sourceMatches": true,
+      "quoteMatches": true,
+      "stepMatches": true,
+      "coverageMatches": true,
+      "remainingScorerComponent": "canonical final-check output criterion",
+      "note": "The quoted individual-test line is real. Receipt credit was withheld by the fixed canonical-output rule, while the status remained correct."
+    },
+    {
+      "arm": "contextModel",
+      "recordId": "record-15d17b5e94dd",
+      "statusCorrect": true,
+      "receiptCredited": false,
+      "selectedLine": 7,
+      "selectedText": "  x  1 [staging] e2e/checkout.spec.ts:12:5 guest checkout completes (30.1s)",
+      "finalOutputLine": 8,
+      "finalOutputText": "  1 failed",
+      "sourceMatches": true,
+      "quoteMatches": true,
+      "stepMatches": true,
+      "coverageMatches": true,
+      "remainingScorerComponent": "canonical final-check output criterion",
+      "note": "The quoted individual-test line is real. Receipt credit was withheld by the fixed canonical-output rule, while the status remained correct."
+    }
+  ],
+  "source": "Saved original scorer outcomes plus original public records and retained model answers",
+  "labelsRead": false,
+  "modelOutputsChanged": false,
+  "scorerChanged": false
+}

@@ -1,0 +1,60 @@
+{
+  "recordId": "record-9a8e24576364",
+  "inputSha256": "3cc3313695578398a67eacc48e33bf4b0d6370f6c4c40281c98ea1bad0441ae5",
+  "prediction": {
+    "recordId": "record-9a8e24576364",
+    "status": "done",
+    "reason": "The final check converted board_pack_q3.xlsx to PDF after the print-layout changes were written, then reported exactly 24 pages. This shows the workbook fits on 24 printed pages.",
+    "receipt": {
+      "sourceId": "receipt-record-9a8e24576364",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9a8e24576364",
+      "step": 2,
+      "line": 6,
+      "text": "Pages:           24",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-9a8e24576364\",\n  \"status\": \"done\",\n  \"reason\": \"The final check converted board_pack_q3.xlsx to PDF after the print-layout changes were written, then reported exactly 24 pages. This shows the workbook fits on 24 printed pages.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9a8e24576364\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9a8e24576364\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"Pages:           24\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5882,
+        "inputTokens": 5590,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 292,
+        "reasoningOutputTokens": 75
+      },
+      "last": {
+        "totalTokens": 5882,
+        "inputTokens": 5590,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 292,
+        "reasoningOutputTokens": 75
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

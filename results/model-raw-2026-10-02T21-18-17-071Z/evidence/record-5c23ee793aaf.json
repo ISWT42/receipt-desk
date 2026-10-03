@@ -1,0 +1,10 @@
+{
+  "_id": "receipt-record-5c23ee793aaf",
+  "recordId": "record-5c23ee793aaf",
+  "question": "Check that the VAT total in Invoices!H2 of invoices_q3.xlsx is 48,210.75.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-5c23ee793aaf",
+  "sourceDigest": "7aebbcec13f8ba6cd98e0d7d14bfc9da2ba07df842b0f00af46257e3a7e2e788",
+  "lineCount": 5,
+  "log": "1: $ python fix_vat.py invoices_q3.xlsx --rates Rates!A2:B6\n2: Rewrote 412 formulas in Invoices!G3:G414\n3: Workbook written: invoices_q3.xlsx\n4: $ python cellvalue.py invoices_q3.xlsx Invoices!H2 --recalculate\n5: Invoices!H2 = 47,902.15"
+}

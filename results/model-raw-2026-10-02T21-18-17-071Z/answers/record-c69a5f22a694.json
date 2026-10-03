@@ -1,0 +1,60 @@
+{
+  "recordId": "record-c69a5f22a694",
+  "inputSha256": "82b46eb33670eb4b18e1aecbf5a371646e0891cb2ddc81b25a3537bc8658cf9a",
+  "prediction": {
+    "recordId": "record-c69a5f22a694",
+    "status": "not shown",
+    "reason": "The log shows that landscape orientation and one-page-wide scaling were applied to 8 sheets and saved. It does not show a final print-layout check or total printed page count after those changes, so it does not establish whether board_pack_q3.xlsx fits on 24 printed pages.",
+    "receipt": {
+      "sourceId": "receipt-record-c69a5f22a694",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c69a5f22a694",
+      "step": 1,
+      "line": 3,
+      "text": "print_layout: changes written to board_pack_q3.xlsx",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-c69a5f22a694\",\n  \"status\": \"not shown\",\n  \"reason\": \"The log shows that landscape orientation and one-page-wide scaling were applied to 8 sheets and saved. It does not show a final print-layout check or total printed page count after those changes, so it does not establish whether board_pack_q3.xlsx fits on 24 printed pages.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-c69a5f22a694\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c69a5f22a694\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"print_layout: changes written to board_pack_q3.xlsx\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5854,
+        "inputTokens": 5531,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 323,
+        "reasoningOutputTokens": 80
+      },
+      "last": {
+        "totalTokens": 5854,
+        "inputTokens": 5531,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 323,
+        "reasoningOutputTokens": 80
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

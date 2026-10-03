@@ -1,0 +1,60 @@
+{
+  "recordId": "record-b22624bcb066",
+  "inputSha256": "12340ab6cf0d65f66efcc4b30654db4eb932022f51fa0c8013bc32a37a2bc5dc",
+  "prediction": {
+    "recordId": "record-b22624bcb066",
+    "status": "failed",
+    "reason": "The final check on es-03, run after the configuration apply, returned vm.max_map_count as 65530, not the requested 262144.",
+    "receipt": {
+      "sourceId": "receipt-record-b22624bcb066",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b22624bcb066",
+      "step": 2,
+      "line": 6,
+      "text": "65530",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-b22624bcb066\",\n  \"status\": \"failed\",\n  \"reason\": \"The final check on es-03, run after the configuration apply, returned vm.max_map_count as 65530, not the requested 262144.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-b22624bcb066\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b22624bcb066\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"65530\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5822,
+        "inputTokens": 5564,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 258,
+        "reasoningOutputTokens": 56
+      },
+      "last": {
+        "totalTokens": 5822,
+        "inputTokens": 5564,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 258,
+        "reasoningOutputTokens": 56
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

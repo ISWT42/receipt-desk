@@ -1,0 +1,238 @@
+{
+  "status": "done",
+  "inputFingerprints": [
+    {
+      "file": "README-start-here.md",
+      "sha256": "a041840304bf703ba2d4ad4846b737d914ccee725c297d19f76a83811fd5e58c"
+    },
+    {
+      "file": "dataset-metadata.json",
+      "sha256": "d39303906f343e14ba815983e04e23a497332c26e0f8070857f6eaf98654c342"
+    },
+    {
+      "file": "kaggle-runs.zip",
+      "sha256": "9760156f5c6c3f9e3429d394054911bb536e780cc8068033e19cc56605b5e214"
+    },
+    {
+      "file": "run-list.csv",
+      "sha256": "f27e6f64ee05ca3e678ee2813087c6e57b404ad12a77f5de61d5378de79410eb"
+    },
+    {
+      "file": "the-48-logs.jsonl",
+      "sha256": "0f9d4e7a20b7d01d4dcd62efbeff022f19859d653ae8b2c692b55c79a08447f5"
+    }
+  ],
+  "records": 48,
+  "claimBundles": 48,
+  "datasetDocuments": 96,
+  "kbFiles": 48,
+  "documentBudget": 150,
+  "allRunHashes": 58,
+  "countedRuns": 54,
+  "matchedReplies": 2592,
+  "missingReplies": 0,
+  "labelsExcluded": true,
+  "neutralIds": true,
+  "uploadFile": "work/content/public-sanity.ndjson",
+  "uploadSha256": "cf215c0ce056583206ec5a614268af9e4a8bd97b88cdf129c17e728f12fea250",
+  "kbFileDigests": [
+    {
+      "file": "record-0282ddfdd9b3.md",
+      "sha256": "f65e1be649ba0e7e36df10e1aa4bc29e279a78c306526951bc7d06d2dbc89d1d"
+    },
+    {
+      "file": "record-07af27f46aa2.md",
+      "sha256": "ba5f1606fbc942f2d26894f1a520dce5b642b4531ddefd3bc8cb0a0b66a2bf67"
+    },
+    {
+      "file": "record-07d8e487c0b6.md",
+      "sha256": "983dbf1e5b7c8755e7258c426b726fdd5da22cabbfeca85b9a9e28d1893ebca4"
+    },
+    {
+      "file": "record-0a5d2db58656.md",
+      "sha256": "d04c403db41ada551f5b1ab91759bb9c68ce95d165a5d27b8dcf292d20ca20fc"
+    },
+    {
+      "file": "record-15d17b5e94dd.md",
+      "sha256": "4bf604184adfb2696360d6a8fe4cbff6047defeb75b4b83e41a45b96d6294956"
+    },
+    {
+      "file": "record-200df607cb86.md",
+      "sha256": "a1e3300223f6b2a1dfa3b44b6778162a93a2210d58c547a6e6af7e5b2625b98e"
+    },
+    {
+      "file": "record-2906cae6f48f.md",
+      "sha256": "e043ecc4524b9fed9c087a965b6a26e032694e15151c8e1da22ea546c3c01e5a"
+    },
+    {
+      "file": "record-3086075941d4.md",
+      "sha256": "b48f8900840fd9517ad723da803ba1e7e26bc75f8a8fe5c31eb6549f7a57fb15"
+    },
+    {
+      "file": "record-3a5af96350a5.md",
+      "sha256": "a408f45fdb087d209e591507fc85b7404647d09af44bba6238c85e19146b3d0e"
+    },
+    {
+      "file": "record-3cd4f22e6a0c.md",
+      "sha256": "78dcf9e155927fbce06f63e638279266cc46d408f13f6d35d923198ccfe89cb9"
+    },
+    {
+      "file": "record-3e250e08f5ed.md",
+      "sha256": "902649c0211683fce56b2ad4e09c60759615420c4f86c59e6e785f0bf7109c03"
+    },
+    {
+      "file": "record-3fa95fd9371e.md",
+      "sha256": "46b516f9c5b86d19321cf6d62bf205b396d0fe801fd8e114d20d95cc44c71cca"
+    },
+    {
+      "file": "record-45d010461510.md",
+      "sha256": "c0248c81918781ff47f86e02f897d434fe0cd97b1e26bee6cc93e0f122bf63ea"
+    },
+    {
+      "file": "record-57110a1fcf0d.md",
+      "sha256": "6ce2f99618bf4709a5d6d7e985089bd43bf91f9e2f304959563a0190db484637"
+    },
+    {
+      "file": "record-5c23ee793aaf.md",
+      "sha256": "c5d8317d75092116b7ef6d881b8af5975069d9566e1d621c78b1e0d25d6b1992"
+    },
+    {
+      "file": "record-5c44c38b46f8.md",
+      "sha256": "9db26316098344f86b8dd3671b15505577011c5fe51702b8b886939295dbfaa4"
+    },
+    {
+      "file": "record-6c6c44550739.md",
+      "sha256": "1c2f1800db87edc8925d7d09ca355918a6628c2f0b21b1dd4c593d29c5d43878"
+    },
+    {
+      "file": "record-73e60b18c4eb.md",
+      "sha256": "5dd64ffe18fa53d1eb3424e31a8e0d7621f88bbc7d97d24f31083f579548e333"
+    },
+    {
+      "file": "record-7432b52a0a10.md",
+      "sha256": "8b3397d818a2e042d554d3cb3f7419aeb7ebd85236fcc7e0745c2b6305c9d920"
+    },
+    {
+      "file": "record-77ddc379dbb9.md",
+      "sha256": "54e569351a9ddb28c5ab467d83274c7c7bde5c7922d2fdd91061f1d394cf5792"
+    },
+    {
+      "file": "record-7818d9673f75.md",
+      "sha256": "6f2cdae27c643c4f1510e33975be9a0f343f252b145d34b294d5843683f06217"
+    },
+    {
+      "file": "record-7e08360c4f5a.md",
+      "sha256": "d46cb03442d52c388f334d412dd5d4b1eff10f6e8358f688b3fedd8f553539f8"
+    },
+    {
+      "file": "record-846a05880441.md",
+      "sha256": "507aa759f3e493912db29edf8d8dee5962d91a5697c92e0009919f5b7b5e0f10"
+    },
+    {
+      "file": "record-85b300d5ce6a.md",
+      "sha256": "50e44affb1ddff1723a46e842bb820dd23b15fb76db012ce9d40530b2e1f707f"
+    },
+    {
+      "file": "record-8941ea27871c.md",
+      "sha256": "ca61db9c222591cbaef9e18b42c9f4efe6caa227cdbd61fe3be702b4c5371250"
+    },
+    {
+      "file": "record-89fd1f8cd9eb.md",
+      "sha256": "522fecaed37be3c299d0b17c9febe0e95b686bd5d17c86c531ef09ea9322d698"
+    },
+    {
+      "file": "record-9232d1cb3a28.md",
+      "sha256": "be2325840db20cff38777c35420dbf9ba6bc4c538d02590f324fc53480a271a0"
+    },
+    {
+      "file": "record-93e9f728678b.md",
+      "sha256": "8d0b8c80d3da35aff77ac014282d5d7f8db281253ab3865cd1f2d634d2bda72d"
+    },
+    {
+      "file": "record-9950b3ad8de7.md",
+      "sha256": "414aca1457f3066077f45168fb69de021d0e4f88185bb4dfd24be3f3882f94a7"
+    },
+    {
+      "file": "record-9a8e24576364.md",
+      "sha256": "0cc9a4efad46dcfe1e53234f631600525625dab6972f398434ea2292f3dc125f"
+    },
+    {
+      "file": "record-9e4cf8f741eb.md",
+      "sha256": "07093ba74228d4cabe106e97d4dd975232419d1b3dd6b5720a7b43b96e0c819e"
+    },
+    {
+      "file": "record-a88e68ef5ad1.md",
+      "sha256": "e362cad0700d2fb114d0657a9c02e596b6ccada04c3dfffe0d89c2d9f23a6341"
+    },
+    {
+      "file": "record-b0651a3885c9.md",
+      "sha256": "1ba77ab06ec9eb3b0d9f8a92dc1c42f64cdaf6f8a61a7cbe5bc6fa964494d620"
+    },
+    {
+      "file": "record-b0929dca8eb3.md",
+      "sha256": "8b4d1d86a7794baaa2f59d8a9358f189da1360bb022e81cff18056542b29accb"
+    },
+    {
+      "file": "record-b22624bcb066.md",
+      "sha256": "e797bc5504d4b31ec4dc7307eb7947cf2a53776e4f03ff7cd661e4d7f5da71f9"
+    },
+    {
+      "file": "record-b2f88daf0497.md",
+      "sha256": "7e57c93f287f7cec9e621eb7ba7a5fa707aca028716f43ca60fdfb7c2b0d2dad"
+    },
+    {
+      "file": "record-c5da13d84419.md",
+      "sha256": "0e60c436e6a1e7b03640c728c614bacf4225b722d8dfe475e2e3e17a1b740779"
+    },
+    {
+      "file": "record-c69a5f22a694.md",
+      "sha256": "e12d336b2cfa1c8f001a8a598b700d34c6f434d27a560937ca95bd46afdeeed4"
+    },
+    {
+      "file": "record-d330baeb0879.md",
+      "sha256": "ae9e6912b8dbde4e1902b2ef2cfb4659d9e62a054b138f806df47e19decd403c"
+    },
+    {
+      "file": "record-d8b347c1da7a.md",
+      "sha256": "a013532b3980ed5f15e8fb4bb0a45931708b531da2d8bd39d8ef27c6ea1a3ef3"
+    },
+    {
+      "file": "record-e10e3413cef8.md",
+      "sha256": "f40f35a6c5c018fc52323b682c810427f507111ccb17cc55506aadc340cabd9b"
+    },
+    {
+      "file": "record-e8992f71c531.md",
+      "sha256": "0c228cb994dbf10953bf832d564d9262b7dc9d8f4b173b82d6a6c5bdfde8d778"
+    },
+    {
+      "file": "record-e9cc2bb55d6c.md",
+      "sha256": "1415fb4884ecde232a2d976ac089231ffbfdfa84af224d0398ee32b7dafc35c9"
+    },
+    {
+      "file": "record-ebe66bd45108.md",
+      "sha256": "7344aba6924d32ae34c766fbce2ff1461f4a907c87b237405c4fc0e5bb444b42"
+    },
+    {
+      "file": "record-f1b64b33e6a2.md",
+      "sha256": "8d514497e30b8b82507b8e037940f9804e26a843469af97127eaca7605cdbfd0"
+    },
+    {
+      "file": "record-f814be1b029f.md",
+      "sha256": "598414750e06dec5c71ead60c2584046a1c33fac71b9f62a470b2b294e448096"
+    },
+    {
+      "file": "record-fd2874d74a60.md",
+      "sha256": "ebedb80e27eecb781737d9c98413fcf93177a444e2b574429316f18e9d14e664"
+    },
+    {
+      "file": "record-ff337f068357.md",
+      "sha256": "5951cbbbdfc0e0c0131b52e5658e5098deefbd20f7b77e6487b60f10439200a9"
+    }
+  ],
+  "recordsFile": "work/content/public-records.json",
+  "claimsFile": "work/content/public-claims.json",
+  "documentIdPolicy": "Root IDs without dots; neutral record IDs and original log bytes unchanged.",
+  "priorUploadFile": "work/content/sanity.ndjson",
+  "priorUploadSha256": "040e2f245221ba87c5123f24422a9cc2d021e531f2ff84a596b655bc921d3748",
+  "knowledgeBaseFilter": "_id in path(\"*\") && _type in [\"receiptRecord\",\"claimBundle\"]"
+}

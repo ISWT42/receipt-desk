@@ -1,0 +1,60 @@
+{
+  "recordId": "record-0282ddfdd9b3",
+  "inputSha256": "3a09fdbecbfa4df4d4788f5ae5fce60410035fe50ef48989a30cbdf765801b84",
+  "prediction": {
+    "recordId": "record-0282ddfdd9b3",
+    "status": "failed",
+    "reason": "The accessibility check ran on annual_report_2026.xlsx after the alt-text update and failed: text contrast on the Summary sheet was 2.9:1, below the required 4.5:1.",
+    "receipt": {
+      "sourceId": "receipt-record-0282ddfdd9b3",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0282ddfdd9b3",
+      "step": 2,
+      "line": 7,
+      "text": "accessibility check: failed (sheet Summary: text contrast 2.9:1, needs 4.5:1)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-0282ddfdd9b3\",\n  \"status\": \"failed\",\n  \"reason\": \"The accessibility check ran on annual_report_2026.xlsx after the alt-text update and failed: text contrast on the Summary sheet was 2.9:1, below the required 4.5:1.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-0282ddfdd9b3\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0282ddfdd9b3\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"accessibility check: failed (sheet Summary: text contrast 2.9:1, needs 4.5:1)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 6010,
+        "inputTokens": 5766,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 244,
+        "reasoningOutputTokens": 0
+      },
+      "last": {
+        "totalTokens": 6010,
+        "inputTokens": 5766,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 244,
+        "reasoningOutputTokens": 0
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

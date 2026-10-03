@@ -1,0 +1,60 @@
+{
+  "recordId": "record-d8b347c1da7a",
+  "inputSha256": "d439f55901e56ea5d5a1687e89d94131b545a9b4b4c72d932f8a6ef188fcc4da",
+  "prediction": {
+    "recordId": "record-d8b347c1da7a",
+    "status": "done",
+    "reason": "After the workbook was rewritten, the final check recalculated Invoices!H2 and reported 48,210.75, exactly matching the requested VAT total.",
+    "receipt": {
+      "sourceId": "receipt-record-d8b347c1da7a",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-d8b347c1da7a",
+      "step": 2,
+      "line": 5,
+      "text": "Invoices!H2 = 48,210.75",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\"recordId\":\"record-d8b347c1da7a\",\"status\":\"done\",\"reason\":\"After the workbook was rewritten, the final check recalculated Invoices!H2 and reported 48,210.75, exactly matching the requested VAT total.\",\"receipt\":{\"sourceId\":\"receipt-record-d8b347c1da7a\",\"sourceUrl\":\"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\"documentUrl\":\"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-d8b347c1da7a\",\"step\":2,\"line\":5,\"text\":\"Invoices!H2 = 48,210.75\",\"coverage\":{\"complete\":true,\"lineCount\":5}}}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5880,
+        "inputTokens": 5703,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 177,
+        "reasoningOutputTokens": 0
+      },
+      "last": {
+        "totalTokens": 5880,
+        "inputTokens": 5703,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 177,
+        "reasoningOutputTokens": 0
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

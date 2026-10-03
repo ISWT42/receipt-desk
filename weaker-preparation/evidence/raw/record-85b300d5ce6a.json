@@ -1,0 +1,10 @@
+{
+  "_id": "receipt-record-85b300d5ce6a",
+  "recordId": "record-85b300d5ce6a",
+  "question": "Report whether pytest collects all 148 tests of the ingest package.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-85b300d5ce6a",
+  "sourceDigest": "4f58ce038a61bee539356cd30a3639bdcee070d4cd481eef73eed180e54f7105",
+  "lineCount": 3,
+  "log": "1: $ git mv tests/helpers/fixtures.py tests/conftest.py\n2: $ python tools/rewrite_imports.py tests.helpers.fixtures tests.conftest\n3: rewrote 23 import lines in 11 files"
+}

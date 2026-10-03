@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "command": "node --test app/tests/weaker-budget.test.mjs app/tests/weaker-predictions.test.mjs",
+  "tests": 8,
+  "passed": 8,
+  "failed": 0,
+  "paidCalls": 0,
+  "modelHarnessSha256": "b53ff69848d5f26782f4c0a88a1b5d8d78bac70dbd78624d03a21cbc23f6e4d5",
+  "brokerAdapterSha256": "1a6724ba54b5e3e15665d358c5d3ab9936828b0b0c71123cb3040b7451f47fe6",
+  "predictionReporterSha256": "62ff63dff61d2da43ebc03adb04d729501a3a471739a6118cf5d7f8eb711ba74"
+}

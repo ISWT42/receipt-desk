@@ -1,0 +1,33 @@
+{
+  "status": "partial",
+  "source": "Owner report in this conversation, after completed first build",
+  "knowledgeBaseId": "kbGtaUln7JDn",
+  "issueCount": 9,
+  "buildStatusReported": "Entries up to date",
+  "reportedExample": {
+    "subject": "board_pack",
+    "recordIds": [
+      "record-9a8e24576364",
+      "record-3fa95fd9371e"
+    ],
+    "pageCounts": [
+      24,
+      61
+    ],
+    "historicalClaimsReported": "done, 24 pages"
+  },
+  "independentChecks": {
+    "outlineEntries": 19,
+    "entryPathsRead": [
+      "records/document_formatting/board_pack_records",
+      "claims/conflict_detection",
+      "claims/extraction_evidence",
+      "identity"
+    ],
+    "entryPreservesDistinctRecords": true,
+    "originalRecordCountVerified": 3
+  },
+  "issueQueueRetrieved": false,
+  "remoteActionsApplied": [],
+  "recordedAt": "2026-10-02T23:40:45.964Z"
+}

@@ -1,0 +1,60 @@
+{
+  "recordId": "record-8941ea27871c",
+  "inputSha256": "31befe785da28470e06ef7c541834f1faf81b672f43fc52379954fd71e74069d",
+  "prediction": {
+    "recordId": "record-8941ea27871c",
+    "status": "not shown",
+    "reason": "The supplied log shows formulas rewritten in Invoices!G3:G414 and the workbook saved, but no final check of Invoices!H2 confirming that the VAT total is 48,210.75.",
+    "receipt": {
+      "sourceId": "receipt-record-8941ea27871c",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-8941ea27871c",
+      "step": 1,
+      "line": 3,
+      "text": "Workbook written: invoices_q3.xlsx",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-8941ea27871c\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows formulas rewritten in Invoices!G3:G414 and the workbook saved, but no final check of Invoices!H2 confirming that the VAT total is 48,210.75.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-8941ea27871c\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-8941ea27871c\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"Workbook written: invoices_q3.xlsx\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5899,
+        "inputTokens": 5605,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 294,
+        "reasoningOutputTokens": 72
+      },
+      "last": {
+        "totalTokens": 5899,
+        "inputTokens": 5605,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 294,
+        "reasoningOutputTokens": 72
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "done",
+  "existing": {
+    "chunk_id": "e88609",
+    "wall_time_seconds": 0.4862407,
+    "exit_code": 0,
+    "original_token_count": 64,
+    "output": "LOCAL CHECK PASSED: inputs, run hashes, public-content boundary, GROQ projections, and policy/Context tests.\n# tests 20\n# pass 20\n# fail 0\nNOT CHECKED: live Sanity upload, deployed schema, Knowledge Base, Context retrieval, AI harness, or public hosting.\n"
+  },
+  "newArrayTests": {
+    "chunk_id": "93890f",
+    "wall_time_seconds": 0.1974543,
+    "exit_code": 0,
+    "original_token_count": 406,
+    "output": "TAP version 13\n# Subtest: Original record uses canonical array blocks and preserves its line digest\nok 1 - Original record uses canonical array blocks and preserves its line digest\n  ---\n  duration_ms: 2.0696\n  type: 'test'\n  ...\n# Subtest: Canonical arrays request consecutive bounded pages\nok 2 - Canonical arrays request consecutive bounded pages\n  ---\n  duration_ms: 0.2445\n  type: 'test'\n  ...\n# Subtest: Canonical reader rejects cropped block\nok 3 - Canonical reader rejects cropped block\n  ---\n  duration_ms: 0.427\n  type: 'test'\n  ...\n# Subtest: Canonical reader rejects continuation needed\nok 4 - Canonical reader rejects continuation needed\n  ---\n  duration_ms: 0.147\n  type: 'test'\n  ...\n# Subtest: Canonical reader rejects different record\nok 5 - Canonical reader rejects different record\n  ---\n  duration_ms: 0.1448\n  type: 'test'\n  ...\n# Subtest: Canonical reader rejects missing block\nok 6 - Canonical reader rejects missing block\n  ---\n  duration_ms: 0.0992\n  type: 'test'\n  ...\n# Subtest: Canonical reader rejects wrong block index\nok 7 - Canonical reader rejects wrong block index\n  ---\n  duration_ms: 0.1172\n  type: 'test'\n  ...\n# Subtest: Canonical reader rejects changed declared count\nok 8 - Canonical reader rejects changed declared count\n  ---\n  duration_ms: 0.1917\n  type: 'test'\n  ...\n# Subtest: A canonical block with changed source text still fails the digest check\nok 9 - A canonical block with changed source text still fails the digest check\n  ---\n  duration_ms: 0.2697\n  type: 'test'\n  ...\n1..9\n# tests 9\n# suites 0\n# pass 9\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 64.9694\n"
+  },
+  "checkedAt": "2026-10-02T23:44:35.956Z"
+}

@@ -1,0 +1,169 @@
+{
+  "projectId": "ixoe9uvf",
+  "dataset": "production",
+  "fileSha256": "cf215c0ce056583206ec5a614268af9e4a8bd97b88cdf129c17e728f12fea250",
+  "receipts": [
+    {
+      "batchStart": 0,
+      "documents": 12,
+      "transactionId": "seeJ8sDCx2bMNJQ2OyVE3v",
+      "returnedIds": [
+        "receipt-record-07d8e487c0b6",
+        "receipt-record-0a5d2db58656",
+        "receipt-record-15d17b5e94dd",
+        "receipt-record-200df607cb86",
+        "receipt-record-3086075941d4",
+        "receipt-record-3a5af96350a5",
+        "receipt-record-3cd4f22e6a0c",
+        "receipt-record-0282ddfdd9b3",
+        "receipt-record-2906cae6f48f",
+        "receipt-record-3e250e08f5ed",
+        "receipt-record-3fa95fd9371e",
+        "receipt-record-07af27f46aa2"
+      ],
+      "at": "2026-10-02T21:12:24.158Z"
+    },
+    {
+      "batchStart": 12,
+      "documents": 12,
+      "transactionId": "seeJ8sDCx2bMNJQ2OyVEd9",
+      "returnedIds": [
+        "receipt-record-7432b52a0a10",
+        "receipt-record-77ddc379dbb9",
+        "receipt-record-85b300d5ce6a",
+        "receipt-record-45d010461510",
+        "receipt-record-57110a1fcf0d",
+        "receipt-record-5c23ee793aaf",
+        "receipt-record-73e60b18c4eb",
+        "receipt-record-7818d9673f75",
+        "receipt-record-7e08360c4f5a",
+        "receipt-record-846a05880441",
+        "receipt-record-5c44c38b46f8",
+        "receipt-record-6c6c44550739"
+      ],
+      "at": "2026-10-02T21:12:25.159Z"
+    },
+    {
+      "batchStart": 24,
+      "documents": 12,
+      "transactionId": "seeJ8sDCx2bMNJQ2OyVFCN",
+      "returnedIds": [
+        "receipt-record-89fd1f8cd9eb",
+        "receipt-record-9232d1cb3a28",
+        "receipt-record-9950b3ad8de7",
+        "receipt-record-9a8e24576364",
+        "receipt-record-b0929dca8eb3",
+        "receipt-record-b22624bcb066",
+        "receipt-record-b2f88daf0497",
+        "receipt-record-8941ea27871c",
+        "receipt-record-93e9f728678b",
+        "receipt-record-9e4cf8f741eb",
+        "receipt-record-a88e68ef5ad1",
+        "receipt-record-b0651a3885c9"
+      ],
+      "at": "2026-10-02T21:12:26.169Z"
+    },
+    {
+      "batchStart": 36,
+      "documents": 12,
+      "transactionId": "jtzXmr5sPTxAjhSjhlIGeR",
+      "returnedIds": [
+        "receipt-record-f814be1b029f",
+        "receipt-record-ff337f068357",
+        "receipt-record-c69a5f22a694",
+        "receipt-record-d330baeb0879",
+        "receipt-record-e9cc2bb55d6c",
+        "receipt-record-fd2874d74a60",
+        "receipt-record-c5da13d84419",
+        "receipt-record-d8b347c1da7a",
+        "receipt-record-e10e3413cef8",
+        "receipt-record-e8992f71c531",
+        "receipt-record-ebe66bd45108",
+        "receipt-record-f1b64b33e6a2"
+      ],
+      "at": "2026-10-02T21:12:27.197Z"
+    },
+    {
+      "batchStart": 48,
+      "documents": 12,
+      "transactionId": "jtzXmr5sPTxAjhSjhlIH2O",
+      "returnedIds": [
+        "claims-record-0a5d2db58656",
+        "claims-record-15d17b5e94dd",
+        "claims-record-200df607cb86",
+        "claims-record-07af27f46aa2",
+        "claims-record-2906cae6f48f",
+        "claims-record-3086075941d4",
+        "claims-record-3a5af96350a5",
+        "claims-record-3cd4f22e6a0c",
+        "claims-record-3e250e08f5ed",
+        "claims-record-3fa95fd9371e",
+        "claims-record-0282ddfdd9b3",
+        "claims-record-07d8e487c0b6"
+      ],
+      "at": "2026-10-02T21:12:29.242Z"
+    },
+    {
+      "batchStart": 60,
+      "documents": 12,
+      "transactionId": "716lLGM4clTjEsWT4ahKXk",
+      "returnedIds": [
+        "claims-record-57110a1fcf0d",
+        "claims-record-5c23ee793aaf",
+        "claims-record-85b300d5ce6a",
+        "claims-record-5c44c38b46f8",
+        "claims-record-6c6c44550739",
+        "claims-record-73e60b18c4eb",
+        "claims-record-7432b52a0a10",
+        "claims-record-77ddc379dbb9",
+        "claims-record-7818d9673f75",
+        "claims-record-7e08360c4f5a",
+        "claims-record-846a05880441",
+        "claims-record-45d010461510"
+      ],
+      "at": "2026-10-02T21:12:31.289Z"
+    },
+    {
+      "batchStart": 72,
+      "documents": 12,
+      "transactionId": "jtzXmr5sPTxAjhSjhlIHYK",
+      "returnedIds": [
+        "claims-record-8941ea27871c",
+        "claims-record-93e9f728678b",
+        "claims-record-9950b3ad8de7",
+        "claims-record-b0651a3885c9",
+        "claims-record-b0929dca8eb3",
+        "claims-record-b22624bcb066",
+        "claims-record-89fd1f8cd9eb",
+        "claims-record-9232d1cb3a28",
+        "claims-record-9a8e24576364",
+        "claims-record-9e4cf8f741eb",
+        "claims-record-a88e68ef5ad1",
+        "claims-record-b2f88daf0497"
+      ],
+      "at": "2026-10-02T21:12:33.337Z"
+    },
+    {
+      "batchStart": 84,
+      "documents": 12,
+      "transactionId": "716lLGM4clTjEsWT4ahLmI",
+      "returnedIds": [
+        "claims-record-c69a5f22a694",
+        "claims-record-d330baeb0879",
+        "claims-record-d8b347c1da7a",
+        "claims-record-e8992f71c531",
+        "claims-record-e9cc2bb55d6c",
+        "claims-record-ebe66bd45108",
+        "claims-record-f1b64b33e6a2",
+        "claims-record-f814be1b029f",
+        "claims-record-c5da13d84419",
+        "claims-record-e10e3413cef8",
+        "claims-record-fd2874d74a60",
+        "claims-record-ff337f068357"
+      ],
+      "at": "2026-10-02T21:12:35.373Z"
+    }
+  ],
+  "status": "partial",
+  "note": "Mutation requests accepted. Content and Context retrieval need separate verification."
+}

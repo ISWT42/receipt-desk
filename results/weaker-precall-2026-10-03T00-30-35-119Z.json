@@ -1,0 +1,25 @@
+{
+  "status": "partial",
+  "sealedPredictionsSha256": "a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f",
+  "predictionsDigestMatches": true,
+  "correctionSha256": "6790686ac85ffbbeec70946ed0aa2f2a7eccf5388e7788bae0c705bdd4eae6b2",
+  "otsSha256": "9793494d417848aab3ea34c60f83e7ed1fc6ad596ab9a68a056e18c23fc32604",
+  "otsContainsSuppliedFileDigest": true,
+  "externalTimestampVerified": false,
+  "originalInputFilesVerified": 5,
+  "frozenFilesVerified": 9,
+  "contextRecordsVerified": 48,
+  "originalPromptFilesMatched": 96,
+  "budgetTests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "predictionReportTests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "paidCalls": 0,
+  "reportedCostUsd": 0,
+  "schemaTransportApprovalPending": true,
+  "budgetRule": "Before each call reserve input text-byte upper bound plus 4096 framing tokens at owner-supplied input list price and 4000 output tokens at output list price, added to rounded-up returned costUsd total; stop if more than 2 USD; stop on exit 5 or credit/key limit; no retry."
+}

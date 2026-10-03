@@ -1,0 +1,10 @@
+{
+  "status": "partial",
+  "candidateSystemFile": "work/weaker-system-candidate-2026-10-03T00-27-28-065Z.txt",
+  "candidateSystemSha256": "c44cd5f333afc1ecfd0ebe2a77a1939d4251c6df72bf5bc852a6c77fed736f92",
+  "originalSystemFile": "AI-PROMPT.txt",
+  "originalSchemaFile": "app/answer-schema.json",
+  "bothOriginalsUnchanged": true,
+  "schemaTransportApproved": false,
+  "note": "Reviewable local candidate only. No paid call until owner chooses the schema transport."
+}

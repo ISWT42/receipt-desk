@@ -1,0 +1,10 @@
+{
+  "status": "done",
+  "records": 48,
+  "provider": "ChatGPT plan with hosted Sanity Context evidence",
+  "receiptFile": "results/model-context-2026-10-02T23-44-47-730Z/context-setup-receipt.json",
+  "comparisonFile": "results/model-pair-2026-10-02T23-55-00-823Z/summary.json",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "sealed": false
+}

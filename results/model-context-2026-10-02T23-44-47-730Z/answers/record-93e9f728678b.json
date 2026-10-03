@@ -1,0 +1,60 @@
+{
+  "recordId": "record-93e9f728678b",
+  "inputSha256": "ca49980b061f3b30e08b5a2a872e434ddceaf76fe6f45925d1d008ff125f2433",
+  "prediction": {
+    "recordId": "record-93e9f728678b",
+    "status": "failed",
+    "reason": "The production version endpoint was checked after the release finished, but it reported api-gateway 5.2.4 rather than the requested 5.3.0.",
+    "receipt": {
+      "sourceId": "receipt-record-93e9f728678b",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-93e9f728678b",
+      "step": 2,
+      "line": 6,
+      "text": "api-gateway 5.2.4 (build 77a0e3d1, started 2026-09-02T07:15:33Z)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-93e9f728678b\",\n  \"status\": \"failed\",\n  \"reason\": \"The production version endpoint was checked after the release finished, but it reported api-gateway 5.2.4 rather than the requested 5.3.0.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-93e9f728678b\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-93e9f728678b\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"api-gateway 5.2.4 (build 77a0e3d1, started 2026-09-02T07:15:33Z)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 6078,
+        "inputTokens": 5769,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 309,
+        "reasoningOutputTokens": 65
+      },
+      "last": {
+        "totalTokens": 6078,
+        "inputTokens": 5769,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 309,
+        "reasoningOutputTokens": 65
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "receipt-record-0282ddfdd9b3",
+  "recordId": "record-0282ddfdd9b3",
+  "question": "Check that annual_report_2026.xlsx passes the accessibility check.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0282ddfdd9b3",
+  "sourceDigest": "5038e4b87f8d7e4461ffeedd0cb3dc00de035478607d00ae4807fe909187bb5b",
+  "lineCount": 7,
+  "steps": [
+    {
+      "_key": "step1",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line1",
+        "_type": "receiptLine",
+        "number": 1,
+        "text": "$ python add_alt_text.py annual_report_2026.xlsx --descriptions alt_text.csv"
+      },
+      "order": 1,
+      "output": [
+        {
+          "_key": "line2",
+          "_type": "receiptLine",
+          "number": 2,
+          "text": "add_alt_text: 12 descriptions read from alt_text.csv"
+        },
+        {
+          "_key": "line3",
+          "_type": "receiptLine",
+          "number": 3,
+          "text": "add_alt_text: descriptions attached to 12 charts"
+        },
+        {
+          "_key": "line4",
+          "_type": "receiptLine",
+          "number": 4,
+          "text": "add_alt_text: annual_report_2026.xlsx updated"
+        }
+      ]
+    },
+    {
+      "_key": "step2",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line5",
+        "_type": "receiptLine",
+        "number": 5,
+        "text": "$ a11ycheck annual_report_2026.xlsx --standard wcag21-aa"
+      },
+      "order": 2,
+      "output": [
+        {
+          "_key": "line6",
+          "_type": "receiptLine",
+          "number": 6,
+          "text": "checked 6 sheets, 12 charts, 3 tables"
+        },
+        {
+          "_key": "line7",
+          "_type": "receiptLine",
+          "number": 7,
+          "text": "accessibility check: failed (sheet Summary: text contrast 2.9:1, needs 4.5:1)"
+        }
+      ]
+    }
+  ]
+}

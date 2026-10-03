@@ -1,0 +1,10 @@
+{
+  "_id": "receipt-record-3cd4f22e6a0c",
+  "recordId": "record-3cd4f22e6a0c",
+  "question": "Check that annual_report_2026.xlsx passes the accessibility check.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3cd4f22e6a0c",
+  "sourceDigest": "2c9937673fd8960a67fe5df9df6d7af96d37c50316cfc58d3caa714769e75035",
+  "lineCount": 7,
+  "log": "1: $ python add_alt_text.py annual_report_2026.xlsx --descriptions alt_text.csv\n2: add_alt_text: 12 descriptions read from alt_text.csv\n3: add_alt_text: descriptions attached to 12 charts\n4: add_alt_text: annual_report_2026.xlsx updated\n5: $ a11ycheck annual_report_2026.xlsx --standard wcag21-aa\n6: checked 6 sheets, 12 charts, 3 tables\n7: accessibility check: passed"
+}

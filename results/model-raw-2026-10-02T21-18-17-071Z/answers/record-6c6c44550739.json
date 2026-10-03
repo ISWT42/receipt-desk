@@ -1,0 +1,60 @@
+{
+  "recordId": "record-6c6c44550739",
+  "inputSha256": "973ce8a473099e7a5be30d0260336bf0edcd10461cc31839da8907458c1e0919",
+  "prediction": {
+    "recordId": "record-6c6c44550739",
+    "status": "not shown",
+    "reason": "The complete supplied log shows that requester_email was masked in analytics.support_tickets, but it contains no subsequent PII scan or scan result establishing that the requested check passes.",
+    "receipt": {
+      "sourceId": "receipt-record-6c6c44550739",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-6c6c44550739",
+      "step": 1,
+      "line": 3,
+      "text": "mask: requester_email rewritten as sha256 digests",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-6c6c44550739\",\n  \"status\": \"not shown\",\n  \"reason\": \"The complete supplied log shows that requester_email was masked in analytics.support_tickets, but it contains no subsequent PII scan or scan result establishing that the requested check passes.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-6c6c44550739\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-6c6c44550739\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"mask: requester_email rewritten as sha256 digests\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5839,
+        "inputTokens": 5538,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 301,
+        "reasoningOutputTokens": 81
+      },
+      "last": {
+        "totalTokens": 5839,
+        "inputTokens": 5538,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 301,
+        "reasoningOutputTokens": 81
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

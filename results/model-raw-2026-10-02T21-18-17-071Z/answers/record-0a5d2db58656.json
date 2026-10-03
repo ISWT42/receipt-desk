@@ -1,0 +1,60 @@
+{
+  "recordId": "record-0a5d2db58656",
+  "inputSha256": "ed8e844534c1dbd2f458f7bbae91eb75f6ef792023472b3e53321fc053251c0e",
+  "prediction": {
+    "recordId": "record-0a5d2db58656",
+    "status": "failed",
+    "reason": "The final check, `helm test payments -n prod`, ran after the release upgrade and reported that the payments-smoke test suite failed. The earlier deployed status does not establish that the Helm test passed.",
+    "receipt": {
+      "sourceId": "receipt-record-0a5d2db58656",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0a5d2db58656",
+      "step": 2,
+      "line": 9,
+      "text": "Phase:          Failed",
+      "coverage": {
+        "complete": true,
+        "lineCount": 9
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-0a5d2db58656\",\n  \"status\": \"failed\",\n  \"reason\": \"The final check, `helm test payments -n prod`, ran after the release upgrade and reported that the payments-smoke test suite failed. The earlier deployed status does not establish that the Helm test passed.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-0a5d2db58656\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0a5d2db58656\",\n    \"step\": 2,\n    \"line\": 9,\n    \"text\": \"Phase:          Failed\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 9\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5845,
+        "inputTokens": 5570,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 275,
+        "reasoningOutputTokens": 52
+      },
+      "last": {
+        "totalTokens": 5845,
+        "inputTokens": 5570,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 275,
+        "reasoningOutputTokens": 52
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

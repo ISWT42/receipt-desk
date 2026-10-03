@@ -1,0 +1,9 @@
+{
+  "status": "done",
+  "file": "CONTEXT-PROTOCOL-FINDING-2026-10-02.md",
+  "sha256": "ab9a441f7ebb44d46a6985c9d53769ed337f2897a28e5323e6a053209af041f9",
+  "chosenProposal": "Scoped dismissal of source-verified false cross-record issues, after individual review; rebuild only if entry boundaries are lost.",
+  "remoteActionsApplied": [],
+  "modelContractChanged": false,
+  "recordedAt": "2026-10-02T23:35:59.608Z"
+}

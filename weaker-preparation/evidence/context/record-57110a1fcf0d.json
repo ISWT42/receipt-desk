@@ -1,0 +1,54 @@
+{
+  "_id": "receipt-record-57110a1fcf0d",
+  "recordId": "record-57110a1fcf0d",
+  "question": "Report whether the helm test of the payments release passes.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-57110a1fcf0d",
+  "sourceDigest": "c0c698ab3fcf0bd2bf9f84db81da233c8a6a8397da2705c3e72f6415e6ef579d",
+  "lineCount": 6,
+  "steps": [
+    {
+      "_key": "step1",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line1",
+        "_type": "receiptLine",
+        "number": 1,
+        "text": "$ helm upgrade payments charts/payments --version 7.2.0 -n prod"
+      },
+      "order": 1,
+      "output": [
+        {
+          "_key": "line2",
+          "_type": "receiptLine",
+          "number": 2,
+          "text": "NAME: payments"
+        },
+        {
+          "_key": "line3",
+          "_type": "receiptLine",
+          "number": 3,
+          "text": "LAST DEPLOYED: Thu Sep 17 14:05:51 2026"
+        },
+        {
+          "_key": "line4",
+          "_type": "receiptLine",
+          "number": 4,
+          "text": "NAMESPACE: prod"
+        },
+        {
+          "_key": "line5",
+          "_type": "receiptLine",
+          "number": 5,
+          "text": "STATUS: deployed"
+        },
+        {
+          "_key": "line6",
+          "_type": "receiptLine",
+          "number": 6,
+          "text": "REVISION: 31"
+        }
+      ]
+    }
+  ]
+}

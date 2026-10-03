@@ -1,0 +1,121 @@
+{
+  "status": "done",
+  "provider": "sanity-content-lake-public",
+  "projectId": "ixoe9uvf",
+  "dataset": "production",
+  "records": [
+    {
+      "recordId": "record-3fa95fd9371e",
+      "sourceDigest": "717b59a78be3271d1b8fb351c3ead3156a65a846103f798df73f72dc70268cb5",
+      "lineCount": 6,
+      "lines": [
+        {
+          "_key": "line1",
+          "_type": "receiptLine",
+          "number": 1,
+          "text": "$ python print_layout.py board_pack_q3.xlsx --fit-to-width 1 --orientation landscape"
+        },
+        {
+          "_key": "line2",
+          "_type": "receiptLine",
+          "number": 2,
+          "text": "print_layout: 8 sheets set to landscape, 1 page wide"
+        },
+        {
+          "_key": "line3",
+          "_type": "receiptLine",
+          "number": 3,
+          "text": "print_layout: changes written to board_pack_q3.xlsx"
+        },
+        {
+          "_key": "line4",
+          "_type": "receiptLine",
+          "number": 4,
+          "text": "$ soffice --headless --convert-to pdf board_pack_q3.xlsx && pdfinfo board_pack_q3.pdf | grep Pages"
+        },
+        {
+          "_key": "line5",
+          "_type": "receiptLine",
+          "number": 5,
+          "text": "convert board_pack_q3.xlsx -> board_pack_q3.pdf using filter : calc_pdf_Export"
+        },
+        {
+          "_key": "line6",
+          "_type": "receiptLine",
+          "number": 6,
+          "text": "Pages:           61"
+        }
+      ]
+    },
+    {
+      "recordId": "record-9a8e24576364",
+      "sourceDigest": "9d833c0767a92491b877c719b49cb538973a6930ed00bc332d8f2f86b4d13a14",
+      "lineCount": 6,
+      "lines": [
+        {
+          "_key": "line1",
+          "_type": "receiptLine",
+          "number": 1,
+          "text": "$ python print_layout.py board_pack_q3.xlsx --fit-to-width 1 --orientation landscape"
+        },
+        {
+          "_key": "line2",
+          "_type": "receiptLine",
+          "number": 2,
+          "text": "print_layout: 8 sheets set to landscape, 1 page wide"
+        },
+        {
+          "_key": "line3",
+          "_type": "receiptLine",
+          "number": 3,
+          "text": "print_layout: changes written to board_pack_q3.xlsx"
+        },
+        {
+          "_key": "line4",
+          "_type": "receiptLine",
+          "number": 4,
+          "text": "$ soffice --headless --convert-to pdf board_pack_q3.xlsx && pdfinfo board_pack_q3.pdf | grep Pages"
+        },
+        {
+          "_key": "line5",
+          "_type": "receiptLine",
+          "number": 5,
+          "text": "convert board_pack_q3.xlsx -> board_pack_q3.pdf using filter : calc_pdf_Export"
+        },
+        {
+          "_key": "line6",
+          "_type": "receiptLine",
+          "number": 6,
+          "text": "Pages:           24"
+        }
+      ]
+    },
+    {
+      "recordId": "record-c69a5f22a694",
+      "sourceDigest": "4ee4026cff7be90949a21d10e9273f6eae7e500f86d60c81411b03ae0858b544",
+      "lineCount": 3,
+      "lines": [
+        {
+          "_key": "line1",
+          "_type": "receiptLine",
+          "number": 1,
+          "text": "$ python print_layout.py board_pack_q3.xlsx --fit-to-width 1 --orientation landscape"
+        },
+        {
+          "_key": "line2",
+          "_type": "receiptLine",
+          "number": 2,
+          "text": "print_layout: 8 sheets set to landscape, 1 page wide"
+        },
+        {
+          "_key": "line3",
+          "_type": "receiptLine",
+          "number": 3,
+          "text": "print_layout: changes written to board_pack_q3.xlsx"
+        }
+      ]
+    }
+  ],
+  "checkedAt": "2026-10-02T23:36:23.421Z",
+  "note": "Anonymous original-document query. This is source verification for the Knowledge Base finding, not a successful Context original-record read or a model evaluation."
+}

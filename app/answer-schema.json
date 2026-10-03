@@ -1,0 +1,75 @@
+{
+  "type": "object",
+  "properties": {
+    "recordId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "done",
+        "failed",
+        "not shown"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "receipt": {
+      "type": "object",
+      "properties": {
+        "sourceId": {
+          "type": "string"
+        },
+        "sourceUrl": {
+          "type": "string"
+        },
+        "documentUrl": {
+          "type": "string"
+        },
+        "step": {
+          "type": "integer"
+        },
+        "line": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "string"
+        },
+        "coverage": {
+          "type": "object",
+          "properties": {
+            "complete": {
+              "type": "boolean"
+            },
+            "lineCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "complete",
+            "lineCount"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "sourceId",
+        "sourceUrl",
+        "documentUrl",
+        "step",
+        "line",
+        "text",
+        "coverage"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "recordId",
+    "status",
+    "reason",
+    "receipt"
+  ],
+  "additionalProperties": false
+}

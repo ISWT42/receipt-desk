@@ -1,0 +1,60 @@
+{
+  "recordId": "record-15d17b5e94dd",
+  "inputSha256": "c313f45dcdbca2714311547b1f28b3ffc34aa8562b835dfcc4d78a005b294e3f",
+  "prediction": {
+    "recordId": "record-15d17b5e94dd",
+    "status": "failed",
+    "reason": "The end-to-end checkout test ran against staging in step 2 after catalogue seeding. The output marks the guest checkout test as failed and reports \"1 failed\".",
+    "receipt": {
+      "sourceId": "receipt-record-15d17b5e94dd",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-15d17b5e94dd",
+      "step": 2,
+      "line": 7,
+      "text": "  x  1 [staging] e2e/checkout.spec.ts:12:5 guest checkout completes (30.1s)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 8
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-15d17b5e94dd\",\n  \"status\": \"failed\",\n  \"reason\": \"The end-to-end checkout test ran against staging in step 2 after catalogue seeding. The output marks the guest checkout test as failed and reports \\\"1 failed\\\".\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-15d17b5e94dd\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-15d17b5e94dd\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"  x  1 [staging] e2e/checkout.spec.ts:12:5 guest checkout completes (30.1s)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 8\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 6103,
+        "inputTokens": 5792,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 311,
+        "reasoningOutputTokens": 71
+      },
+      "last": {
+        "totalTokens": 6103,
+        "inputTokens": 5792,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 311,
+        "reasoningOutputTokens": 71
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

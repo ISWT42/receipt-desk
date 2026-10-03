@@ -1,0 +1,60 @@
+{
+  "recordId": "record-200df607cb86",
+  "inputSha256": "9bbd78e76fbc547eef4a00d9626d20eacb2087554bd68e743dda274d0aa5d91a",
+  "prediction": {
+    "recordId": "record-200df607cb86",
+    "status": "not shown",
+    "reason": "The supplied log shows the DNS record change was committed, but it contains no subsequent resolution check against ns1.example.org showing that files.example.org resolves to 203.0.113.40. This assessment covers only the complete supplied three-line record.",
+    "receipt": {
+      "sourceId": "receipt-record-200df607cb86",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86",
+      "step": 1,
+      "line": 3,
+      "text": "change c-88217 committed (zone serial 2026091604)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-200df607cb86\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows the DNS record change was committed, but it contains no subsequent resolution check against ns1.example.org showing that files.example.org resolves to 203.0.113.40. This assessment covers only the complete supplied three-line record.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-200df607cb86\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"change c-88217 committed (zone serial 2026091604)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5907,
+        "inputTokens": 5612,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 295,
+        "reasoningOutputTokens": 61
+      },
+      "last": {
+        "totalTokens": 5907,
+        "inputTokens": 5612,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 295,
+        "reasoningOutputTokens": 61
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

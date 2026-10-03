@@ -1,0 +1,10 @@
+{
+  "_id": "receipt-record-b22624bcb066",
+  "recordId": "record-b22624bcb066",
+  "question": "Report whether vm.max_map_count on es-03 is 262144.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b22624bcb066",
+  "sourceDigest": "a0e9044b6374c5aebc6195951f602ca7de42b9a62c37f0e4f9d0dd785b395e25",
+  "lineCount": 6,
+  "log": "1: $ confctl apply es-03 --role search-node\n2: [confctl] es-03: applying role search-node\n3: [confctl] es-03: wrote /etc/sysctl.d/90-search-node.conf\n4: [confctl] run r-6310 finished\n5: $ ssh es-03 sysctl -n vm.max_map_count\n6: 65530"
+}

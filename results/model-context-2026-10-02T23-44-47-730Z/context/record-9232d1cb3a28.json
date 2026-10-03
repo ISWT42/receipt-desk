@@ -1,0 +1,40 @@
+[
+  {
+    "method": "tools/call",
+    "tool": "groq_query",
+    "arguments": {
+      "query": "*[_type == \"receiptRecord\" && _id == \"receipt-record-9232d1cb3a28\"][0]{_id,_type,recordId,question,sourceTitle,sourceUrl,license,sourceDigest,lineCount,\"stepCount\":count(steps)}"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"meta\":{\"executedQuery\":\"*[_type != \\\"sanity.agentContext\\\" && (_id in global::path(\\\"*\\\") && _type in [\\\"receiptRecord\\\", \\\"claimBundle\\\"]) && _type == \\\"receiptRecord\\\" && _id == \\\"receipt-record-9232d1cb3a28\\\"][0]{\\\"_id\\\": global::coalesce(_originalId, _id), \\\"_type\\\": _type, \\\"recordId\\\": recordId, \\\"question\\\": question, \\\"sourceTitle\\\": sourceTitle, \\\"sourceUrl\\\": sourceUrl, \\\"license\\\": license, \\\"sourceDigest\\\": sourceDigest, \\\"lineCount\\\": lineCount, \\\"stepCount\\\": global::count(steps)}\",\"perspective\":\"published\",\"resultCount\":1,\"returnedCount\":1},\"result\":{\"_id\":\"receipt-record-9232d1cb3a28\",\"_type\":\"receiptRecord\",\"license\":\"CC BY 4.0\",\"lineCount\":5,\"question\":\"Report whether the p95 latency of the search-api canary is under 250 ms.\",\"recordId\":\"record-9232d1cb3a28\",\"sourceDigest\":\"06a78d77abda2a17104dca324fd5536960ae6ce149e4d9aa1c812d2ec2b240e8\",\"sourceTitle\":\"It Quoted the Failure: Benchmark Evidence\",\"sourceUrl\":\"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\"stepCount\":2}}"
+        }
+      ]
+    },
+    "at": "2026-10-02T23:50:17.051Z"
+  },
+  {
+    "method": "tools/call",
+    "tool": "array_field_reader",
+    "arguments": {
+      "mode": "range",
+      "documentId": "receipt-record-9232d1cb3a28",
+      "field": "steps",
+      "range": {
+        "startIndex": 0,
+        "endIndex": 2
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"mode\":\"range\",\"documentId\":\"receipt-record-9232d1cb3a28\",\"field\":\"steps\",\"totalBlocks\":2,\"returnedBlockCount\":2,\"truncated\":false,\"startIndex\":0,\"endIndex\":2,\"returnedBlocks\":[{\"index\":0,\"block\":{\"_key\":\"step1\",\"_type\":\"receiptStep\",\"command\":{\"_key\":\"line1\",\"_type\":\"receiptLine\",\"number\":1,\"text\":\"$ canaryctl apply search-api --config cache-v2.yaml\"},\"order\":1,\"output\":[{\"_key\":\"line2\",\"_type\":\"receiptLine\",\"number\":2,\"text\":\"canary search-api: config cache-v2 applied\"},{\"_key\":\"line3\",\"_type\":\"receiptLine\",\"number\":3,\"text\":\"canary search-api: 2/2 pods restarted and ready\"}]},\"cropped\":false},{\"index\":1,\"block\":{\"_key\":\"step2\",\"_type\":\"receiptStep\",\"command\":{\"_key\":\"line4\",\"_type\":\"receiptLine\",\"number\":4,\"text\":\"$ loadprobe https://canary.search.example.internal/q --rps 120 --duration 120s\"},\"order\":2,\"output\":[{\"_key\":\"line5\",\"_type\":\"receiptLine\",\"number\":5,\"text\":\"requests=14400 p50=164ms p95=412ms p99=655ms\"}]},\"cropped\":false}]}"
+        }
+      ]
+    },
+    "at": "2026-10-02T23:50:17.276Z"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "recordId": "record-7432b52a0a10",
+  "inputSha256": "17727f0a57f87ba22e2ef4adb14c4fc5cd74be0db147961e33c6bf29cd2af4cc",
+  "prediction": {
+    "recordId": "record-7432b52a0a10",
+    "status": "done",
+    "reason": "After the firewall policy was pushed, the final connectivity check ran from app-11 to db-05.example.internal on port 5432 and reported success.",
+    "receipt": {
+      "sourceId": "receipt-record-7432b52a0a10",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7432b52a0a10",
+      "step": 2,
+      "line": 6,
+      "text": "Connection to db-05.example.internal 5432 port [tcp/postgresql] succeeded!",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-7432b52a0a10\",\n  \"status\": \"done\",\n  \"reason\": \"After the firewall policy was pushed, the final connectivity check ran from app-11 to db-05.example.internal on port 5432 and reported success.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-7432b52a0a10\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7432b52a0a10\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"Connection to db-05.example.internal 5432 port [tcp/postgresql] succeeded!\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5873,
+        "inputTokens": 5594,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 279,
+        "reasoningOutputTokens": 53
+      },
+      "last": {
+        "totalTokens": 5873,
+        "inputTokens": 5594,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 279,
+        "reasoningOutputTokens": 53
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "receipt-desk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "node app/scripts/prepare.mjs",
+    "check": "node app/scripts/check.mjs",
+    "evaluate": "node app/scripts/evaluate.mjs",
+    "demo": "node app/scripts/demo.mjs",
+    "context:check": "node app/scripts/context-check.mjs",
+    "upload": "node app/scripts/upload.mjs",
+    "studio": "sanity dev --host 127.0.0.1",
+    "schema:deploy": "node --env-file-if-exists=.env app/scripts/deploy-schema.mjs",
+    "build": "sanity build",
+    "prepare:public": "node app/scripts/prepare-public.mjs",
+    "model:raw": "node app/scripts/model-evaluate.mjs --arm raw",
+    "model:context": "node --env-file-if-exists=.env app/scripts/model-evaluate.mjs --arm context",
+    "ask": "node --env-file-if-exists=.env app/scripts/ask.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@portabletext/sanity-bridge": "^2.0.0",
+    "groq-js": "^2.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sanity": "^5.1.0",
+    "styled-components": "^6.5.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/react": "^19.3.0",
+    "typescript": "^5.9.3"
+  }
+}

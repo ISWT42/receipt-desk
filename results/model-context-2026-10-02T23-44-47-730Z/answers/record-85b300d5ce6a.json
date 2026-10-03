@@ -1,0 +1,60 @@
+{
+  "recordId": "record-85b300d5ce6a",
+  "inputSha256": "0c9ebda97d7cad1d6757e0dfb1f82d2aeba1daa4f327b7ee499f8ee9f0d1c676",
+  "prediction": {
+    "recordId": "record-85b300d5ce6a",
+    "status": "not shown",
+    "reason": "The supplied log shows a fixture-file move and an import rewrite, but no subsequent pytest collection check or output confirming that all 148 ingest-package tests are collected.",
+    "receipt": {
+      "sourceId": "receipt-record-85b300d5ce6a",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-85b300d5ce6a",
+      "step": 2,
+      "line": 3,
+      "text": "rewrote 23 import lines in 11 files",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-85b300d5ce6a\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows a fixture-file move and an import rewrite, but no subsequent pytest collection check or output confirming that all 148 ingest-package tests are collected.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-85b300d5ce6a\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-85b300d5ce6a\",\n    \"step\": 2,\n    \"line\": 3,\n    \"text\": \"rewrote 23 import lines in 11 files\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5925,
+        "inputTokens": 5617,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 308,
+        "reasoningOutputTokens": 87
+      },
+      "last": {
+        "totalTokens": 5925,
+        "inputTokens": 5617,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 308,
+        "reasoningOutputTokens": 87
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

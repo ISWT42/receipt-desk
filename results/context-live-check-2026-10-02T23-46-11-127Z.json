@@ -1,0 +1,22 @@
+{
+  "status": "done",
+  "recordId": "record-07af27f46aa2",
+  "sourceReceipt": {
+    "sourceId": "receipt-record-07af27f46aa2",
+    "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+    "step": 2,
+    "line": 7,
+    "text": "result: INVALID (column amount: expected decimal(18,2), found double)",
+    "scope": "required check",
+    "coverage": {
+      "complete": true,
+      "lineCount": 7
+    }
+  },
+  "originalCheck": "results/context-check-2026-10-02T23-44-11-044Z",
+  "provingLine": "CONTEXT CHECK PASSED: record-07af27f46aa2 -> failed; copied line 7.",
+  "arrayReader": "canonical",
+  "guardUnchanged": true,
+  "localFallback": false,
+  "checkedAt": "2026-10-02T23:46:11.129Z"
+}

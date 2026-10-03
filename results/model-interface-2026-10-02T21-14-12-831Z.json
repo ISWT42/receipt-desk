@@ -1,0 +1,73 @@
+{
+  "status": "failed",
+  "checkedAt": "2026-10-02T21:13:47.912Z",
+  "synthetic": true,
+  "notBenchmark": true,
+  "settings": {
+    "loginMethod": "chatgpt",
+    "model": "gpt-6.1-sol",
+    "effort": "high",
+    "version": "Codex Desktop/0.159.1 (Windows 10.0.26200; x86_64) dumb (receipt_desk_eval; 0.2.0)"
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\"tools\":[\"functions.wait\",\"functions.request_user_input\",\"functions.request_user_input_async\",\"functions.exec\",\"collaboration.followup_task\",\"collaboration.interrupt_agent\",\"collaboration.list_agents\",\"collaboration.send_message\",\"collaboration.spawn_agent\",\"collaboration.wait_agent\",\"list_mcp_resource_templates\",\"list_mcp_resources\",\"read_mcp_resource\",\"read_record\",\"clock__curr_time\"],\"echoed\":\"code-mode host is disabled\",\"hasWorkspace\":false}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 10993,
+        "inputTokens": 10418,
+        "cachedInputTokens": 4864,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 575,
+        "reasoningOutputTokens": 427
+      },
+      "last": {
+        "totalTokens": 5685,
+        "inputTokens": 5323,
+        "cachedInputTokens": 4864,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 362,
+        "reasoningOutputTokens": 259
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  },
+  "answer": {
+    "tools": [
+      "functions.wait",
+      "functions.request_user_input",
+      "functions.request_user_input_async",
+      "functions.exec",
+      "collaboration.followup_task",
+      "collaboration.interrupt_agent",
+      "collaboration.list_agents",
+      "collaboration.send_message",
+      "collaboration.spawn_agent",
+      "collaboration.wait_agent",
+      "list_mcp_resource_templates",
+      "list_mcp_resources",
+      "read_mcp_resource",
+      "read_record",
+      "clock__curr_time"
+    ],
+    "echoed": "code-mode host is disabled",
+    "hasWorkspace": false
+  },
+  "errorCode": "MODEL_EVIDENCE_ONLY_CHECK_FAILED"
+}

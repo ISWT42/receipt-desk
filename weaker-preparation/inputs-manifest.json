@@ -1,0 +1,709 @@
+{
+  "status": "done",
+  "directory": "work/weaker-inputs-2026-10-03T00-21-25-484Z",
+  "records": 48,
+  "promptFiles": 96,
+  "systemFile": "AI-PROMPT.txt",
+  "responseSchemaFile": "app/answer-schema.json",
+  "schemaTransportPending": true,
+  "budgetEnforcementPending": true,
+  "models": [
+    "google/gemini-3.7-flash",
+    "openai/gpt-5.4-nano"
+  ],
+  "rows": [
+    {
+      "recordId": "record-0282ddfdd9b3",
+      "sourceDigest": "5038e4b87f8d7e4461ffeedd0cb3dc00de035478607d00ae4807fe909187bb5b",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-0282ddfdd9b3.txt",
+          "inputSha256": "7e7f6ba4fb5fb0c3a00b5191571a1372d4c255706f39344300dea17fcf6635f1"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-0282ddfdd9b3.txt",
+          "inputSha256": "3a09fdbecbfa4df4d4788f5ae5fce60410035fe50ef48989a30cbdf765801b84"
+        }
+      }
+    },
+    {
+      "recordId": "record-07af27f46aa2",
+      "sourceDigest": "961d29262e6faaf16084a4da972b44509053cd3b1e56ddb98ec94b1bd97c77a1",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-07af27f46aa2.txt",
+          "inputSha256": "9a4ed00589397992a3f3bd9ac045bf312f33fbdb5e654362f477398ab1f5b081"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-07af27f46aa2.txt",
+          "inputSha256": "fb5a8133a1e301936f0476c913bf4bfcbaafb233723ef389e5eb5568c7cde7fe"
+        }
+      }
+    },
+    {
+      "recordId": "record-07d8e487c0b6",
+      "sourceDigest": "2a1ba69625966e4c47440405745840a1048743abc984bbda36cb84bdcf35532f",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-07d8e487c0b6.txt",
+          "inputSha256": "64b384111f6d26a70887c4340199b63117a4427b00b61d4c9b9ef8292ab02f53"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-07d8e487c0b6.txt",
+          "inputSha256": "19600c9fc53e4181abfb1ef2fbd0447e557108cfb17ef038050afa0dff84f4ed"
+        }
+      }
+    },
+    {
+      "recordId": "record-0a5d2db58656",
+      "sourceDigest": "4bf53cb0959b88ed89108243799b15cad24e903ae8938742928a7ee0181d68df",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-0a5d2db58656.txt",
+          "inputSha256": "ed8e844534c1dbd2f458f7bbae91eb75f6ef792023472b3e53321fc053251c0e"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-0a5d2db58656.txt",
+          "inputSha256": "eadd7fc54056f30e8f72f1f554541f2569d950288a5233a51651c38d3fd57ec7"
+        }
+      }
+    },
+    {
+      "recordId": "record-15d17b5e94dd",
+      "sourceDigest": "c49c9f63ff7e775fab3d80f18dcfbb3b01a33f01dfee1299a6e8e52f5a5abb1a",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-15d17b5e94dd.txt",
+          "inputSha256": "a9e891d3a78dd58e95de5c46bb8ec2d303a3297d44ac2d451783feba4d75cce0"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-15d17b5e94dd.txt",
+          "inputSha256": "c313f45dcdbca2714311547b1f28b3ffc34aa8562b835dfcc4d78a005b294e3f"
+        }
+      }
+    },
+    {
+      "recordId": "record-200df607cb86",
+      "sourceDigest": "88c0d2462107a7fcb99b9c2a1a68ea3b2f6ece6985a7c6865927fb9ca58da68c",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-200df607cb86.txt",
+          "inputSha256": "f3823ed39ac1431ee6e0298d8f8c641493294b8f6b8df1c89c7e49fb62b64bad"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-200df607cb86.txt",
+          "inputSha256": "9bbd78e76fbc547eef4a00d9626d20eacb2087554bd68e743dda274d0aa5d91a"
+        }
+      }
+    },
+    {
+      "recordId": "record-2906cae6f48f",
+      "sourceDigest": "7f058aff770910163bb98ccb5fd579d1ce0850eb02e64c4139331153e9764a5e",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-2906cae6f48f.txt",
+          "inputSha256": "bbc41adc08342dfc448d053c5fa6c21ee443f57138c07e5f084c95cbfb06988c"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-2906cae6f48f.txt",
+          "inputSha256": "6fbcef6d4ed6c87c190b954177191f9704ce5dfda880e0c018f656f617f4ad38"
+        }
+      }
+    },
+    {
+      "recordId": "record-3086075941d4",
+      "sourceDigest": "8e94ac21bafaf846fdd1d5ff42fc5774efc858648403688f004da0b6b2cfb251",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-3086075941d4.txt",
+          "inputSha256": "91cf5dbeadbfcf133670937da5a6373ffa12fc4d305f1095681c76deac5e2f79"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-3086075941d4.txt",
+          "inputSha256": "3ca90d93d78cf80b667c113dc66b5f895b884a21fa3e1b0466d17fc43eddaf5c"
+        }
+      }
+    },
+    {
+      "recordId": "record-3a5af96350a5",
+      "sourceDigest": "6f5e0052ceb71c08058687056ac061c08188fbcb240bff603a53873c7ad75cac",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-3a5af96350a5.txt",
+          "inputSha256": "bfc5e1da3d8d45022be23602090cc85fa3f1e13f5365daf120a69cd06ccf8ddd"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-3a5af96350a5.txt",
+          "inputSha256": "45271002080d2ba0db43fcd0feeb2719fbcf9c83553cee567c5ab01ca040dad0"
+        }
+      }
+    },
+    {
+      "recordId": "record-3cd4f22e6a0c",
+      "sourceDigest": "2c9937673fd8960a67fe5df9df6d7af96d37c50316cfc58d3caa714769e75035",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-3cd4f22e6a0c.txt",
+          "inputSha256": "2d064b7dc2323ff5963837dc40a3cb6b15fe75cf26937c1644dd80017d9953fe"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-3cd4f22e6a0c.txt",
+          "inputSha256": "0d3f301808c41ce6fe1867347792ffa26e9c570be0e7170541d7b315cbbcba91"
+        }
+      }
+    },
+    {
+      "recordId": "record-3e250e08f5ed",
+      "sourceDigest": "107afea90dd2629b7f6ac334442d52edda14ad8a754373ce96e8a35d8a806488",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-3e250e08f5ed.txt",
+          "inputSha256": "5c2fb26cbf72b8cddc778509cef9fdcecf79958b8caa6f0ea4283f354a989981"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-3e250e08f5ed.txt",
+          "inputSha256": "6756d31040fa4438c958f89b376d9cd67be78b8dab3383c321ecad348b968810"
+        }
+      }
+    },
+    {
+      "recordId": "record-3fa95fd9371e",
+      "sourceDigest": "717b59a78be3271d1b8fb351c3ead3156a65a846103f798df73f72dc70268cb5",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-3fa95fd9371e.txt",
+          "inputSha256": "17359604eb618d5c707700a7a2609a1d620c12c4120eebf3c3b66ecfdf1a8644"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-3fa95fd9371e.txt",
+          "inputSha256": "98903f22fec3c27bc37ffdfca5a384f9aeb88d714243a8ac0e4131585602d778"
+        }
+      }
+    },
+    {
+      "recordId": "record-45d010461510",
+      "sourceDigest": "95b6bddeee20c2951423ae2b726fa7b185f69683ca5d7d308345c898071b89d4",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-45d010461510.txt",
+          "inputSha256": "8da5d5c8b2e6671adb651a6f9d30515881b8f6c0a21928de886c56e5435cbfc2"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-45d010461510.txt",
+          "inputSha256": "adb774b5984189fe11d9ed67cd36ae13014fbe440fe7d252e7a4a3656cafa339"
+        }
+      }
+    },
+    {
+      "recordId": "record-57110a1fcf0d",
+      "sourceDigest": "c0c698ab3fcf0bd2bf9f84db81da233c8a6a8397da2705c3e72f6415e6ef579d",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-57110a1fcf0d.txt",
+          "inputSha256": "92f0ea0dd9c5df1a2d9ae3485f7aafca5332cb5ca09420e6d6ec5107d44b6806"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-57110a1fcf0d.txt",
+          "inputSha256": "b3c60d0f3fbb1ea45aa7ea406972a54aea2f118e78b6f8ea0787c7159d24610a"
+        }
+      }
+    },
+    {
+      "recordId": "record-5c23ee793aaf",
+      "sourceDigest": "7aebbcec13f8ba6cd98e0d7d14bfc9da2ba07df842b0f00af46257e3a7e2e788",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-5c23ee793aaf.txt",
+          "inputSha256": "c71646512f60095a9dfb322acdee7a273549a605967523bf1e6fc57797cc0ad8"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-5c23ee793aaf.txt",
+          "inputSha256": "366bbc5845e605d9f740a48953a78eb5fe6697eab2a6d5df681d287869b180db"
+        }
+      }
+    },
+    {
+      "recordId": "record-5c44c38b46f8",
+      "sourceDigest": "b8d49fe5bd87ba8a37ff4444ad8e579b46aab1e9bb8e9d70d093a4643327a7be",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-5c44c38b46f8.txt",
+          "inputSha256": "0e9deaf90d4a38f32156fdfc73956d989ab013241e732d6409c7d8533b9927ed"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-5c44c38b46f8.txt",
+          "inputSha256": "6ad05ad71e17d28b6416c1af334b04b4db7f869343cad92ccab2785f1832ae11"
+        }
+      }
+    },
+    {
+      "recordId": "record-6c6c44550739",
+      "sourceDigest": "e0895ffcf79930e947e0ff6222600b2d1a3d243e084834048a320c8c01aa73f0",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-6c6c44550739.txt",
+          "inputSha256": "973ce8a473099e7a5be30d0260336bf0edcd10461cc31839da8907458c1e0919"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-6c6c44550739.txt",
+          "inputSha256": "bb70529b02197e7fb14c7b2a788afb5c1f888dfc503e49c33830a2671b52ad61"
+        }
+      }
+    },
+    {
+      "recordId": "record-73e60b18c4eb",
+      "sourceDigest": "084f8b597497035114e1d34c70e5739f6eb17428f6d056d454a70bbfe44eb997",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-73e60b18c4eb.txt",
+          "inputSha256": "2b941939a8cbc653ca72db0cb5e4427b0ee33a7d2820d338fae19254bff84662"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-73e60b18c4eb.txt",
+          "inputSha256": "b6343a457cab007ea031730fede2fbda8f4ed3a248b3b957782c8355654d5632"
+        }
+      }
+    },
+    {
+      "recordId": "record-7432b52a0a10",
+      "sourceDigest": "b91a5a417d019a891efc81bf3e82b689d6fdb0828c0c2b68f71ee9919ce079ad",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-7432b52a0a10.txt",
+          "inputSha256": "17727f0a57f87ba22e2ef4adb14c4fc5cd74be0db147961e33c6bf29cd2af4cc"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-7432b52a0a10.txt",
+          "inputSha256": "b255efcd6baddb8bf0ffd8dd3d75de382716bc91c9bf18ff1e97405c9a4f2a80"
+        }
+      }
+    },
+    {
+      "recordId": "record-77ddc379dbb9",
+      "sourceDigest": "d3415f9e8d646008db8a4821fc72ca66fc87d4741d8ca656f2b357ef801469ea",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-77ddc379dbb9.txt",
+          "inputSha256": "6b4c30d09d60b5d8b1b443a5f57ca341e001e4ef652326746099fc8934602b0a"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-77ddc379dbb9.txt",
+          "inputSha256": "398e971b9f1c842d297fcd9804088fd50967216968affb125da38183b17197ea"
+        }
+      }
+    },
+    {
+      "recordId": "record-7818d9673f75",
+      "sourceDigest": "1b02ff1de9b1898f8bf1c8f4fbdd06c98463072cbd7ac0b2f83dc841a9ec4083",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-7818d9673f75.txt",
+          "inputSha256": "f2a126a213919e50127fd0f25ff9ef5723dacafdee4283259e0ced3dd1e7f087"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-7818d9673f75.txt",
+          "inputSha256": "4e583e84ffef7df3a7035a2db2f91d97b00d47c5b087d8745905ddf52d9398df"
+        }
+      }
+    },
+    {
+      "recordId": "record-7e08360c4f5a",
+      "sourceDigest": "c671a670872d5861819aacc5d3f0a54f814b5a7e0cb779ef27dead9b68f5ad89",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-7e08360c4f5a.txt",
+          "inputSha256": "94f8c1e7e887fed4591862348003e474c10b3f0a4b477f2d87583b55cc10e12c"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-7e08360c4f5a.txt",
+          "inputSha256": "edc24c20d03b6d8798b7a57833531d943649d324a1f1b8396b307bf541cc54e4"
+        }
+      }
+    },
+    {
+      "recordId": "record-846a05880441",
+      "sourceDigest": "059aeefc0df67015795ca8dc514ec01ee67045c88aedd030e9001039679d912a",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-846a05880441.txt",
+          "inputSha256": "3f1d9abc6a3da47b6a6494e694e5a71a1db8860eacd9f790fe7b6b3e26a9c8ee"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-846a05880441.txt",
+          "inputSha256": "dfe5cca0aa347a6d3540585491c33cde6beb1867080e422c57c936b00cf23308"
+        }
+      }
+    },
+    {
+      "recordId": "record-85b300d5ce6a",
+      "sourceDigest": "4f58ce038a61bee539356cd30a3639bdcee070d4cd481eef73eed180e54f7105",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-85b300d5ce6a.txt",
+          "inputSha256": "5d9e505bce16ab457bd046e1fb1fa630f4ab67fa82a16d18f5c9e93a5a1e9be7"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-85b300d5ce6a.txt",
+          "inputSha256": "0c9ebda97d7cad1d6757e0dfb1f82d2aeba1daa4f327b7ee499f8ee9f0d1c676"
+        }
+      }
+    },
+    {
+      "recordId": "record-8941ea27871c",
+      "sourceDigest": "b0109c2725822bc9ff4297871e19d64ee6ab44b9d4ea103846f4ad794ba3422d",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-8941ea27871c.txt",
+          "inputSha256": "a1a234c70f7afd30e3c1887c6c1403be9d91a34a38ab48cf654c96e85862ba76"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-8941ea27871c.txt",
+          "inputSha256": "31befe785da28470e06ef7c541834f1faf81b672f43fc52379954fd71e74069d"
+        }
+      }
+    },
+    {
+      "recordId": "record-89fd1f8cd9eb",
+      "sourceDigest": "528b62a5c19f7bedded56bb8de8b44a8a726fd9bd8da314585b720ecf85cdd3f",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-89fd1f8cd9eb.txt",
+          "inputSha256": "426749427b9bc5edda166d2cbdeece013859a4bea071e7ba86e3fa838dfb8eda"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-89fd1f8cd9eb.txt",
+          "inputSha256": "4ca27de875b7102073a6729c4b0aeb1e1731c810e38b44a51110def34a2ab417"
+        }
+      }
+    },
+    {
+      "recordId": "record-9232d1cb3a28",
+      "sourceDigest": "06a78d77abda2a17104dca324fd5536960ae6ce149e4d9aa1c812d2ec2b240e8",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-9232d1cb3a28.txt",
+          "inputSha256": "62bbf82c7356810449b44a2f54b7db68f1b146d7c76c0dae3bf51ab439841d50"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-9232d1cb3a28.txt",
+          "inputSha256": "694eeb1dbc24d4d3382e328d8151b02ec39e0305501fd8dd3f941a4f3d293d6e"
+        }
+      }
+    },
+    {
+      "recordId": "record-93e9f728678b",
+      "sourceDigest": "0f0117ee4cd11a442c9f21f74b543f2045d3b47f57502a15e8ebb1336899d9f9",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-93e9f728678b.txt",
+          "inputSha256": "3bbde43f483f3f49997c829865f961d130f6cc94ca05ab74d5206a59b49b1f73"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-93e9f728678b.txt",
+          "inputSha256": "ca49980b061f3b30e08b5a2a872e434ddceaf76fe6f45925d1d008ff125f2433"
+        }
+      }
+    },
+    {
+      "recordId": "record-9950b3ad8de7",
+      "sourceDigest": "7b76fade1abca3ab2f2cab26fc7fc048b5c5edefc59d319060ce48433999e40e",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-9950b3ad8de7.txt",
+          "inputSha256": "784a5cce0d745df4d73d0cc3d451c66ac2a925e390b14385ba77922989b794d4"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-9950b3ad8de7.txt",
+          "inputSha256": "77bc35fccc881bcc317ba9b4a40fc4bb117cef1cd5b386d5ba7176e8c4326a6c"
+        }
+      }
+    },
+    {
+      "recordId": "record-9a8e24576364",
+      "sourceDigest": "9d833c0767a92491b877c719b49cb538973a6930ed00bc332d8f2f86b4d13a14",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-9a8e24576364.txt",
+          "inputSha256": "3cc3313695578398a67eacc48e33bf4b0d6370f6c4c40281c98ea1bad0441ae5"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-9a8e24576364.txt",
+          "inputSha256": "636c446eb9c51adc97bc6ace585e43a7d54e98ae8b32524983cd8d63395965e0"
+        }
+      }
+    },
+    {
+      "recordId": "record-9e4cf8f741eb",
+      "sourceDigest": "f181683daa9ac38bfe5e094a634885b0e69d4cb32a0d0b2d11cb0b3759b99e67",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-9e4cf8f741eb.txt",
+          "inputSha256": "fd6000cf9dfa58a248e267ead8e54310b28e77a2fd51f97af6f9c09d64617602"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-9e4cf8f741eb.txt",
+          "inputSha256": "379d82d760e72d5cb06a74f1ca2d53fcc08ae72c0b731b0320e7ee0ceb274d6d"
+        }
+      }
+    },
+    {
+      "recordId": "record-a88e68ef5ad1",
+      "sourceDigest": "3a1689dd84bd8c293d8dc89144cd0af867c258eb2d5e951dda747fa7ac1370aa",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-a88e68ef5ad1.txt",
+          "inputSha256": "57a5f9daabfe354f5dcfed092b0b26c67bda124cde8c2200aba88dc24f3a2915"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-a88e68ef5ad1.txt",
+          "inputSha256": "defb7b45c5fcb00db114fc2c7740cdc16eac2acbd2942a507b497114c6b1d73d"
+        }
+      }
+    },
+    {
+      "recordId": "record-b0651a3885c9",
+      "sourceDigest": "075abb595c90e4909487a6af30ebc202031b057e1b73598339854055186fd210",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-b0651a3885c9.txt",
+          "inputSha256": "7a3a3bd55738220db6ffe96ba1ccfa4ef4e1847fceac66e34739914b22d29137"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-b0651a3885c9.txt",
+          "inputSha256": "03260e586ac2eb29cda5f38fe509ba92915fab3312c27719633c92a5f020a580"
+        }
+      }
+    },
+    {
+      "recordId": "record-b0929dca8eb3",
+      "sourceDigest": "e18196f600d0767e13aff4342b200249762225ace8a987290e4287cf57888d1f",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-b0929dca8eb3.txt",
+          "inputSha256": "56f538e85326b250e3b4288d74ea84950f30749ae0e6a858eade29e40817ab70"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-b0929dca8eb3.txt",
+          "inputSha256": "e4aef9c8ba80d7c925236d45298efd1aa6b3d66e3d3ddd318a891875f29f8318"
+        }
+      }
+    },
+    {
+      "recordId": "record-b22624bcb066",
+      "sourceDigest": "a0e9044b6374c5aebc6195951f602ca7de42b9a62c37f0e4f9d0dd785b395e25",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-b22624bcb066.txt",
+          "inputSha256": "12340ab6cf0d65f66efcc4b30654db4eb932022f51fa0c8013bc32a37a2bc5dc"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-b22624bcb066.txt",
+          "inputSha256": "a2f529b328b2b57894ccbcabcb554942684f64f4f7b7bf96ac5669de2149b334"
+        }
+      }
+    },
+    {
+      "recordId": "record-b2f88daf0497",
+      "sourceDigest": "cf3d49230aa0b78c1159ec2a4a3600ac0fcb330d0fd39a9dc631b3e4718e14e5",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-b2f88daf0497.txt",
+          "inputSha256": "666c595d3228ca2f264a31b109340dbcf7310f0c01457fe38d0e069701b120c1"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-b2f88daf0497.txt",
+          "inputSha256": "6a86b637f2dd961a71751142220c155f05aa8448c56e902f01d46c491a384fdd"
+        }
+      }
+    },
+    {
+      "recordId": "record-c5da13d84419",
+      "sourceDigest": "a3ad0b547955e9fa60c374b46edfffa65e21f42fa8b5c09eb4bd03d0e5dc9fe2",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-c5da13d84419.txt",
+          "inputSha256": "0543d612cadc7ccfbb02721e7d84be19d14e0063dc9c6520d67fc85aa3ba827c"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-c5da13d84419.txt",
+          "inputSha256": "1f709c86be253cb243004ddbfc8f87db7c441f48e19b22d0066c39d0f5ecf90a"
+        }
+      }
+    },
+    {
+      "recordId": "record-c69a5f22a694",
+      "sourceDigest": "4ee4026cff7be90949a21d10e9273f6eae7e500f86d60c81411b03ae0858b544",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-c69a5f22a694.txt",
+          "inputSha256": "82b46eb33670eb4b18e1aecbf5a371646e0891cb2ddc81b25a3537bc8658cf9a"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-c69a5f22a694.txt",
+          "inputSha256": "0f471d66efaabbbb0a44e0b0dcdb9b7843187768b86ea22f5bdc199f88230e18"
+        }
+      }
+    },
+    {
+      "recordId": "record-d330baeb0879",
+      "sourceDigest": "aa21f138362e1afd3985e3376c19c70f72ce2703436f13cc88bf79dfe5fa0f2d",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-d330baeb0879.txt",
+          "inputSha256": "b24d9d3cec934151a45e8b56fb0b2d30546f8c520d230a19f037a02351c981e4"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-d330baeb0879.txt",
+          "inputSha256": "2e3e9a9686981379de847462f5797d389daa8c3a1ffd450b7d392f3b5962a261"
+        }
+      }
+    },
+    {
+      "recordId": "record-d8b347c1da7a",
+      "sourceDigest": "9bfe7058e9b3d7d114fe1601cb38f14b55ee5a04306f2060a0754711435a3474",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-d8b347c1da7a.txt",
+          "inputSha256": "832c95efd970bfc403dbf82cf9f6d253c46d9d9aa36461c315d565311552d13b"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-d8b347c1da7a.txt",
+          "inputSha256": "d439f55901e56ea5d5a1687e89d94131b545a9b4b4c72d932f8a6ef188fcc4da"
+        }
+      }
+    },
+    {
+      "recordId": "record-e10e3413cef8",
+      "sourceDigest": "6a11afbb964ce5023b099539e98ab2a8c5c98e1818b3698908135b9ab2d88777",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-e10e3413cef8.txt",
+          "inputSha256": "0ecb5f3bc702a361a63f8537f70ae1b38e1ef81616552f372fb6738e8a6736ac"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-e10e3413cef8.txt",
+          "inputSha256": "cf9025dc0c6397e3256e5204ceb6051e0a9c37558e0a2185ca70b58c15dfad58"
+        }
+      }
+    },
+    {
+      "recordId": "record-e8992f71c531",
+      "sourceDigest": "dd05d4606fd63498bdcc61bebbe1e39f028705db23bdde870f190b6db0c91773",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-e8992f71c531.txt",
+          "inputSha256": "b11af7141aeb2ac1b42e2a59bfc00970b510bb7024dc52a4027bd2cf0b34021a"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-e8992f71c531.txt",
+          "inputSha256": "946f9ba1faf361035ac1a8da43a59d62da194a5b5af089ba29c579cb80c64330"
+        }
+      }
+    },
+    {
+      "recordId": "record-e9cc2bb55d6c",
+      "sourceDigest": "92078b0c092376ae543977837851ff7b4d02823ca51b200e83b3459d3f1290a1",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-e9cc2bb55d6c.txt",
+          "inputSha256": "26b441f52abe2535e523ce901ab2bdaf0d589a042dbabe039587a3a477549efb"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-e9cc2bb55d6c.txt",
+          "inputSha256": "0315fa9b007ab4d7b8db9bd8a511e9a9568446595d3ff8ead0ed1af254bdda1b"
+        }
+      }
+    },
+    {
+      "recordId": "record-ebe66bd45108",
+      "sourceDigest": "3b55058461267b7f532cb1248e2e88c19976e586bc28bb5c7adff22f5366e7f6",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-ebe66bd45108.txt",
+          "inputSha256": "7fbdb71f23849f3504dad6244b0253b318567c57a73e039952a7b8acb3ff69ea"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-ebe66bd45108.txt",
+          "inputSha256": "7e8821a9d1cfb8c751a447f93724d614d5afa22ddf3044683e5b93c454f70cff"
+        }
+      }
+    },
+    {
+      "recordId": "record-f1b64b33e6a2",
+      "sourceDigest": "ea5a6622f3ff5cafe2f12a4edee0bdf618607190f77ed20b1fa91873b33c87d5",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-f1b64b33e6a2.txt",
+          "inputSha256": "26f449611f55da1f1a41d04f44697dcbdef7c5de5b2e4619220590c9f6815812"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-f1b64b33e6a2.txt",
+          "inputSha256": "625b0ac412fb9f805f9585a9020483e8e14d3041f58d9c3342881141f437b0f2"
+        }
+      }
+    },
+    {
+      "recordId": "record-f814be1b029f",
+      "sourceDigest": "1e34d9f57e100c8fba43f19b96fcdd976f4232fa508666e503047f1d97f8341e",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-f814be1b029f.txt",
+          "inputSha256": "c424e0811896cf2ff9e402ad3aa6758ff2b5be3471daa7ab05d987daa6a6196c"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-f814be1b029f.txt",
+          "inputSha256": "49ed894d368b39008a4a88a5e9d06dc5c8e3b24b3f7967c2eb9f6206fe99180a"
+        }
+      }
+    },
+    {
+      "recordId": "record-fd2874d74a60",
+      "sourceDigest": "b32cd4049074707c6daa806906d0bfcb1ce734f5bcd441d85fa5c9fd8631583a",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-fd2874d74a60.txt",
+          "inputSha256": "8cb7e268d428adfbaf99254bb65c1669a9ef0420435fe1471542d85df402d649"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-fd2874d74a60.txt",
+          "inputSha256": "419e903d0567d9dc19853e8d64d799c153c221e90ec514686b04b116ac638b40"
+        }
+      }
+    },
+    {
+      "recordId": "record-ff337f068357",
+      "sourceDigest": "853a4f382f62cde64ed7e92053db99dcf70f598de50b610ee474d23ae399ea1b",
+      "arms": {
+        "raw": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/raw/record-ff337f068357.txt",
+          "inputSha256": "00d08aba2813634291d443737527dc6b55b0c74df2a0b7a2201498cc2d900b38"
+        },
+        "context": {
+          "file": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-ff337f068357.txt",
+          "inputSha256": "89048e5232a4116db9896b0ed2a466b3b53b3dd24bc95a81e55cafbfdfdb6f7c"
+        }
+      }
+    }
+  ],
+  "paidCalls": 0,
+  "frozen": {
+    "plan": "12fabc9393b62bb76e902c59642ece98cf71909934751dc5462001625c2b3ee2",
+    "predictions": "201f7ed4b13c78deef4d6a17e5da479c099621a29b487c85d3cd065f14325e45",
+    "prompt": "1672067e24df40ca6601567d20ed9a2c5393dcc108c085fb8498c7cce4f788b7",
+    "responseSchema": "170e9cf7695880f79f97c2a935206a30c2e72b7794d23a5c9be7830721e0ca90",
+    "questions": "9dc69aac2febbbe01f3c46c127328f172a6178ab6ee67eb9e6a9a9fae8664f30",
+    "scorer": "4552fb18043d4b2636a1c8d08c5273ab6ca798beb21f09320331324d59463313",
+    "records": "6984441aaac60924de3189a835a1aa0725181a9c29cc1f48877cdd38a3ba1e46",
+    "modelSession": "6c8172dce0553cba030850e739c7abe6722385c641979ffaacd2e8fdec302cc5",
+    "modelEvidence": "28b1f19d3243c71ec09f7ca087384772d3288a3c0f3f1351b3f7d34d23df6856",
+    "sealed": false
+  },
+  "sealedPredictionsSha256": "a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f",
+  "correctionSha256": "6790686ac85ffbbeec70946ed0aa2f2a7eccf5388e7788bae0c705bdd4eae6b2",
+  "otsSha256": "9793494d417848aab3ea34c60f83e7ed1fc6ad596ab9a68a056e18c23fc32604",
+  "externalTimestampVerified": false,
+  "originalPromptBytesMatch": true,
+  "noLabelsRead": true,
+  "noHistoricalClaimsSupplied": true,
+  "noKnowledgeBaseContentSupplied": true
+}

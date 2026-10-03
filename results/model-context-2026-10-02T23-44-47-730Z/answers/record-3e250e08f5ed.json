@@ -1,0 +1,60 @@
+{
+  "recordId": "record-3e250e08f5ed",
+  "inputSha256": "6756d31040fa4438c958f89b376d9cd67be78b8dab3383c321ecad348b968810",
+  "prediction": {
+    "recordId": "record-3e250e08f5ed",
+    "status": "not shown",
+    "reason": "The supplied record shows that alt-text descriptions were attached to 12 charts and annual_report_2026.xlsx was updated. It does not show an accessibility check run after that update or a result confirming that the workbook passes. This assessment covers only the complete supplied four-line log.",
+    "receipt": {
+      "sourceId": "receipt-record-3e250e08f5ed",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3e250e08f5ed",
+      "step": 1,
+      "line": 4,
+      "text": "add_alt_text: annual_report_2026.xlsx updated",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-3e250e08f5ed\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied record shows that alt-text descriptions were attached to 12 charts and annual_report_2026.xlsx was updated. It does not show an accessibility check run after that update or a result confirming that the workbook passes. This assessment covers only the complete supplied four-line log.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-3e250e08f5ed\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3e250e08f5ed\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"add_alt_text: annual_report_2026.xlsx updated\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5938,
+        "inputTokens": 5630,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 308,
+        "reasoningOutputTokens": 63
+      },
+      "last": {
+        "totalTokens": 5938,
+        "inputTokens": 5630,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 308,
+        "reasoningOutputTokens": 63
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "recordId": "record-73e60b18c4eb",
+  "inputSha256": "b6343a457cab007ea031730fede2fbda8f4ed3a248b3b957782c8355654d5632",
+  "prediction": {
+    "recordId": "record-73e60b18c4eb",
+    "status": "failed",
+    "reason": "The final check, `tox -e pg16`, ran after the environment was added and the PostgreSQL container started. Its output explicitly reports that pg16 failed with exit code 1.",
+    "receipt": {
+      "sourceId": "receipt-record-73e60b18c4eb",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-73e60b18c4eb",
+      "step": 3,
+      "line": 7,
+      "text": "  pg16: FAIL code 1 (49.77=setup[10.85]+cmd[38.92] seconds)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 8
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-73e60b18c4eb\",\n  \"status\": \"failed\",\n  \"reason\": \"The final check, `tox -e pg16`, ran after the environment was added and the PostgreSQL container started. Its output explicitly reports that pg16 failed with exit code 1.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-73e60b18c4eb\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-73e60b18c4eb\",\n    \"step\": 3,\n    \"line\": 7,\n    \"text\": \"  pg16: FAIL code 1 (49.77=setup[10.85]+cmd[38.92] seconds)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 8\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 6098,
+        "inputTokens": 5800,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 298,
+        "reasoningOutputTokens": 56
+      },
+      "last": {
+        "totalTokens": 6098,
+        "inputTokens": 5800,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 298,
+        "reasoningOutputTokens": 56
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

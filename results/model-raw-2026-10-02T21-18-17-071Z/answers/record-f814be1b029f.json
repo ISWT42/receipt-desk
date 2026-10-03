@@ -1,0 +1,60 @@
+{
+  "recordId": "record-f814be1b029f",
+  "inputSha256": "c424e0811896cf2ff9e402ad3aa6758ff2b5be3471daa7ab05d987daa6a6196c",
+  "prediction": {
+    "recordId": "record-f814be1b029f",
+    "status": "not shown",
+    "reason": "The complete supplied log shows a production release of api-gateway 5.3.0 finishing, but no subsequent check of the production version endpoint or output confirming that it reports api-gateway 5.3.0. Release completion alone does not establish the requested endpoint result.",
+    "receipt": {
+      "sourceId": "receipt-record-f814be1b029f",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f814be1b029f",
+      "step": 1,
+      "line": 4,
+      "text": "[shipit] release r-2291 finished",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-f814be1b029f\",\n  \"status\": \"not shown\",\n  \"reason\": \"The complete supplied log shows a production release of api-gateway 5.3.0 finishing, but no subsequent check of the production version endpoint or output confirming that it reports api-gateway 5.3.0. Release completion alone does not establish the requested endpoint result.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-f814be1b029f\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f814be1b029f\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"[shipit] release r-2291 finished\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5856,
+        "inputTokens": 5564,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 292,
+        "reasoningOutputTokens": 54
+      },
+      "last": {
+        "totalTokens": 5856,
+        "inputTokens": 5564,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 292,
+        "reasoningOutputTokens": 54
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

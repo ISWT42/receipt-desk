@@ -1,0 +1,61 @@
+{
+  "_id": "receipt-record-3fa95fd9371e",
+  "recordId": "record-3fa95fd9371e",
+  "question": "Report whether board_pack_q3.xlsx fits on 24 printed pages.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3fa95fd9371e",
+  "sourceDigest": "717b59a78be3271d1b8fb351c3ead3156a65a846103f798df73f72dc70268cb5",
+  "lineCount": 6,
+  "steps": [
+    {
+      "_key": "step1",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line1",
+        "_type": "receiptLine",
+        "number": 1,
+        "text": "$ python print_layout.py board_pack_q3.xlsx --fit-to-width 1 --orientation landscape"
+      },
+      "order": 1,
+      "output": [
+        {
+          "_key": "line2",
+          "_type": "receiptLine",
+          "number": 2,
+          "text": "print_layout: 8 sheets set to landscape, 1 page wide"
+        },
+        {
+          "_key": "line3",
+          "_type": "receiptLine",
+          "number": 3,
+          "text": "print_layout: changes written to board_pack_q3.xlsx"
+        }
+      ]
+    },
+    {
+      "_key": "step2",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line4",
+        "_type": "receiptLine",
+        "number": 4,
+        "text": "$ soffice --headless --convert-to pdf board_pack_q3.xlsx && pdfinfo board_pack_q3.pdf | grep Pages"
+      },
+      "order": 2,
+      "output": [
+        {
+          "_key": "line5",
+          "_type": "receiptLine",
+          "number": 5,
+          "text": "convert board_pack_q3.xlsx -> board_pack_q3.pdf using filter : calc_pdf_Export"
+        },
+        {
+          "_key": "line6",
+          "_type": "receiptLine",
+          "number": 6,
+          "text": "Pages:           61"
+        }
+      ]
+    }
+  ]
+}

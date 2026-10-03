@@ -1,0 +1,12 @@
+{
+  "projectId": "ixoe9uvf",
+  "dataset": "production",
+  "provider": "Sanity Content Lake, not Context",
+  "publicRead": true,
+  "checkedAt": "2026-10-02T21:14:29.680Z",
+  "status": "done",
+  "records": 48,
+  "claimBundles": 48,
+  "historicalReplies": 2592,
+  "allRecordDigestsAndClaimBytesMatch": true
+}

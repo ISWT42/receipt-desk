@@ -1,0 +1,60 @@
+{
+  "recordId": "record-200df607cb86",
+  "inputSha256": "f3823ed39ac1431ee6e0298d8f8c641493294b8f6b8df1c89c7e49fb62b64bad",
+  "prediction": {
+    "recordId": "record-200df607cb86",
+    "status": "not shown",
+    "reason": "The record shows that the A-record change was submitted and committed, but it contains no subsequent DNS lookup against ns1.example.org confirming that files.example.org resolves to 203.0.113.40. The complete supplied log therefore does not show the requested final check.",
+    "receipt": {
+      "sourceId": "receipt-record-200df607cb86",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86",
+      "step": 1,
+      "line": 3,
+      "text": "change c-88217 committed (zone serial 2026091604)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-200df607cb86\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record shows that the A-record change was submitted and committed, but it contains no subsequent DNS lookup against ns1.example.org confirming that files.example.org resolves to 203.0.113.40. The complete supplied log therefore does not show the requested final check.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-200df607cb86\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"change c-88217 committed (zone serial 2026091604)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5847,
+        "inputTokens": 5539,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 308,
+        "reasoningOutputTokens": 70
+      },
+      "last": {
+        "totalTokens": 5847,
+        "inputTokens": 5539,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 308,
+        "reasoningOutputTokens": 70
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

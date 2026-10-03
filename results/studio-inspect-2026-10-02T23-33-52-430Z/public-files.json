@@ -1,0 +1,214 @@
+{
+  "status": "done",
+  "files": [
+    {
+      "path": "favicon.ico",
+      "httpStatus": 200,
+      "bytes": 1200,
+      "sha256": "55dcce1e14499fb8aa5f339e9614b65bd73a463bc7aac513eb82fbfa8609e54f",
+      "matches": true
+    },
+    {
+      "path": "index.html",
+      "httpStatus": 301,
+      "location": "/"
+    },
+    {
+      "path": "static/26e8c4a6.create-schema.json",
+      "httpStatus": 200,
+      "bytes": 5917,
+      "sha256": "72cba8afae399135f8e5a23c7b5ea298dd729f9f70345f53b5e059cba1da6142",
+      "matches": true
+    },
+    {
+      "path": "static/apple-touch-icon.png",
+      "httpStatus": 200,
+      "bytes": 4132,
+      "sha256": "c8f964dc9c5f98030def4c56501886aaea817c9c43c8c353eedee05fba029a54",
+      "matches": true
+    },
+    {
+      "path": "static/browser-DR_xaF15.js",
+      "httpStatus": 200,
+      "bytes": 12139,
+      "sha256": "7ff0e6937dc3c2abd8511d0d24c37e2b922433d14f14bb504b40e74674907d90",
+      "matches": true
+    },
+    {
+      "path": "static/create-manifest.json",
+      "httpStatus": 200,
+      "bytes": 941,
+      "sha256": "4e5a2832aeb6c71d857ceeb3fff17d5fb9fe6686add539a7ea7f77ea42224cc7",
+      "matches": true
+    },
+    {
+      "path": "static/d57bf8ec.create-tools.json",
+      "httpStatus": 200,
+      "bytes": 1633,
+      "sha256": "005fc11c2424e6277361db40e15817cf7ffe0fa956efad8996b37a593e9a835c",
+      "matches": true
+    },
+    {
+      "path": "static/favicon-192.png",
+      "httpStatus": 200,
+      "bytes": 4338,
+      "sha256": "4717cf0a5998b633ab62cc87902ef500c930b7659941cc4d57da0b1795e5b1c3",
+      "matches": true
+    },
+    {
+      "path": "static/favicon-512.png",
+      "httpStatus": 200,
+      "bytes": 12608,
+      "sha256": "6ca03e10e672f8507098ff7aa1f5c2c20ccd7cc353b6f021a606ff557554ffb6",
+      "matches": true
+    },
+    {
+      "path": "static/favicon-96.png",
+      "httpStatus": 200,
+      "bytes": 2406,
+      "sha256": "3d55d5aa93ff08016b2248c98fd82f0e8d74f8399b49bdef28c36c8658e7fc5b",
+      "matches": true
+    },
+    {
+      "path": "static/favicon.ico",
+      "httpStatus": 200,
+      "bytes": 1200,
+      "sha256": "55dcce1e14499fb8aa5f339e9614b65bd73a463bc7aac513eb82fbfa8609e54f",
+      "matches": true
+    },
+    {
+      "path": "static/favicon.svg",
+      "httpStatus": 200,
+      "bytes": 1100,
+      "sha256": "27fb9318f958b971c7edf1ffd73c2218005ee043fabf154e4632d4e7a0ab68db",
+      "matches": true
+    },
+    {
+      "path": "static/index-7d0lAGJS.js",
+      "httpStatus": 200,
+      "bytes": 2256,
+      "sha256": "6b708b4a8915aff15f53947adf5649fe9b4f33daa9a362224626f23bebe0dc41",
+      "matches": true
+    },
+    {
+      "path": "static/index2-C-zG_xUV.js",
+      "httpStatus": 200,
+      "bytes": 3705,
+      "sha256": "d1493a00b4d2228b60c04b39a960a2d7f8a606f67fe8528e352edf39ad068876",
+      "matches": true
+    },
+    {
+      "path": "static/index3-JA3jODNo.js",
+      "httpStatus": 200,
+      "bytes": 21137,
+      "sha256": "d1961597b9e0e816a23f8a2c0bbb43cdeeecd1a5f9738e4d8c26a7a88b559fc7",
+      "matches": true
+    },
+    {
+      "path": "static/manifest.webmanifest",
+      "httpStatus": 200,
+      "bytes": 331,
+      "sha256": "64e809000e212268642b50616650a11c97fc81079b4a43f3065a84ecb615b707",
+      "matches": true
+    },
+    {
+      "path": "static/refractor-bvM4sdko.js",
+      "httpStatus": 200,
+      "bytes": 571,
+      "sha256": "1191d950684d1c6d3f388464214657217cecef716f8711a0f67b7a97b2a85451",
+      "matches": true
+    },
+    {
+      "path": "static/resources-D8S9aX6_.js",
+      "httpStatus": 200,
+      "bytes": 4277,
+      "sha256": "796820e2cc137cea0bb4d0af5a3d46a4e1c1a36f0814644f1ffdc72f93a567c7",
+      "matches": true
+    },
+    {
+      "path": "static/resources2-Cvtgmt8d.js",
+      "httpStatus": 200,
+      "bytes": 14606,
+      "sha256": "6ade726ede7bd77450d434acb452551ba84c6f962b62f22162a5064fb72e3783",
+      "matches": true
+    },
+    {
+      "path": "static/resources3-Dvaa2OlE.js",
+      "httpStatus": 200,
+      "bytes": 4330,
+      "sha256": "f71af15123ca5153fa6dd07a257fe3855d3cab0aa593bc610fee7510cf232d52",
+      "matches": true
+    },
+    {
+      "path": "static/resources4-Qp8dOhsj.js",
+      "httpStatus": 200,
+      "bytes": 2099,
+      "sha256": "224e6088361b4a76baa4801113eba407054c592a37b530b5672f6e78644102a1",
+      "matches": true
+    },
+    {
+      "path": "static/resources5-46qpr05h.js",
+      "httpStatus": 200,
+      "bytes": 1193,
+      "sha256": "a8b10e3c5bfc687f187f6c92a017b8e15b2c826594a93814810f44b6b8eab4aa",
+      "matches": true
+    },
+    {
+      "path": "static/resources6-BHmPcXiL.js",
+      "httpStatus": 200,
+      "bytes": 730,
+      "sha256": "c063f9b01f78c59f08722f5ef8a10d5dc6c5f345a236df89ef35221873982419",
+      "matches": true
+    },
+    {
+      "path": "static/resources7-CCAQHHbj.js",
+      "httpStatus": 200,
+      "bytes": 23284,
+      "sha256": "5740e709110f5d26e6d0f08b4793ab7ae2aec05f59d7513cd7983a4719a2fb3a",
+      "matches": true
+    },
+    {
+      "path": "static/sanity-Czthy_d-.js",
+      "httpStatus": 200,
+      "bytes": 129,
+      "sha256": "acc7f5153785597434aabe68733b45e806373fe27964efe3706ad7a3bf6ed5f5",
+      "matches": true
+    },
+    {
+      "path": "static/sanity-l_vInnIZ.js",
+      "httpStatus": 200,
+      "bytes": 129,
+      "sha256": "acc7f5153785597434aabe68733b45e806373fe27964efe3706ad7a3bf6ed5f5",
+      "matches": true
+    },
+    {
+      "path": "static/sanity.config-DE3REZT9.js",
+      "httpStatus": 200,
+      "bytes": 5854130,
+      "sha256": "fbd20d906574ec7a6f8a39f403e004e2b4ad757f7db863993346141c4ed52938",
+      "matches": true
+    },
+    {
+      "path": "static/stegaEncodeSourceMap-V8wfkozq.js",
+      "httpStatus": 200,
+      "bytes": 7541,
+      "sha256": "66eefc8268f66726d93a098fba7ca5b63b496872d9a2206b4e0ceeb8c47b85d0",
+      "matches": true
+    },
+    {
+      "path": "static/VideoPlayer-DalDl_Np.js",
+      "httpStatus": 200,
+      "bytes": 1141792,
+      "sha256": "73f7b26a02e3533ad0ed1ee442da29e2ac7b12ffd67a51d424172ca3d03c48c3",
+      "matches": true
+    },
+    {
+      "path": "static/ViteDevServerStopped-DodqHq01.js",
+      "httpStatus": 200,
+      "bytes": 1545,
+      "sha256": "077cd78baa7e9ba68089adea51c32e58128d56455fb4bfc1f97d7a6106035a14",
+      "matches": true
+    }
+  ],
+  "note": "The hostname root and index redirect to the Sanity Studio page. Static assets are verified directly."
+}

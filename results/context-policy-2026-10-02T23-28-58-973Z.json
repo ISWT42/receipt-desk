@@ -1,0 +1,18 @@
+{
+  "status": "done",
+  "addendum": "CONTEXT-PROTOCOL-ADDENDUM-2026-10-02.md",
+  "sha256": "44a6cd7b390634847be2166ace5209feb8f20d680ed88c1252c89166c5f6c0e6",
+  "recordedAt": "2026-10-02T23:28:58.975Z",
+  "observedBeforeThisContinuationContext": true,
+  "rawArmAlreadyComplete": true,
+  "choice": "propose purpose revision and rebuild; keep first build and issues unchanged pending owner approval",
+  "remoteMutationApplied": false,
+  "ownerReportedConflictCount": 9,
+  "ownerReportedBuildStatus": "Entries up to date",
+  "scoredInputs": "original exact-ID GROQ records only; no KB content or claims",
+  "studioApproval": {
+    "url": "https://receipt-desk-ixoe9uvf.sanity.studio",
+    "freeOnly": true,
+    "noNewSignIn": true
+  }
+}

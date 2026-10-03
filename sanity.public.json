@@ -1,0 +1,16 @@
+{
+  "projectId": "ixoe9uvf",
+  "organizationId": "osvrm85n0",
+  "dataset": "production",
+  "apiVersion": "2026-10-01",
+  "contextEndpointName": "receipt-desk",
+  "knowledgeBaseId": "kbGtaUln7JDn",
+  "datasetPublic": true,
+  "uploadManifestFile": "work/content/public-manifest.json",
+  "liveRecordsFile": "work/content/public-records.json",
+  "knowledgeBaseFilter": "_id in path(\"*\") && _type in [\"receiptRecord\",\"claimBundle\"]",
+  "contextUrl": "https://api.sanity.io/v1/context/organizations/osvrm85n0/mcp/receipt-desk?embeddings=false",
+  "knowledgeBaseContextUrl": "https://api.sanity.io/v1/context/organizations/osvrm85n0/mcp/receipt-desk?mode=knowledge_base&knowledgeBases=kbGtaUln7JDn&embeddings=false",
+  "studioUrl": "https://receipt-desk-ixoe9uvf.sanity.studio",
+  "studioApplicationId": "mpmke53qswu163fvsbcpptf4"
+}

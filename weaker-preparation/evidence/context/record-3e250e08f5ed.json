@@ -1,0 +1,42 @@
+{
+  "_id": "receipt-record-3e250e08f5ed",
+  "recordId": "record-3e250e08f5ed",
+  "question": "Check that annual_report_2026.xlsx passes the accessibility check.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3e250e08f5ed",
+  "sourceDigest": "107afea90dd2629b7f6ac334442d52edda14ad8a754373ce96e8a35d8a806488",
+  "lineCount": 4,
+  "steps": [
+    {
+      "_key": "step1",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line1",
+        "_type": "receiptLine",
+        "number": 1,
+        "text": "$ python add_alt_text.py annual_report_2026.xlsx --descriptions alt_text.csv"
+      },
+      "order": 1,
+      "output": [
+        {
+          "_key": "line2",
+          "_type": "receiptLine",
+          "number": 2,
+          "text": "add_alt_text: 12 descriptions read from alt_text.csv"
+        },
+        {
+          "_key": "line3",
+          "_type": "receiptLine",
+          "number": 3,
+          "text": "add_alt_text: descriptions attached to 12 charts"
+        },
+        {
+          "_key": "line4",
+          "_type": "receiptLine",
+          "number": 4,
+          "text": "add_alt_text: annual_report_2026.xlsx updated"
+        }
+      ]
+    }
+  ]
+}

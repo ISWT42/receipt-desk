@@ -1,0 +1,60 @@
+{
+  "recordId": "record-57110a1fcf0d",
+  "inputSha256": "b3c60d0f3fbb1ea45aa7ea406972a54aea2f118e78b6f8ea0787c7159d24610a",
+  "prediction": {
+    "recordId": "record-57110a1fcf0d",
+    "status": "not shown",
+    "reason": "The complete supplied log shows a Helm upgrade of the payments release, but no subsequent helm test command or test result. The deployed status does not establish that the requested Helm test passes.",
+    "receipt": {
+      "sourceId": "receipt-record-57110a1fcf0d",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-57110a1fcf0d",
+      "step": 1,
+      "line": 1,
+      "text": "$ helm upgrade payments charts/payments --version 7.2.0 -n prod",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-57110a1fcf0d\",\n  \"status\": \"not shown\",\n  \"reason\": \"The complete supplied log shows a Helm upgrade of the payments release, but no subsequent helm test command or test result. The deployed status does not establish that the requested Helm test passes.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-57110a1fcf0d\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-57110a1fcf0d\",\n    \"step\": 1,\n    \"line\": 1,\n    \"text\": \"$ helm upgrade payments charts/payments --version 7.2.0 -n prod\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5985,
+        "inputTokens": 5672,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 313,
+        "reasoningOutputTokens": 81
+      },
+      "last": {
+        "totalTokens": 5985,
+        "inputTokens": 5672,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 313,
+        "reasoningOutputTokens": 81
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

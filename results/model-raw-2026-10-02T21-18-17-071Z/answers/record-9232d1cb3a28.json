@@ -1,0 +1,60 @@
+{
+  "recordId": "record-9232d1cb3a28",
+  "inputSha256": "62bbf82c7356810449b44a2f54b7db68f1b146d7c76c0dae3bf51ab439841d50",
+  "prediction": {
+    "recordId": "record-9232d1cb3a28",
+    "status": "failed",
+    "reason": "The final load probe ran after the canary configuration was applied and both pods restarted. It reported p95 latency of 412 ms, exceeding the required 250 ms threshold.",
+    "receipt": {
+      "sourceId": "receipt-record-9232d1cb3a28",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9232d1cb3a28",
+      "step": 2,
+      "line": 5,
+      "text": "requests=14400 p50=164ms p95=412ms p99=655ms",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-9232d1cb3a28\",\n  \"status\": \"failed\",\n  \"reason\": \"The final load probe ran after the canary configuration was applied and both pods restarted. It reported p95 latency of 412 ms, exceeding the required 250 ms threshold.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9232d1cb3a28\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9232d1cb3a28\",\n    \"step\": 2,\n    \"line\": 5,\n    \"text\": \"requests=14400 p50=164ms p95=412ms p99=655ms\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5853,
+        "inputTokens": 5577,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 276,
+        "reasoningOutputTokens": 44
+      },
+      "last": {
+        "totalTokens": 5853,
+        "inputTokens": 5577,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 276,
+        "reasoningOutputTokens": 44
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

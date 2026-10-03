@@ -1,0 +1,60 @@
+{
+  "recordId": "record-5c44c38b46f8",
+  "inputSha256": "0e9deaf90d4a38f32156fdfc73956d989ab013241e732d6409c7d8533b9927ed",
+  "prediction": {
+    "recordId": "record-5c44c38b46f8",
+    "status": "failed",
+    "reason": "The final connectivity check ran from app-11 to db-05 on port 5432 after the firewall policy was pushed. Its output reports Connection refused, so the requested connection check failed.",
+    "receipt": {
+      "sourceId": "receipt-record-5c44c38b46f8",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-5c44c38b46f8",
+      "step": 2,
+      "line": 6,
+      "text": "nc: connect to db-05.example.internal port 5432 (tcp) failed: Connection refused",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-5c44c38b46f8\",\n  \"status\": \"failed\",\n  \"reason\": \"The final connectivity check ran from app-11 to db-05 on port 5432 after the firewall policy was pushed. Its output reports Connection refused, so the requested connection check failed.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-5c44c38b46f8\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-5c44c38b46f8\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"nc: connect to db-05.example.internal port 5432 (tcp) failed: Connection refused\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5906,
+        "inputTokens": 5601,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 305,
+        "reasoningOutputTokens": 66
+      },
+      "last": {
+        "totalTokens": 5906,
+        "inputTokens": 5601,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 305,
+        "reasoningOutputTokens": 66
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

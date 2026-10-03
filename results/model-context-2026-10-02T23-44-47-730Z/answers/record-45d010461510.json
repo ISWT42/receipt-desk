@@ -1,0 +1,60 @@
+{
+  "recordId": "record-45d010461510",
+  "inputSha256": "adb774b5984189fe11d9ed67cd36ae13014fbe440fe7d252e7a4a3656cafa339",
+  "prediction": {
+    "recordId": "record-45d010461510",
+    "status": "done",
+    "reason": "After moving the fixture file and rewriting imports, the final pytest collection check for tests/ingest reports 148 tests collected, confirming the requested outcome.",
+    "receipt": {
+      "sourceId": "receipt-record-45d010461510",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-45d010461510",
+      "step": 3,
+      "line": 5,
+      "text": "148 tests collected in 0.52s",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-45d010461510\",\n  \"status\": \"done\",\n  \"reason\": \"After moving the fixture file and rewriting imports, the final pytest collection check for tests/ingest reports 148 tests collected, confirming the requested outcome.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-45d010461510\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-45d010461510\",\n    \"step\": 3,\n    \"line\": 5,\n    \"text\": \"148 tests collected in 0.52s\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5968,
+        "inputTokens": 5701,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 267,
+        "reasoningOutputTokens": 59
+      },
+      "last": {
+        "totalTokens": 5968,
+        "inputTokens": 5701,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 267,
+        "reasoningOutputTokens": 59
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

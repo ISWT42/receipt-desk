@@ -1,0 +1,10 @@
+{
+  "status": "done",
+  "decision": "keep-local-for-review",
+  "source": "Owner answer in the current conversation",
+  "viewer": "public/model-demo-2026-10-02T21-18-17-071Z-paired.html",
+  "publicationApproved": false,
+  "publicationPerformed": false,
+  "remoteChanges": [],
+  "historicalPreview": "results/recorded-viewer-preview-2026-10-02T23-58-22-851Z.json"
+}

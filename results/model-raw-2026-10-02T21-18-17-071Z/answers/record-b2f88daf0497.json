@@ -1,0 +1,60 @@
+{
+  "recordId": "record-b2f88daf0497",
+  "inputSha256": "666c595d3228ca2f264a31b109340dbcf7310f0c01457fe38d0e069701b120c1",
+  "prediction": {
+    "recordId": "record-b2f88daf0497",
+    "status": "failed",
+    "reason": "The final status check on batch-01, run after restarting report-cron, shows that the unit is failed rather than active.",
+    "receipt": {
+      "sourceId": "receipt-record-b2f88daf0497",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b2f88daf0497",
+      "step": 3,
+      "line": 6,
+      "text": "     Active: failed (Result: exit-code) since Wed 2026-09-16 11:20:06 UTC",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-b2f88daf0497\",\n  \"status\": \"failed\",\n  \"reason\": \"The final status check on batch-01, run after restarting report-cron, shows that the unit is failed rather than active.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-b2f88daf0497\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b2f88daf0497\",\n    \"step\": 3,\n    \"line\": 6,\n    \"text\": \"     Active: failed (Result: exit-code) since Wed 2026-09-16 11:20:06 UTC\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5995,
+        "inputTokens": 5605,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 390,
+        "reasoningOutputTokens": 166
+      },
+      "last": {
+        "totalTokens": 5995,
+        "inputTokens": 5605,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 390,
+        "reasoningOutputTokens": 166
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

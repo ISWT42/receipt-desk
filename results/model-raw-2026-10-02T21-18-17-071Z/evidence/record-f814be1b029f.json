@@ -1,0 +1,10 @@
+{
+  "_id": "receipt-record-f814be1b029f",
+  "recordId": "record-f814be1b029f",
+  "question": "Check that the production version endpoint reports api-gateway 5.3.0.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f814be1b029f",
+  "sourceDigest": "1e34d9f57e100c8fba43f19b96fcdd976f4232fa508666e503047f1d97f8341e",
+  "lineCount": 4,
+  "log": "1: $ shipit release api-gateway 5.3.0 --env prod\n2: [shipit] image registry.example/api-gateway:5.3.0 found (digest sha256:4be19c07e2a1)\n3: [shipit] release r-2291 submitted to cluster prod-eu\n4: [shipit] release r-2291 finished"
+}

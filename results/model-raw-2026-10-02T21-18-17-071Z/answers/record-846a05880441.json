@@ -1,0 +1,60 @@
+{
+  "recordId": "record-846a05880441",
+  "inputSha256": "3f1d9abc6a3da47b6a6494e694e5a71a1db8860eacd9f790fe7b6b3e26a9c8ee",
+  "prediction": {
+    "recordId": "record-846a05880441",
+    "status": "done",
+    "reason": "After the export completed, the schema check checked both files in exports/billing/2026-08 against billing_v4 and reported VALID.",
+    "receipt": {
+      "sourceId": "receipt-record-846a05880441",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-846a05880441",
+      "step": 2,
+      "line": 7,
+      "text": "result: VALID",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-846a05880441\",\n  \"status\": \"done\",\n  \"reason\": \"After the export completed, the schema check checked both files in exports/billing/2026-08 against billing_v4 and reported VALID.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-846a05880441\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-846a05880441\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"result: VALID\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5852,
+        "inputTokens": 5597,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 255,
+        "reasoningOutputTokens": 55
+      },
+      "last": {
+        "totalTokens": 5852,
+        "inputTokens": 5597,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 255,
+        "reasoningOutputTokens": 55
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

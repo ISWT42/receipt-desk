@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none';">
+<title>Receipt Desk | Engineering evidence</title>
+<style>
+:root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#202b38;background:#f5f4ef;font-size:15px;--ink:#202b38;--muted:#647183;--line:#d9ddd9;--blue:#244e73}
+*{box-sizing:border-box}body{margin:0}button,select,input{font:inherit}button,a,select,input{outline-offset:4px}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #dd9b32}
+header{padding:22px 36px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px;background:#fffef9}
+.brand{display:flex;gap:12px;align-items:center;font-size:20px;font-weight:750;letter-spacing:-.5px}.mark{color:var(--blue);font-family:monospace;font-size:28px}.eyebrow{font-size:11px;letter-spacing:1.2px;text-transform:uppercase;font-weight:750;color:var(--muted)}
+.provider{border:1px solid #ccd6df;border-radius:7px;padding:8px 12px;color:var(--blue);font-size:12px;font-weight:650}
+.intro{max-width:1500px;margin:auto;padding:26px 36px 22px;display:flex;gap:36px;justify-content:space-between;align-items:center}
+h1{font-size:32px;font-weight:680;letter-spacing:-1px;margin:7px 0 9px}p{line-height:1.6;margin:0;color:var(--muted)}
+.intro p{max-width:740px;font-size:14px}.metrics{display:flex;gap:24px;min-width:270px}.metric strong{display:block;font-size:25px;font-weight:650}.metric span{display:block;font-size:11px;color:var(--muted);margin-top:5px;max-width:110px}
+.layout{max-width:1500px;margin:0 auto;padding:0 36px 32px;display:grid;grid-template-columns:270px minmax(0,1fr);gap:22px}
+.sidebar{border:1px solid var(--line);border-radius:10px;background:#fffef9;overflow:hidden;align-self:start}
+.sidebar-top{padding:18px}.sidebar-top label{display:block;font-size:12px;font-weight:650;margin-bottom:9px}
+input{width:100%;border:1px solid #c8cfd1;padding:10px;border-radius:5px;background:white;font-size:12px}
+#record-list{max-height:690px;overflow:auto;padding:0 8px 8px}.record-button{border:0;border-radius:6px;background:transparent;width:100%;padding:12px;text-align:left;cursor:pointer;color:var(--ink);display:block;margin:3px 0}
+.record-button[aria-pressed=true]{background:#e8eff3;box-shadow:inset 3px 0 var(--blue)}.record-button:hover{background:#eff1ee}.record-button small{display:block;font-family:monospace;font-size:10px;color:var(--muted);margin-top:6px}.record-button span{font-size:12px;line-height:1.5;display:block}
+main{min-width:0}.main-top{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:13px}.main-top span{color:var(--muted);font-size:11px;font-family:monospace}.main-top label{font-size:12px;color:var(--muted)}select{border:1px solid #c5cdd0;border-radius:5px;padding:7px;background:#fffef9;font-size:12px;color:var(--ink);max-width:100%}
+.card{background:#fffef9;border:1px solid var(--line);border-radius:10px;padding:24px}.verdict{display:flex;align-items:flex-start;justify-content:space-between;gap:22px}.verdict h2{font-size:20px;line-height:1.45;letter-spacing:-.25px;margin:9px 0 15px;font-weight:650;max-width:640px}
+.status{font-size:21px;border-radius:6px;padding:11px 18px;white-space:nowrap;font-weight:700;margin-top:5px}.status[data-status=done]{color:#215843;background:#e5efe6}.status[data-status=failed]{color:#8d3933;background:#f8e8e4}.status[data-status="not shown"]{color:#765725;background:#f6efde}
+#reason{font-size:13px;color:#4f5d6d}.receipt{margin-top:21px;border-top:1px solid var(--line);padding-top:18px}.receipt a{font-size:12px;color:var(--blue);font-weight:600;text-decoration:none}.receipt pre{background:#eef2ef;padding:14px 16px;border-left:3px solid var(--blue);border-radius:4px;color:#293b4e;font-size:13px;white-space:pre-wrap;overflow-wrap:anywhere;margin:11px 0 7px}
+.coverage{font-size:11px;color:var(--muted)}.lower{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:18px;margin-top:18px}.lower .card{padding:20px}
+h3{font-size:15px;font-weight:650;margin:0 0 15px}.step{margin:14px 0 20px}.step-title{font-size:10px;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin-bottom:8px}.line{display:flex;gap:12px;font-family:Consolas,monospace;font-size:11px;line-height:1.65;border-radius:3px;padding:3px 7px;overflow-wrap:anywhere}
+.line .number{color:#8b959f;min-width:18px;flex-shrink:0;text-align:right}.line code{font:inherit;white-space:pre-wrap}.line.command{background:#f0f2ee;margin-bottom:5px}.line.evidence{background:#e6edf1;box-shadow:inset 3px 0 var(--blue)}#history{width:100%;margin-bottom:12px}
+.claim-status{font-size:12px;margin:10px 0;font-weight:600}.conflict{background:#fbf0e1;padding:11px 12px;border-radius:5px;margin-bottom:13px;font-size:12px;line-height:1.5;color:#765426}.reply{font-family:Consolas,monospace;font-size:11px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.6;color:#536373;margin:0;max-height:330px;overflow:auto}
+.not-model{margin-top:18px;font-size:11px;border-top:1px solid var(--line);padding-top:14px;line-height:1.6}
+footer{padding:0 36px 25px;max-width:1500px;margin:auto;color:var(--muted);font-size:11px;line-height:1.7}footer a{color:var(--blue)}.empty{font-size:12px;padding:15px;color:var(--muted)}
+@media(max-width:1050px){.intro{align-items:flex-start}.metrics{min-width:210px;gap:15px}.layout{grid-template-columns:230px minmax(0,1fr)}.lower{grid-template-columns:1fr}.verdict{flex-direction:column-reverse;gap:9px}.status{font-size:17px}}
+@media(max-width:700px){header{padding:17px 18px}.brand{font-size:18px}.provider{font-size:10px;max-width:160px}.intro{padding:21px 18px;display:block}h1{font-size:27px}.metrics{margin-top:19px;gap:27px}.layout{padding:0 18px 23px;display:block}.sidebar{margin-bottom:20px}#record-list{max-height:160px}.sidebar-top{padding:13px}.main-top{flex-wrap:wrap;gap:8px}.card{padding:18px}.verdict h2{font-size:18px}.lower{gap:15px}.line{font-size:10px}footer{padding:0 18px 20px}}
+@media(prefers-reduced-motion:no-preference){button{transition:background .12s}}
+</style>
+</head>
+<body>
+<header><div class="brand"><span class="mark" aria-hidden="true">[✓]</span>Receipt Desk</div><div class="provider">Local evidence • Context not connected</div></header>
+<section class="intro"><div><div class="eyebrow">Engineering status, with its source</div><h1>Is this work done?</h1><p>A successful setup step isn't a successful final check. Read the required step, compare the working agent's claim, and follow the exact line that supports the answer.</p></div><div class="metrics"><div class="metric"><strong id="accuracy">—</strong><span>local policy statuses correct</span></div><div class="metric"><strong id="false-done">—</strong><span>false done on failed or missing checks</span></div></div></section>
+<div class="layout">
+<aside class="sidebar" aria-label="Engineering records"><div class="sidebar-top"><label for="search">Choose a record</label><input id="search" type="search" placeholder="Search the task or record ID" autocomplete="off"></div><div id="record-list"></div></aside>
+<main>
+<div class="main-top"><span id="record-id"></span><label for="system">Compare&nbsp; <select id="system"><option value="structured">Structured policy</option><option value="keyword">Keyword search</option><option value="orderedRaw">Ordered raw text</option></select></label></div>
+<section class="card" aria-labelledby="question"><div class="verdict"><div><div class="eyebrow">Required outcome</div><h2 id="question"></h2><p id="reason"></p></div><div id="status" class="status" aria-live="polite"></div></div><div class="receipt"><a id="receipt-link" href="#source-record">Follow the receipt</a><pre id="receipt"></pre><div class="coverage" id="coverage"></div></div></section>
+<div class="lower">
+<section class="card" id="source-record" aria-labelledby="record-title"><h3 id="record-title">The source record</h3><div id="steps"></div></section>
+<section class="card" aria-labelledby="claim-title"><h3 id="claim-title">What the working agent claimed</h3><label class="eyebrow" for="history">Historical reply</label><select id="history"></select><div id="claimed-status" class="claim-status"></div><div id="conflict" class="conflict" hidden></div><pre id="reply" class="reply"></pre><p class="not-model">The status above comes from a deterministic policy. This file replays local results. It doesn't call Sanity or a model. The raw-text control reconstructs the same steps and gets the same result.</p></section>
+</div>
+</main>
+</div>
+<footer>Source: <a href="https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence" target="_blank" rel="noopener noreferrer">It Quoted the Failure: Benchmark Evidence</a>. CC BY 4.0. Command steps and historical replies were separated from the public source. No labels are embedded.<br>The supplied record cannot prove what happened outside it. A missing check earns “not shown”. Current Context, Knowledge Base, AI harness, and public hosting checks remain pending.</footer>
+<script type="application/json" id="desk-data">__DESK_DATA__</script>
+<script>
+const data=JSON.parse(document.getElementById('desk-data').textContent);
+const byId=new Map(data.records.map(r=>[r.recordId,r]));
+const claims=new Map(data.claims.map(r=>[r.recordId,r.replies]));
+const answers=Object.fromEntries(Object.entries(data.systems).map(([k,a])=>[k,new Map(a.map(r=>[r.recordId,r]))]));
+const $=id=>document.getElementById(id);
+let active=data.initialRecord;
+function add(tag,text,cls){const el=document.createElement(tag);if(text!=null)el.textContent=text;if(cls)el.className=cls;return el;}
+function parseClaim(text){try{return JSON.parse(text.trim().replace(/^```(?:json)?\s*/,'').replace(/\s*```$/,''));}catch{return{};}}
+function list(){
+ const q=$('search').value.toLowerCase();$('record-list').replaceChildren();
+ const items=data.records.filter(r=>(r.question+' '+r.recordId).toLowerCase().includes(q));
+ for(const r of items){const b=add('button');b.type='button';b.className='record-button';b.setAttribute('aria-pressed',r.recordId===active?'true':'false');b.append(add('span',r.question),add('small',r.recordId));b.addEventListener('click',()=>{active=r.recordId;render();list();});$('record-list').append(b);}
+ if(!items.length)$('record-list').append(add('div','No matching records.','empty'));
+}
+function history(){
+ const replies=claims.get(active)||[];const r=replies[Number($('history').value)||0];const result=answers.structured.get(active);
+ const parsed=parseClaim(r?.text||'');
+ $('claimed-status').textContent='Claimed status: '+(parsed.status||'not parsed');
+ $('reply').textContent=r?.text||'No recorded reply.';
+ const mismatch=parsed.status==='done'&&result.status!=='done';
+ $('conflict').hidden=!mismatch;$('conflict').textContent=mismatch?'The reply says done. The required check is '+result.status+'. The deciding source receipt remains visible beside this claim.':'';
+}
+function render(){
+ const doc=byId.get(active),mode=$('system').value,a=answers[mode].get(active);
+ $('record-id').textContent=doc.recordId;$('question').textContent=doc.question;
+ $('status').textContent=a.status;$('status').dataset.status=a.status;
+ $('reason').textContent=a.explanation;$('receipt').textContent=a.receipt.text;
+ $('coverage').textContent='Step '+a.receipt.step+' · line '+a.receipt.line+' · '+doc.lineCount+' source lines accounted for · '+a.receipt.scope;
+ $('receipt-link').textContent='Follow the receipt: step '+a.receipt.step+', line '+a.receipt.line;
+ $('receipt-link').href='#'+doc.recordId+'-line-'+a.receipt.line;
+ const s=data.summary.systems[mode];$('accuracy').textContent=s.correctTotal+'/'+s.total;
+ $('false-done').textContent=String(s.falseDoneFailed+s.falseDoneNotShown);
+ $('steps').replaceChildren();
+ for(const step of doc.steps){
+  const group=add('div',null,'step');group.append(add('div','Step '+step.order,'step-title'));
+  for(const l of [step.command,...step.output].filter(Boolean)){
+   const row=add('div',null,'line'+(l===step.command?' command':'')+(l.number===a.receipt.line?' evidence':''));
+   row.id=doc.recordId+'-line-'+l.number;row.append(add('span',String(l.number),'number'),add('code',l.text));group.append(row);
+  }$('steps').append(group);
+ }
+ $('history').replaceChildren();const replies=claims.get(active)||[];
+ let chosen=0;
+ for(let i=0;i<replies.length;i++){const r=replies[i],o=add('option',r.arm+' · '+r.model+' · run '+r.runId);o.value=String(i);$('history').append(o);}
+ const conflictIndex=replies.findIndex(r=>parseClaim(r.text).status==='done'&&answers.structured.get(active).status!=='done');
+ if(conflictIndex>=0)chosen=conflictIndex;$('history').value=String(chosen);history();
+}
+$('search').addEventListener('input',list);$('system').addEventListener('change',render);$('history').addEventListener('change',history);
+list();render();
+</script>
+</body></html>

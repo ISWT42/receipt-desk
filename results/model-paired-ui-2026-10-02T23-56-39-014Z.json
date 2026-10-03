@@ -1,0 +1,18 @@
+{
+  "status": "done",
+  "file": "public/model-demo-2026-10-02T21-18-17-071Z-paired.html",
+  "records": 48,
+  "answersCompared": 96,
+  "exactRetainedAnswers": true,
+  "caseCreditVerified": true,
+  "missFiltersVerified": true,
+  "sourceAnchorVerified": true,
+  "mobileOverflow": false,
+  "externalRequests": 0,
+  "pageErrors": 0,
+  "headless": true,
+  "screenshots": [
+    "work/model-paired-ui-2026-10-02T23-56-39-014Z-desktop.png",
+    "work/model-paired-ui-2026-10-02T23-56-39-014Z-mobile.png"
+  ]
+}

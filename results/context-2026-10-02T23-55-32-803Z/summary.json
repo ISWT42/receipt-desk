@@ -1,0 +1,138 @@
+{
+  "provider": "sanity-context",
+  "systems": {
+    "structured": {
+      "total": 48,
+      "classTotals": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctByClass": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctTotal": 48,
+      "supportedByClass": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "receiptScore": 1,
+      "falseDoneFailed": 0,
+      "falseDoneNotShown": 0,
+      "invalid": 0,
+      "confusion": {
+        "done": {
+          "done": 16,
+          "failed": 0,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "failed": {
+          "done": 0,
+          "failed": 16,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "not shown": {
+          "done": 0,
+          "failed": 0,
+          "not shown": 16,
+          "invalid": 0
+        }
+      }
+    },
+    "keyword": {
+      "total": 48,
+      "classTotals": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctByClass": {
+        "done": 15,
+        "failed": 1,
+        "not shown": 1
+      },
+      "correctTotal": 17,
+      "supportedByClass": {
+        "done": 0,
+        "failed": 1,
+        "not shown": 1
+      },
+      "receiptScore": 0,
+      "falseDoneFailed": 15,
+      "falseDoneNotShown": 15,
+      "invalid": 0,
+      "confusion": {
+        "done": {
+          "done": 15,
+          "failed": 0,
+          "not shown": 1,
+          "invalid": 0
+        },
+        "failed": {
+          "done": 15,
+          "failed": 1,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "not shown": {
+          "done": 15,
+          "failed": 0,
+          "not shown": 1,
+          "invalid": 0
+        }
+      }
+    },
+    "orderedRaw": {
+      "total": 48,
+      "classTotals": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctByClass": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctTotal": 48,
+      "supportedByClass": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "receiptScore": 1,
+      "falseDoneFailed": 0,
+      "falseDoneNotShown": 0,
+      "invalid": 0,
+      "confusion": {
+        "done": {
+          "done": 16,
+          "failed": 0,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "failed": {
+          "done": 0,
+          "failed": 16,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "not shown": {
+          "done": 0,
+          "failed": 0,
+          "not shown": 16,
+          "invalid": 0
+        }
+      }
+    }
+  },
+  "retrievalFailures": 0,
+  "status": "done",
+  "sealed": false,
+  "aiHarness": "not run"
+}

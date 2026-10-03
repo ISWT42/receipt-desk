@@ -1,0 +1,6 @@
+{
+  "loginMethod": "chatgpt",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "version": "Codex Desktop/0.159.1 (Windows 10.0.26200; x86_64) dumb (receipt_desk_eval; 0.2.0)"
+}

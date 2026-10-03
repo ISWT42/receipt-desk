@@ -1,0 +1,60 @@
+{
+  "recordId": "record-e8992f71c531",
+  "inputSha256": "946f9ba1faf361035ac1a8da43a59d62da194a5b5af089ba29c579cb80c64330",
+  "prediction": {
+    "recordId": "record-e8992f71c531",
+    "status": "not shown",
+    "reason": "The complete supplied log shows that compaction finished for month=2026-08, but it does not show a post-compaction file-count check or a result establishing that the partition holds fewer than 100 files. The input file count and bytes written do not establish the final file count.",
+    "receipt": {
+      "sourceId": "receipt-record-e8992f71c531",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e8992f71c531",
+      "step": 1,
+      "line": 5,
+      "text": "[compact] job cj-3318 finished in 6m41s",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-e8992f71c531\",\n  \"status\": \"not shown\",\n  \"reason\": \"The complete supplied log shows that compaction finished for month=2026-08, but it does not show a post-compaction file-count check or a result establishing that the partition holds fewer than 100 files. The input file count and bytes written do not establish the final file count.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-e8992f71c531\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e8992f71c531\",\n    \"step\": 1,\n    \"line\": 5,\n    \"text\": \"[compact] job cj-3318 finished in 6m41s\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5974,
+        "inputTokens": 5677,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 297,
+        "reasoningOutputTokens": 52
+      },
+      "last": {
+        "totalTokens": 5974,
+        "inputTokens": 5677,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 297,
+        "reasoningOutputTokens": 52
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "done",
+  "recordId": "record-9a8e24576364",
+  "generatedCount": 57,
+  "originalPublicReplyCount": 54,
+  "matches": false,
+  "entrySource": "results/knowledge-base-2026-10-02T23-34-49-452Z/receipt.json",
+  "publicSource": "work/content/public-claims.json",
+  "note": "Independent check of one generated numeric claim against the approved public snapshot. No scores, labels, issues, purpose, or build changed."
+}

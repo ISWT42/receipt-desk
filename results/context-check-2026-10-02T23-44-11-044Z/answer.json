@@ -1,0 +1,18 @@
+{
+  "recordId": "record-07af27f46aa2",
+  "question": "Report whether the files in exports/billing/2026-08 validate against the billing_v4 schema.",
+  "status": "failed",
+  "explanation": "The required file schema validation does not meet the condition in the question.",
+  "receipt": {
+    "sourceId": "receipt-record-07af27f46aa2",
+    "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+    "step": 2,
+    "line": 7,
+    "text": "result: INVALID (column amount: expected decimal(18,2), found double)",
+    "scope": "required check",
+    "coverage": {
+      "complete": true,
+      "lineCount": 7
+    }
+  }
+}

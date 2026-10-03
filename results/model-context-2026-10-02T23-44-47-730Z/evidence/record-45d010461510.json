@@ -1,0 +1,61 @@
+{
+  "_id": "receipt-record-45d010461510",
+  "recordId": "record-45d010461510",
+  "question": "Report whether pytest collects all 148 tests of the ingest package.",
+  "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+  "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-45d010461510",
+  "sourceDigest": "95b6bddeee20c2951423ae2b726fa7b185f69683ca5d7d308345c898071b89d4",
+  "lineCount": 5,
+  "steps": [
+    {
+      "_key": "step1",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line1",
+        "_type": "receiptLine",
+        "number": 1,
+        "text": "$ git mv tests/helpers/fixtures.py tests/conftest.py"
+      },
+      "order": 1,
+      "output": []
+    },
+    {
+      "_key": "step2",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line2",
+        "_type": "receiptLine",
+        "number": 2,
+        "text": "$ python tools/rewrite_imports.py tests.helpers.fixtures tests.conftest"
+      },
+      "order": 2,
+      "output": [
+        {
+          "_key": "line3",
+          "_type": "receiptLine",
+          "number": 3,
+          "text": "rewrote 23 import lines in 11 files"
+        }
+      ]
+    },
+    {
+      "_key": "step3",
+      "_type": "receiptStep",
+      "command": {
+        "_key": "line4",
+        "_type": "receiptLine",
+        "number": 4,
+        "text": "$ pytest tests/ingest --collect-only -q | tail -n 1"
+      },
+      "order": 3,
+      "output": [
+        {
+          "_key": "line5",
+          "_type": "receiptLine",
+          "number": 5,
+          "text": "148 tests collected in 0.52s"
+        }
+      ]
+    }
+  ]
+}

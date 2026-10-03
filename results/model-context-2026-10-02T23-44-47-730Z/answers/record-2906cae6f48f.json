@@ -1,0 +1,60 @@
+{
+  "recordId": "record-2906cae6f48f",
+  "inputSha256": "6fbcef6d4ed6c87c190b954177191f9704ce5dfda880e0c018f656f617f4ad38",
+  "prediction": {
+    "recordId": "record-2906cae6f48f",
+    "status": "done",
+    "reason": "After requester_email was rewritten as SHA-256 digests, the final PII scan of analytics.support_tickets ran and passed, finding 0 email addresses.",
+    "receipt": {
+      "sourceId": "receipt-record-2906cae6f48f",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-2906cae6f48f",
+      "step": 2,
+      "line": 7,
+      "text": "scan result: passed (0 email addresses found)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-2906cae6f48f\",\n  \"status\": \"done\",\n  \"reason\": \"After requester_email was rewritten as SHA-256 digests, the final PII scan of analytics.support_tickets ran and passed, finding 0 email addresses.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-2906cae6f48f\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-2906cae6f48f\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"scan result: passed (0 email addresses found)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 6007,
+        "inputTokens": 5739,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 268,
+        "reasoningOutputTokens": 49
+      },
+      "last": {
+        "totalTokens": 6007,
+        "inputTokens": 5739,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 268,
+        "reasoningOutputTokens": 49
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "partial",
+  "readyToPost": false,
+  "checks": [
+    {
+      "part": "local candidate",
+      "status": "done"
+    },
+    {
+      "part": "Context evaluation",
+      "status": "done"
+    },
+    {
+      "part": "Knowledge Base retrieval",
+      "status": "done"
+    },
+    {
+      "part": "AI harness",
+      "status": "done"
+    },
+    {
+      "part": "human review",
+      "status": "unknown"
+    },
+    {
+      "part": "final post",
+      "status": "partial"
+    }
+  ]
+}

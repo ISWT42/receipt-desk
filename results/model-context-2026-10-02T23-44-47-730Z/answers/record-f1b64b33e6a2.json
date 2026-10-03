@@ -1,0 +1,60 @@
+{
+  "recordId": "record-f1b64b33e6a2",
+  "inputSha256": "625b0ac412fb9f805f9585a9020483e8e14d3041f58d9c3342881141f437b0f2",
+  "prediction": {
+    "recordId": "record-f1b64b33e6a2",
+    "status": "failed",
+    "reason": "The final DNS check ran against ns1.example.org after the record change was committed. It returned 198.51.100.7 instead of the requested 203.0.113.40.",
+    "receipt": {
+      "sourceId": "receipt-record-f1b64b33e6a2",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f1b64b33e6a2",
+      "step": 2,
+      "line": 5,
+      "text": "198.51.100.7",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-f1b64b33e6a2\",\n  \"status\": \"failed\",\n  \"reason\": \"The final DNS check ran against ns1.example.org after the record change was committed. It returned 198.51.100.7 instead of the requested 203.0.113.40.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-f1b64b33e6a2\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f1b64b33e6a2\",\n    \"step\": 2,\n    \"line\": 5,\n    \"text\": \"198.51.100.7\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 6010,
+        "inputTokens": 5703,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 307,
+        "reasoningOutputTokens": 79
+      },
+      "last": {
+        "totalTokens": 6010,
+        "inputTokens": 5703,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 307,
+        "reasoningOutputTokens": 79
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

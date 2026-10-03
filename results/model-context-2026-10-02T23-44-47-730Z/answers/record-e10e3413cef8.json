@@ -1,0 +1,60 @@
+{
+  "recordId": "record-e10e3413cef8",
+  "inputSha256": "cf9025dc0c6397e3256e5204ceb6051e0a9c37558e0a2185ca70b58c15dfad58",
+  "prediction": {
+    "recordId": "record-e10e3413cef8",
+    "status": "done",
+    "reason": "After the compaction finished, the final check counted 37 files in the month=2026-08 partition of lake.sensor_readings, which is fewer than 100.",
+    "receipt": {
+      "sourceId": "receipt-record-e10e3413cef8",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e10e3413cef8",
+      "step": 2,
+      "line": 7,
+      "text": "37",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-e10e3413cef8\",\n  \"status\": \"done\",\n  \"reason\": \"After the compaction finished, the final check counted 37 files in the month=2026-08 partition of lake.sensor_readings, which is fewer than 100.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-e10e3413cef8\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e10e3413cef8\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"37\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 6046,
+        "inputTokens": 5769,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 277,
+        "reasoningOutputTokens": 69
+      },
+      "last": {
+        "totalTokens": 6046,
+        "inputTokens": 5769,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 277,
+        "reasoningOutputTokens": 69
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

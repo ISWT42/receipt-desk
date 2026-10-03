@@ -1,0 +1,60 @@
+{
+  "recordId": "record-3cd4f22e6a0c",
+  "inputSha256": "0d3f301808c41ce6fe1867347792ffa26e9c570be0e7170541d7b315cbbcba91",
+  "prediction": {
+    "recordId": "record-3cd4f22e6a0c",
+    "status": "done",
+    "reason": "After annual_report_2026.xlsx was updated with chart descriptions, the final accessibility check ran against that workbook using the wcag21-aa standard and reported that it passed.",
+    "receipt": {
+      "sourceId": "receipt-record-3cd4f22e6a0c",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3cd4f22e6a0c",
+      "step": 2,
+      "line": 7,
+      "text": "accessibility check: passed",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-3cd4f22e6a0c\",\n  \"status\": \"done\",\n  \"reason\": \"After annual_report_2026.xlsx was updated with chart descriptions, the final accessibility check ran against that workbook using the wcag21-aa standard and reported that it passed.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-3cd4f22e6a0c\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3cd4f22e6a0c\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"accessibility check: passed\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5974,
+        "inputTokens": 5753,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 221,
+        "reasoningOutputTokens": 0
+      },
+      "last": {
+        "totalTokens": 5974,
+        "inputTokens": 5753,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 221,
+        "reasoningOutputTokens": 0
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

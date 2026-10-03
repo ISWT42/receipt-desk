@@ -1,0 +1,139 @@
+{
+  "status": "done",
+  "outline": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Receipt Desk: Context\n\n## Efficiency\n\nPrefer well-constructed queries over multiple exploratory calls.\n\n## Accuracy\n\nOnly state what the data explicitly says. Don't infer, extrapolate, or connect dots that aren't there. Every claim should be grounded in content you retrieved.\n\nIf your query results are incomplete:\n- Answer with what you found\n- Be explicit about what's missing rather than guessing\n\nWhen uncertain, acknowledge it. Better to say \"I'm not certain\" than to confidently state something wrong.\n\n## Tools\n\n- **knowledge_base_read**: Read full entries from a knowledge base by its id and entry paths (both shown in the Knowledge bases outline below).\n- **knowledge_base_search**: Keyword-search a knowledge base's entry content and get ranked entry paths with scores. Use it when the outline alone does not tell you where an answer lives, then read the winning paths with `knowledge_base_read`.\n\n\n# Knowledge bases\n\nKnowledge base id: `kbGtaUln7JDn`\n\n## Receipt Desk — Help a status desk find engineering records by neutral record ID and expose historical model claims that conflict with those records. Preserve ordered commands, exact output lines, source links, and record identity. Keep similarly worded questions from distinct records separate. Treat model replies as claims, not proof that a check passed.\n19 entries.\n\naccessibility_compliance/records [core]\n\nclaims/conflict_detection [core]\n\nclaims/extraction_evidence [core]\n\ncommands/helm_payments [core]\n\ndata_lake_compaction/records [core]\n\nelasticsearch_node_configuration/records [core]\n\nfirewall_rule_connectivity/fw2207_pass [core]\n\nidentity [core]\n\nmethodology/canary_records [core]\n\npostgres16_tox_testing/records\n\npytest_fixture_refactoring/collection_count_conflict [core]\n\nrecords/configuration/dns_records [core]\n\nrecords/data_operations/billing_export [core]\n\nrecords/data_quality/pii_scan [core]\n\nrecords/deployment/release_r2291_success [core]\n\nrecords/document_formatting/board_pack_records [core]\n\nrecords/testing/checkout_runs [core]\n\nreport_cron_deployment\n\nvat_formula_correction/records [core]"
+      }
+    ]
+  },
+  "toolReceipts": [
+    {
+      "method": "initialize",
+      "result": {
+        "protocolVersion": "2025-03-26",
+        "capabilities": {
+          "tools": {
+            "listChanged": true
+          }
+        },
+        "serverInfo": {
+          "name": "sanity-context",
+          "version": "1.0.0"
+        },
+        "instructions": "# Receipt Desk\n\nThis MCP provides access to knowledge bases. If you haven't already been given the knowledge base outlines and usage instructions, **call the `initial_context` tool first**."
+      },
+      "at": "2026-10-02T23:34:20.982Z"
+    },
+    {
+      "method": "tools/list",
+      "result": {
+        "tools": [
+          {
+            "name": "initial_context",
+            "description": "**Call this first**, unless its output was already provided to you (for example in your system prompt). It initializes your session.\n\n\nReturns:\n- Outline of each attached knowledge base, with the knowledge base ids and entry paths used by `knowledge_base_read` and `knowledge_base_search`",
+            "inputSchema": {
+              "$schema": "http://json-schema.org/draft-07/schema#",
+              "type": "object",
+              "properties": {}
+            },
+            "execution": {
+              "taskSupport": "forbidden"
+            }
+          },
+          {
+            "name": "knowledge_base_read",
+            "description": "Reads the full content of one or more entries from a knowledge base. Specify the knowledge base by its id (the `kb…` value on the \"Knowledge base id:\" line above its outline in initial_context) and the entry paths listed in the outline. Pass several related paths at once to avoid round-trips.\n\nWhen you're unsure which entry contains the answer, prefer overfetching: if you have 2-5 candidate paths that might be relevant, read them all in one call. Round-trip latency is more expensive than reading extra content, so it's better to read multiple entries once than to make sequential requests.",
+            "inputSchema": {
+              "$schema": "http://json-schema.org/draft-07/schema#",
+              "type": "object",
+              "properties": {
+                "knowledgeBase": {
+                  "type": "string",
+                  "description": "The knowledge base to read from, identified by its id (the `kb…` value on the \"Knowledge base id:\" line above its outline in initial_context)."
+                },
+                "paths": {
+                  "minItems": 1,
+                  "maxItems": 20,
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "description": "One or more entry paths to read, taken verbatim from the knowledge base outline (e.g. [\"groq/functions\", \"studio/configuration\"]). Read several related entries in one call rather than many round-trips."
+                }
+              },
+              "required": [
+                "knowledgeBase",
+                "paths"
+              ]
+            },
+            "execution": {
+              "taskSupport": "forbidden"
+            }
+          },
+          {
+            "name": "knowledge_base_search",
+            "description": "Searches a knowledge base's entry content by keyword (BM25) and returns hits ranked by relevance. Specify the knowledge base by its id from initial_context. Use it when the outline alone does not tell you where an answer lives.\n\nSearch with `return: \"paths\"` to get ranked entry paths, then read the winners with knowledge_base_read in one call. Use `return: \"entries\"` to get the full entries directly when you expect only one or two relevant hits.\n\nMatching is exact keywords, not semantic or fuzzy: use words that appear in the content, and add synonyms or variants when unsure.",
+            "inputSchema": {
+              "$schema": "http://json-schema.org/draft-07/schema#",
+              "type": "object",
+              "properties": {
+                "knowledgeBase": {
+                  "type": "string",
+                  "description": "The knowledge base to search, identified by its id (the `kb…` value on the \"Knowledge base id:\" line above its outline in initial_context)."
+                },
+                "query": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Keywords to search for. Matching is exact: use words that appear in the content, adding synonyms or variants when unsure."
+                },
+                "return": {
+                  "default": "paths",
+                  "description": "`paths` (default) returns ranked entry paths (with title, summary, score) to follow up with knowledge_base_read. `entries` returns the full rendered entries directly.",
+                  "type": "string",
+                  "enum": [
+                    "paths",
+                    "entries"
+                  ]
+                },
+                "limit": {
+                  "default": 5,
+                  "description": "Maximum number of results (1-20, default 5).",
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 20
+                }
+              },
+              "required": [
+                "knowledgeBase",
+                "query"
+              ]
+            },
+            "execution": {
+              "taskSupport": "forbidden"
+            }
+          }
+        ]
+      },
+      "at": "2026-10-02T23:34:21.776Z"
+    },
+    {
+      "method": "tools/call",
+      "tool": "initial_context",
+      "arguments": {},
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "# Receipt Desk: Context\n\n## Efficiency\n\nPrefer well-constructed queries over multiple exploratory calls.\n\n## Accuracy\n\nOnly state what the data explicitly says. Don't infer, extrapolate, or connect dots that aren't there. Every claim should be grounded in content you retrieved.\n\nIf your query results are incomplete:\n- Answer with what you found\n- Be explicit about what's missing rather than guessing\n\nWhen uncertain, acknowledge it. Better to say \"I'm not certain\" than to confidently state something wrong.\n\n## Tools\n\n- **knowledge_base_read**: Read full entries from a knowledge base by its id and entry paths (both shown in the Knowledge bases outline below).\n- **knowledge_base_search**: Keyword-search a knowledge base's entry content and get ranked entry paths with scores. Use it when the outline alone does not tell you where an answer lives, then read the winning paths with `knowledge_base_read`.\n\n\n# Knowledge bases\n\nKnowledge base id: `kbGtaUln7JDn`\n\n## Receipt Desk — Help a status desk find engineering records by neutral record ID and expose historical model claims that conflict with those records. Preserve ordered commands, exact output lines, source links, and record identity. Keep similarly worded questions from distinct records separate. Treat model replies as claims, not proof that a check passed.\n19 entries.\n\naccessibility_compliance/records [core]\n\nclaims/conflict_detection [core]\n\nclaims/extraction_evidence [core]\n\ncommands/helm_payments [core]\n\ndata_lake_compaction/records [core]\n\nelasticsearch_node_configuration/records [core]\n\nfirewall_rule_connectivity/fw2207_pass [core]\n\nidentity [core]\n\nmethodology/canary_records [core]\n\npostgres16_tox_testing/records\n\npytest_fixture_refactoring/collection_count_conflict [core]\n\nrecords/configuration/dns_records [core]\n\nrecords/data_operations/billing_export [core]\n\nrecords/data_quality/pii_scan [core]\n\nrecords/deployment/release_r2291_success [core]\n\nrecords/document_formatting/board_pack_records [core]\n\nrecords/testing/checkout_runs [core]\n\nreport_cron_deployment\n\nvat_formula_correction/records [core]"
+          }
+        ]
+      },
+      "at": "2026-10-02T23:34:22.346Z"
+    }
+  ],
+  "observedAt": "2026-10-02T23:34:22.346Z",
+  "note": "Read-only first-build snapshot under the saved conflict policy. No issue action."
+}

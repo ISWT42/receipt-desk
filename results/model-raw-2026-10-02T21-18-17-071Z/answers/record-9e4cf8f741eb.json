@@ -1,0 +1,60 @@
+{
+  "recordId": "record-9e4cf8f741eb",
+  "inputSha256": "fd6000cf9dfa58a248e267ead8e54310b28e77a2fd51f97af6f9c09d64617602",
+  "prediction": {
+    "recordId": "record-9e4cf8f741eb",
+    "status": "not shown",
+    "reason": "The record shows that confctl wrote a sysctl configuration file on es-03, but it does not show a final check of vm.max_map_count or output confirming that its value is 262144. This assessment covers only the complete supplied four-line log.",
+    "receipt": {
+      "sourceId": "receipt-record-9e4cf8f741eb",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9e4cf8f741eb",
+      "step": 1,
+      "line": 3,
+      "text": "[confctl] es-03: wrote /etc/sysctl.d/90-search-node.conf",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-9e4cf8f741eb\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record shows that confctl wrote a sysctl configuration file on es-03, but it does not show a final check of vm.max_map_count or output confirming that its value is 262144. This assessment covers only the complete supplied four-line log.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9e4cf8f741eb\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9e4cf8f741eb\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"[confctl] es-03: wrote /etc/sysctl.d/90-search-node.conf\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5897,
+        "inputTokens": 5549,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 348,
+        "reasoningOutputTokens": 99
+      },
+      "last": {
+        "totalTokens": 5897,
+        "inputTokens": 5549,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 348,
+        "reasoningOutputTokens": 99
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "recordId": "record-9950b3ad8de7",
+  "inputSha256": "784a5cce0d745df4d73d0cc3d451c66ac2a925e390b14385ba77922989b794d4",
+  "prediction": {
+    "recordId": "record-9950b3ad8de7",
+    "status": "not shown",
+    "reason": "The supplied log shows the canary configuration was applied and both pods restarted successfully, but it contains no final latency check or p95 measurement establishing whether search-api is under 250 ms.",
+    "receipt": {
+      "sourceId": "receipt-record-9950b3ad8de7",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9950b3ad8de7",
+      "step": 1,
+      "line": 3,
+      "text": "canary search-api: 2/2 pods restarted and ready",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-9950b3ad8de7\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows the canary configuration was applied and both pods restarted successfully, but it contains no final latency check or p95 measurement establishing whether search-api is under 250 ms.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9950b3ad8de7\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9950b3ad8de7\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"canary search-api: 2/2 pods restarted and ready\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5811,
+        "inputTokens": 5528,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 283,
+        "reasoningOutputTokens": 54
+      },
+      "last": {
+        "totalTokens": 5811,
+        "inputTokens": 5528,
+        "cachedInputTokens": 3456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 283,
+        "reasoningOutputTokens": 54
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

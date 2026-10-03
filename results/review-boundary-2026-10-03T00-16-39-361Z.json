@@ -1,0 +1,16 @@
+{
+  "status": "partial",
+  "firstSnapshot": "work/review-2026-10-03T00-14-19-524Z",
+  "firstArchive": "public/receipt-desk-review-2026-10-03T00-14-19-524Z.zip",
+  "archiveDigestCheck": "passed",
+  "additionalPrivacyCheck": "failed",
+  "ownerPathMatches": 2,
+  "possiblePrivateValueMatches": 0,
+  "matchedFiles": [
+    "app/scripts/deploy-studio-checked.mjs",
+    "app/scripts/publish-recorded-viewer.mjs"
+  ],
+  "handling": "Originals and first archive preserved locally. Exclude these two operational helpers from the fresh portable review archive, then repeat both unchanged checks.",
+  "published": false,
+  "judgesChanged": false
+}

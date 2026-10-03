@@ -1,0 +1,60 @@
+{
+  "recordId": "record-07af27f46aa2",
+  "inputSha256": "9a4ed00589397992a3f3bd9ac045bf312f33fbdb5e654362f477398ab1f5b081",
+  "prediction": {
+    "recordId": "record-07af27f46aa2",
+    "status": "failed",
+    "reason": "The final schema check ran after the export and checked both files in exports/billing/2026-08 against billing_v4. Validation failed because the amount column was double rather than the required decimal(18,2).",
+    "receipt": {
+      "sourceId": "receipt-record-07af27f46aa2",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-07af27f46aa2",
+      "step": 2,
+      "line": 7,
+      "text": "result: INVALID (column amount: expected decimal(18,2), found double)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\n  \"recordId\": \"record-07af27f46aa2\",\n  \"status\": \"failed\",\n  \"reason\": \"The final schema check ran after the export and checked both files in exports/billing/2026-08 against billing_v4. Validation failed because the amount column was double rather than the required decimal(18,2).\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-07af27f46aa2\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-07af27f46aa2\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"result: INVALID (column amount: expected decimal(18,2), found double)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5955,
+        "inputTokens": 5622,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 333,
+        "reasoningOutputTokens": 97
+      },
+      "last": {
+        "totalTokens": 5955,
+        "inputTokens": 5622,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 333,
+        "reasoningOutputTokens": 97
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  }
+}

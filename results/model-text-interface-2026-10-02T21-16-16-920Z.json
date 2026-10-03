@@ -1,0 +1,55 @@
+{
+  "status": "done",
+  "checkedAt": "2026-10-02T21:16:12.454Z",
+  "synthetic": true,
+  "notBenchmark": true,
+  "settings": {
+    "loginMethod": "chatgpt",
+    "model": "gpt-6.1-sol",
+    "effort": "high",
+    "version": "Codex Desktop/0.159.1 (Windows 10.0.26200; x86_64) dumb (receipt_desk_eval; 0.2.0)"
+  },
+  "result": {
+    "status": "completed",
+    "messages": [
+      "{\"echoed\":\"Evidence-only synthetic text check.\",\"hasWorkspace\":false}"
+    ],
+    "calls": [],
+    "usage": {
+      "total": {
+        "totalTokens": 5020,
+        "inputTokens": 4995,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 25,
+        "reasoningOutputTokens": 0
+      },
+      "last": {
+        "totalTokens": 5020,
+        "inputTokens": 4995,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 25,
+        "reasoningOutputTokens": 0
+      },
+      "modelContextWindow": 258400
+    },
+    "retrievalError": null,
+    "errors": [],
+    "settings": {
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "loginMethod": "chatgpt",
+      "serviceTier": "default",
+      "ephemeral": true,
+      "environments": [],
+      "effectiveModel": "gpt-6.1-sol",
+      "effectiveProvider": "openai",
+      "instructionSources": []
+    }
+  },
+  "answer": {
+    "echoed": "Evidence-only synthetic text check.",
+    "hasWorkspace": false
+  }
+}
