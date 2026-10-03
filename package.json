@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prepare": "node app/scripts/prepare.mjs",
+    "prepare:data": "node app/scripts/prepare.mjs",
     "check": "node app/scripts/check.mjs",
     "evaluate": "node app/scripts/evaluate.mjs",
     "demo": "node app/scripts/demo.mjs",

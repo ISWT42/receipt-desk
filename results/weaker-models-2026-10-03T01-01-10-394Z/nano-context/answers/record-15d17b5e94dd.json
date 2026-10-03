@@ -1,0 +1,48 @@
+{
+  "recordId": "record-15d17b5e94dd",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "c313f45dcdbca2714311547b1f28b3ffc34aa8562b835dfcc4d78a005b294e3f",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1104,
+    "outputTokens": 347,
+    "reasoningTokens": 86,
+    "outputTokensChargedForBound": 433,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00076205,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.734382825,
+  "prediction": {
+    "recordId": "record-15d17b5e94dd",
+    "status": "failed",
+    "reason": "The staging end-to-end checkout test did not pass; the Playwright run shows the guest checkout test marked as failed and reports 1 failed.",
+    "receipt": {
+      "sourceId": "c49c9f63ff7e775fab3d80f18dcfbb3b01a33f01dfee1299a6e8e52f5a5abb1a",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-15d17b5e94dd",
+      "step": 2,
+      "line": 7,
+      "text": "  x  1 [staging] e2e/checkout.spec.ts:12:5 guest checkout completes (30.1s)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 8
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-15d17b5e94dd\",\n  \"status\": \"failed\",\n  \"reason\": \"The staging end-to-end checkout test did not pass; the Playwright run shows the guest checkout test marked as failed and reports 1 failed.\",\n  \"receipt\": {\n    \"sourceId\": \"c49c9f63ff7e775fab3d80f18dcfbb3b01a33f01dfee1299a6e8e52f5a5abb1a\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-15d17b5e94dd\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"  x  1 [staging] e2e/checkout.spec.ts:12:5 guest checkout completes (30.1s)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 8\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211908-448-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1104/347/86; time 4108 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:19:12.586Z"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "done",
+  "phase": "local transport and accounting tests; no labels read",
+  "command": "node --test app/tests/weaker-usage-candidate.test.mjs app/tests/weaker-schema.test.mjs app/tests/weaker-cli.test.mjs",
+  "tests": 7,
+  "passed": 7,
+  "failed": 0,
+  "proof": [
+    "tests 7",
+    "pass 7",
+    "fail 0"
+  ],
+  "controllerSha256": "2aed720b2135ca37d749f6e23d0c6d873a5573d1681707211fd9c1a8c57ebf55",
+  "accountingSha256": "9baf39c79fc32d75fbd05950e605bcba40a129a680c29882435a203e4298cd19",
+  "decoderSha256": "a66947336cf0fcb21ca92fc412f8848f6f15f5c7eff78427ee8df67d04872425",
+  "schemaAdapterSha256": "d6ddef2cfebb85d0255d5f2fc1419f6e7de238e0b13cb25d7d23d0be4ae2d0f6",
+  "scorerUnchanged": true,
+  "modelScoresRead": false
+}

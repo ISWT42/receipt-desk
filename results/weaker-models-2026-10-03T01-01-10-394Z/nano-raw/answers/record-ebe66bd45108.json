@@ -1,0 +1,48 @@
+{
+  "recordId": "record-ebe66bd45108",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "7fbdb71f23849f3504dad6244b0253b318567c57a73e039952a7b8acb3ff69ea",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 839,
+    "outputTokens": 416,
+    "reasoningTokens": 207,
+    "outputTokensChargedForBound": 623,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00094655,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.727005022,
+  "prediction": {
+    "recordId": "record-ebe66bd45108",
+    "status": "not shown",
+    "reason": "The record only shows creation of the pg16 tox environment and starting the Postgres container; it does not show running the pg16 tox environment or any passing test/exit status.",
+    "receipt": {
+      "sourceId": "receipt-record-ebe66bd45108",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-ebe66bd45108",
+      "step": 2,
+      "line": 4,
+      "text": "Container ci-pg16-1  Started",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-ebe66bd45108\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record only shows creation of the pg16 tox environment and starting the Postgres container; it does not show running the pg16 tox environment or any passing test/exit status.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-ebe66bd45108\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-ebe66bd45108\",\n    \"step\": 2,\n    \"line\": 4,\n    \"text\": \"Container ci-pg16-1  Started\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211824-287-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 839/416/207; time 4639 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:18:28.950Z"
+}

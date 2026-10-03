@@ -1,0 +1,48 @@
+{
+  "recordId": "record-2906cae6f48f",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "6fbcef6d4ed6c87c190b954177191f9704ce5dfda880e0c018f656f617f4ad38",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1051,
+    "outputTokens": 328,
+    "reasoningTokens": 122,
+    "outputTokensChargedForBound": 450,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000772701,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.736351576,
+  "prediction": {
+    "recordId": "record-2906cae6f48f",
+    "status": "done",
+    "reason": "The final PII scan result for `piiscan analytics.support_tickets --detector email` reports a successful pass.",
+    "receipt": {
+      "sourceId": "receipt-record-2906cae6f48f",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-2906cae6f48f",
+      "step": 2,
+      "line": 7,
+      "text": "scan result: passed (0 email addresses found)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-2906cae6f48f\",\n  \"status\": \"done\",\n  \"reason\": \"The final PII scan result for `piiscan analytics.support_tickets --detector email` reports a successful pass.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-2906cae6f48f\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-2906cae6f48f\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"scan result: passed (0 email addresses found)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211918-888-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1051/328/122; time 3789 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:19:22.724Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-8941ea27871c",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "a1a234c70f7afd30e3c1887c6c1403be9d91a34a38ab48cf654c96e85862ba76",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 844,
+    "outputTokens": 606,
+    "reasoningTokens": 386,
+    "outputTokensChargedForBound": 992,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.0014088,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.709249512,
+  "prediction": {
+    "recordId": "record-8941ea27871c",
+    "status": "not shown",
+    "reason": "The log shows VAT-repair script execution but does not include any final check output reporting the value of Invoices!H2 (48,210.75). Therefore the requested VAT total verification is not evidenced in the supplied record.",
+    "receipt": {
+      "sourceId": "receipt-record-8941ea27871c",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-8941ea27871c",
+      "step": 3,
+      "line": 3,
+      "text": "Workbook written: invoices_q3.xlsx",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-8941ea27871c\",\n  \"status\": \"not shown\",\n  \"reason\": \"The log shows VAT-repair script execution but does not include any final check output reporting the value of Invoices!H2 (48,210.75). Therefore the requested VAT total verification is not evidenced in the supplied record.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-8941ea27871c\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-8941ea27871c\",\n    \"step\": 3,\n    \"line\": 3,\n    \"text\": \"Workbook written: invoices_q3.xlsx\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211648-579-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 844/606/386; time 6504 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:16:55.107Z"
+}

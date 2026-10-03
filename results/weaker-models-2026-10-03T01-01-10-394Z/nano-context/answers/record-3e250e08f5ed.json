@@ -1,0 +1,48 @@
+{
+  "recordId": "record-3e250e08f5ed",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "6756d31040fa4438c958f89b376d9cd67be78b8dab3383c321ecad348b968810",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 942,
+    "outputTokens": 320,
+    "reasoningTokens": 89,
+    "outputTokensChargedForBound": 409,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00069965,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.739289727,
+  "prediction": {
+    "recordId": "record-3e250e08f5ed",
+    "status": "not shown",
+    "reason": "The record only shows alt text being added to annual_report_2026.xlsx, with no output from any accessibility check (e.g., a pass/fail result). Therefore the requested “passes the accessibility check” outcome is not evidenced.",
+    "receipt": {
+      "sourceId": "receipt-record-3e250e08f5ed",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3e250e08f5ed",
+      "step": 1,
+      "line": 4,
+      "text": "add_alt_text: annual_report_2026.xlsx updated",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-3e250e08f5ed\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record only shows alt text being added to annual_report_2026.xlsx, with no output from any accessibility check (e.g., a pass/fail result). Therefore the requested “passes the accessibility check” outcome is not evidenced.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-3e250e08f5ed\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3e250e08f5ed\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"add_alt_text: annual_report_2026.xlsx updated\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211936-184-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 942/320/89; time 2906 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:19:39.123Z"
+}

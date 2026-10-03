@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "approvedBeforeFirstCall": true,
+  "jobFile": "work/weaker-job-2026-10-03T00-36-49-176Z.json",
+  "systemSha256": "c44cd5f333afc1ecfd0ebe2a77a1939d4251c6df72bf5bc852a6c77fed736f92",
+  "transportNote": "WEAKER-MODEL-TRANSPORT-BUDGET-2026-10-03.md",
+  "transportNoteSha256": "4230bd77e78322b5afda25b74d31fb6462e470a8a497e0c12121fea0745cd855",
+  "originalUserPromptsMatch": true,
+  "systemSourcesUnchanged": true,
+  "noScoresRead": true,
+  "sealedPredictionsSha256": "a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f",
+  "firstCallReviewNoRetry": true,
+  "startupFailurePreserved": true,
+  "paidCallsBeforeThisJob": 0
+}

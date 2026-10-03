@@ -1,0 +1,13 @@
+{
+  "status": "done",
+  "jobFile": "work/weaker-continuation-2026-10-03T01-01-10-394Z.json",
+  "approvedBeforeContinuation": true,
+  "accountingNote": "WEAKER-MODEL-CONTINUATION-ACCOUNTING-2026-10-03.md",
+  "accountingNoteSha256": "8fede84087ea78b12c01800c38e64ed2add21eda49c0c2c9110df771c818100c",
+  "originalSeedPreserved": true,
+  "originalSeedNeverRetried": true,
+  "remainingCalls": 191,
+  "noScoresRead": true,
+  "originalFrozenInputsUnchanged": true,
+  "systemSha256": "c44cd5f333afc1ecfd0ebe2a77a1939d4251c6df72bf5bc852a6c77fed736f92"
+}

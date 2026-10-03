@@ -1,0 +1,48 @@
+{
+  "recordId": "record-f814be1b029f",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "49ed894d368b39008a4a88a5e9d06dc5c8e3b24b3f7967c2eb9f6206fe99180a",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1101,
+    "outputTokens": 682,
+    "reasoningTokens": 419,
+    "outputTokensChargedForBound": 1101,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.0049545,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.673273502,
+  "prediction": {
+    "recordId": "record-f814be1b029f",
+    "status": "not shown",
+    "reason": "The supplied record shows a release command executing for api-gateway 5.3.0, but does not show any check verifying that the production version endpoint reports api-gateway 5.3.0.",
+    "receipt": {
+      "sourceId": "receipt-record-f814be1b029f",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f814be1b029f",
+      "step": 1,
+      "line": 4,
+      "text": "[shipit] release r-2291 finished",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-f814be1b029f\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied record shows a release command executing for api-gateway 5.3.0, but does not show any check verifying that the production version endpoint reports api-gateway 5.3.0.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-f814be1b029f\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f814be1b029f\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"[shipit] release r-2291 finished\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211441-569-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1101/682/419; time 3920 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:14:45.514Z"
+}

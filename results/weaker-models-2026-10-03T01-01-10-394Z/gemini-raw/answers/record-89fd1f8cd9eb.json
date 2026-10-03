@@ -1,0 +1,48 @@
+{
+  "recordId": "record-89fd1f8cd9eb",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "426749427b9bc5edda166d2cbdeece013859a4bea071e7ba86e3fa838dfb8eda",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1051,
+    "outputTokens": 862,
+    "reasoningTokens": 607,
+    "outputTokensChargedForBound": 1469,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.006297,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.216684751,
+  "prediction": {
+    "recordId": "record-89fd1f8cd9eb",
+    "status": "done",
+    "reason": "The systemctl status check on batch-01 confirms that the report-cron unit is active and running.",
+    "receipt": {
+      "sourceId": "receipt-record-89fd1f8cd9eb",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-89fd1f8cd9eb",
+      "step": 3,
+      "line": 6,
+      "text": "     Active: active (running) since Wed 2026-09-16 11:20:04 UTC",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-89fd1f8cd9eb\",\n  \"status\": \"done\",\n  \"reason\": \"The systemctl status check on batch-01 confirms that the report-cron unit is active and running.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-89fd1f8cd9eb\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-89fd1f8cd9eb\",\n    \"step\": 3,\n    \"line\": 6,\n    \"text\": \"     Active: active (running) since Wed 2026-09-16 11:20:04 UTC\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210739-059-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1051/862/607; time 4806 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:07:43.892Z"
+}

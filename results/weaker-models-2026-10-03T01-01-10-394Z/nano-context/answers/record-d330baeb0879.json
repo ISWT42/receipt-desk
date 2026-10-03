@@ -1,0 +1,48 @@
+{
+  "recordId": "record-d330baeb0879",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "2e3e9a9686981379de847462f5797d389daa8c3a1ffd450b7d392f3b5962a261",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1101,
+    "outputTokens": 551,
+    "reasoningTokens": 348,
+    "outputTokensChargedForBound": 899,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.001343951,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.765959638,
+  "prediction": {
+    "recordId": "record-d330baeb0879",
+    "status": "done",
+    "reason": "The final tox run for the pg16 environment reports a successful result (OK).",
+    "receipt": {
+      "sourceId": "receipt-record-d330baeb0879",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-d330baeb0879",
+      "step": 3,
+      "line": 7,
+      "text": "  pg16: OK (52.18=setup[11.02]+cmd[41.16] seconds)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 8
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-d330baeb0879\",\n  \"status\": \"done\",\n  \"reason\": \"The final tox run for the pg16 environment reports a successful result (OK).\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-d330baeb0879\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-d330baeb0879\",\n    \"step\": 3,\n    \"line\": 7,\n    \"text\": \"  pg16: OK (52.18=setup[11.02]+cmd[41.16] seconds)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 8\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212144-503-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1101/551/348; time 5283 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:21:49.810Z"
+}

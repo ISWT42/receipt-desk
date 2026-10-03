@@ -1,0 +1,48 @@
+{
+  "recordId": "record-45d010461510",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "8da5d5c8b2e6671adb651a6f9d30515881b8f6c0a21928de886c56e5435cbfc2",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1019,
+    "outputTokens": 1001,
+    "reasoningTokens": 758,
+    "outputTokensChargedForBound": 1759,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.0073605,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.111126001,
+  "prediction": {
+    "recordId": "record-45d010461510",
+    "status": "done",
+    "reason": "Pytest collection for the ingest package ran and confirmed that 148 tests were collected.",
+    "receipt": {
+      "sourceId": "receipt-record-45d010461510",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-45d010461510",
+      "step": 3,
+      "line": 5,
+      "text": "148 tests collected in 0.52s",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-45d010461510\",\n  \"status\": \"done\",\n  \"reason\": \"Pytest collection for the ingest package ran and confirmed that 148 tests were collected.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-45d010461510\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-45d010461510\",\n    \"step\": 3,\n    \"line\": 5,\n    \"text\": \"148 tests collected in 0.52s\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210552-178-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1019/1001/758; time 6402 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:05:58.606Z"
+}

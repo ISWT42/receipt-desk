@@ -1,0 +1,48 @@
+{
+  "recordId": "record-d8b347c1da7a",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "d439f55901e56ea5d5a1687e89d94131b545a9b4b4c72d932f8a6ef188fcc4da",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1015,
+    "outputTokens": 290,
+    "reasoningTokens": 81,
+    "outputTokensChargedForBound": 371,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00066675,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.766626388,
+  "prediction": {
+    "recordId": "record-d8b347c1da7a",
+    "status": "done",
+    "reason": "Final recalculation reports the VAT total as 48,210.75 in Invoices!H2, matching the requested value.",
+    "receipt": {
+      "sourceId": "receipt-record-d8b347c1da7a",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-d8b347c1da7a",
+      "step": 2,
+      "line": 5,
+      "text": "Invoices!H2 = 48,210.75",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-d8b347c1da7a\",\n  \"status\": \"done\",\n  \"reason\": \"Final recalculation reports the VAT total as 48,210.75 in Invoices!H2, matching the requested value.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-d8b347c1da7a\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-d8b347c1da7a\",\n    \"step\": 2,\n    \"line\": 5,\n    \"text\": \"Invoices!H2 = 48,210.75\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212150-551-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1015/290/81; time 2470 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:21:53.042Z"
+}

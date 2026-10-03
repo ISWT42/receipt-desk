@@ -1,0 +1,48 @@
+{
+  "recordId": "record-5c44c38b46f8",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "0e9deaf90d4a38f32156fdfc73956d989ab013241e732d6409c7d8533b9927ed",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 913,
+    "outputTokens": 633,
+    "reasoningTokens": 378,
+    "outputTokensChargedForBound": 1011,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.001446351,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.69982976,
+  "prediction": {
+    "recordId": "record-5c44c38b46f8",
+    "status": "failed",
+    "reason": "The connection test from app-11 to db-05 on port 5432 reports failure (“Connection refused”), so the requested connectivity check does not succeed.",
+    "receipt": {
+      "sourceId": "b8d49fe5bd87ba8a37ff4444ad8e579b46aab1e9bb8e9d70d093a4643327a7be",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-5c44c38b46f8",
+      "step": 2,
+      "line": 6,
+      "text": "nc: connect to db-05.example.internal port 5432 (tcp) failed: Connection refused",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-5c44c38b46f8\",\n  \"status\": \"failed\",\n  \"reason\": \"The connection test from app-11 to db-05 on port 5432 reports failure (“Connection refused”), so the requested connectivity check does not succeed.\",\n  \"receipt\": {\n    \"sourceId\": \"b8d49fe5bd87ba8a37ff4444ad8e579b46aab1e9bb8e9d70d093a4643327a7be\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-5c44c38b46f8\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"nc: connect to db-05.example.internal port 5432 (tcp) failed: Connection refused\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211602-628-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 913/633/378; time 4925 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:16:07.577Z"
+}

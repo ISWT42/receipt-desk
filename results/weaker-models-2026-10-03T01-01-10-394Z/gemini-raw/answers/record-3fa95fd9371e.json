@@ -1,0 +1,48 @@
+{
+  "recordId": "record-3fa95fd9371e",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "17359604eb618d5c707700a7a2609a1d620c12c4120eebf3c3b66ecfdf1a8644",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1061,
+    "outputTokens": 1874,
+    "reasoningTokens": 1641,
+    "outputTokensChargedForBound": 3515,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.013977,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.103765501,
+  "prediction": {
+    "recordId": "record-3fa95fd9371e",
+    "status": "done",
+    "reason": "The page count was determined after converting the formatted spreadsheet to PDF, showing a total of 61 pages.",
+    "receipt": {
+      "sourceId": "receipt-record-3fa95fd9371e",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3fa95fd9371e",
+      "step": 2,
+      "line": 6,
+      "text": "Pages:           61",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-3fa95fd9371e\",\n  \"status\": \"done\",\n  \"reason\": \"The page count was determined after converting the formatted spreadsheet to PDF, showing a total of 61 pages.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-3fa95fd9371e\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3fa95fd9371e\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"Pages:           61\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210540-088-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1061/1874/1641; time 11191 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:05:51.309Z"
+}

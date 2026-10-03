@@ -1,0 +1,48 @@
+{
+  "recordId": "record-3a5af96350a5",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "bfc5e1da3d8d45022be23602090cc85fa3f1e13f5365daf120a69cd06ccf8ddd",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 875,
+    "outputTokens": 499,
+    "reasoningTokens": 295,
+    "outputTokensChargedForBound": 794,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.0011675,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.693255855,
+  "prediction": {
+    "recordId": "record-3a5af96350a5",
+    "status": "done",
+    "reason": "The record runs `ssh es-03 sysctl -n vm.max_map_count` and the output is `262144`, confirming the requested value.",
+    "receipt": {
+      "sourceId": "receipt-record-3a5af96350a5",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3a5af96350a5",
+      "step": 2,
+      "line": 6,
+      "text": "262144",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-3a5af96350a5\",\n  \"status\": \"done\",\n  \"reason\": \"The record runs `ssh es-03 sysctl -n vm.max_map_count` and the output is `262144`, confirming the requested value.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-3a5af96350a5\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3a5af96350a5\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"262144\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211530-539-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 875/499/295; time 4584 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:15:35.146Z"
+}

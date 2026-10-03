@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "phase": "controller import before any case or broker invocation",
+  "code": "ERR_MODULE_NOT_FOUND",
+  "module": "ajv",
+  "paidCalls": 0,
+  "brokerInvoked": false,
+  "handling": "Remove new external validator dependency, implement the unchanged schema locally, and rerun setup checks before the first paid case.",
+  "originalFrozenFilesChanged": false
+}

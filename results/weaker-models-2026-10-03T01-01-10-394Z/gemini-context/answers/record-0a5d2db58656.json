@@ -1,0 +1,48 @@
+{
+  "recordId": "record-0a5d2db58656",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "eadd7fc54056f30e8f72f1f554541f2569d950288a5233a51651c38d3fd57ec7",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1196,
+    "outputTokens": 658,
+    "reasoningTokens": 419,
+    "outputTokensChargedForBound": 1077,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00493575,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.385766251,
+  "prediction": {
+    "recordId": "record-0a5d2db58656",
+    "status": "failed",
+    "reason": "The helm test command for the payments release was executed in step 2, and the output indicates that the test suite phase failed.",
+    "receipt": {
+      "sourceId": "receipt-record-0a5d2db58656",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0a5d2db58656",
+      "step": 2,
+      "line": 9,
+      "text": "Phase:          Failed",
+      "coverage": {
+        "complete": true,
+        "lineCount": 9
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-0a5d2db58656\",\n  \"status\": \"failed\",\n  \"reason\": \"The helm test command for the payments release was executed in step 2, and the output indicates that the test suite phase failed.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-0a5d2db58656\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0a5d2db58656\",\n    \"step\": 2,\n    \"line\": 9,\n    \"text\": \"Phase:          Failed\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 9\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211019-593-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1196/658/419; time 4247 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:10:23.865Z"
+}

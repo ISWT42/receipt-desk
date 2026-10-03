@@ -1,0 +1,48 @@
+{
+  "recordId": "record-6c6c44550739",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "bb70529b02197e7fb14c7b2a788afb5c1f888dfc503e49c33830a2671b52ad61",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1080,
+    "outputTokens": 834,
+    "reasoningTokens": 579,
+    "outputTokensChargedForBound": 1413,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00610875,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.477107252,
+  "prediction": {
+    "recordId": "record-6c6c44550739",
+    "status": "not shown",
+    "reason": "The record shows running a column masking script on analytics.support_tickets, but does not show running the requested PII scan check to verify that it passes.",
+    "receipt": {
+      "sourceId": "receipt-record-6c6c44550739",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-6c6c44550739",
+      "step": 1,
+      "line": 4,
+      "text": "mask: finished after 44.2s",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-6c6c44550739\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record shows running a column masking script on analytics.support_tickets, but does not show running the requested PII scan check to verify that it passes.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-6c6c44550739\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-6c6c44550739\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"mask: finished after 44.2s\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211141-142-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1080/834/579; time 4653 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:11:45.818Z"
+}

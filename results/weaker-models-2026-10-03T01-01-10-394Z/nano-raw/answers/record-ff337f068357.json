@@ -1,0 +1,48 @@
+{
+  "recordId": "record-ff337f068357",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "00d08aba2813634291d443737527dc6b55b0c74df2a0b7a2201498cc2d900b38",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 917,
+    "outputTokens": 333,
+    "reasoningTokens": 132,
+    "outputTokensChargedForBound": 465,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00076465,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.730740124,
+  "prediction": {
+    "recordId": "record-ff337f068357",
+    "status": "failed",
+    "reason": "The final check counting objects in s3://lake-example/sensor_readings/month=2026-08/ returned 2551 files, which is not fewer than 100.",
+    "receipt": {
+      "sourceId": "receipt-record-ff337f068357",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-ff337f068357",
+      "step": 2,
+      "line": 7,
+      "text": "2551",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-ff337f068357\",\n  \"status\": \"failed\",\n  \"reason\": \"The final check counting objects in s3://lake-example/sensor_readings/month=2026-08/ returned 2551 files, which is not fewer than 100.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-ff337f068357\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-ff337f068357\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"2551\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211845-815-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 917/333/132; time 3453 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:18:49.291Z"
+}

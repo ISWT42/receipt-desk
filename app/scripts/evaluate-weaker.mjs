@@ -1,4 +1,4 @@
-import fs from 'node:fs';import path from 'node:path';import {spawn} from 'node:child_process';import Ajv from 'ajv';
+import fs from 'node:fs';import path from 'node:path';import {spawn} from 'node:child_process';import {schemaMatches} from '../lib/weaker-schema.mjs';
 import {root,readJSON,fresh,sha,stamp} from '../lib/files.mjs';
 import {reserveCall,costNanoUsd,brokerCost,brokerReply,redact,creditOrKeyLimit,CAP_NANO_USD} from '../lib/weaker-broker.mjs';
 const argument=name=>{const i=process.argv.indexOf(name);return i<0?null:process.argv[i+1];};
@@ -10,7 +10,7 @@ const job=readJSON(jobFile),inputs=readJSON(job.inputsManifest),system=fs.readFi
 if(job.schemaTransportApproved!==true||job.budgetRuleApproved!==true)throw new Error('TRANSPORT_AND_BUDGET_APPROVAL_REQUIRED');
 if(sha(system)!==job.systemSha256||sha(fs.readFileSync(path.join(root,'PREDICTIONS-WEAKER-MODELS.md')))!==inputs.sealedPredictionsSha256)throw new Error('IMMUTABLE_INPUT_CHANGED');
 if(sha(fs.readFileSync(path.join(root,'app/lib/score.mjs')))!==inputs.frozen.scorer)throw new Error('SCORER_CHANGED');
-const validate=new Ajv({strict:true}).compile(readJSON('app/answer-schema.json')),base=job.resultDirectory;
+const validate=value=>schemaMatches(value,readJSON('app/answer-schema.json')),base=job.resultDirectory;
 if(fs.existsSync(path.join(root,base,'completion.json')))throw new Error('RUN_ALREADY_FINISHED_OR_STOPPED');
 const order=[['gemini-raw','google/gemini-3.7-flash','raw'],['gemini-context','google/gemini-3.7-flash','context'],['nano-raw','openai/gpt-5.4-nano','raw'],['nano-context','openai/gpt-5.4-nano','context']];
 let spentNano=0,newCalls=0,stopReason=null,active=null;

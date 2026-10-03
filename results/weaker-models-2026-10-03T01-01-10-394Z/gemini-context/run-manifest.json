@@ -1,0 +1,32 @@
+{
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "provider": "openrouter",
+  "lane": "sanity-weak",
+  "inputsManifest": "work/weaker-inputs-2026-10-03T00-21-25-484Z/inputs-manifest.json",
+  "systemFile": "work/weaker-system-candidate-2026-10-03T00-27-28-065Z.txt",
+  "systemSha256": "c44cd5f333afc1ecfd0ebe2a77a1939d4251c6df72bf5bc852a6c77fed736f92",
+  "frozen": {
+    "plan": "12fabc9393b62bb76e902c59642ece98cf71909934751dc5462001625c2b3ee2",
+    "predictions": "201f7ed4b13c78deef4d6a17e5da479c099621a29b487c85d3cd065f14325e45",
+    "prompt": "1672067e24df40ca6601567d20ed9a2c5393dcc108c085fb8498c7cce4f788b7",
+    "responseSchema": "170e9cf7695880f79f97c2a935206a30c2e72b7794d23a5c9be7830721e0ca90",
+    "questions": "9dc69aac2febbbe01f3c46c127328f172a6178ab6ee67eb9e6a9a9fae8664f30",
+    "scorer": "4552fb18043d4b2636a1c8d08c5273ab6ca798beb21f09320331324d59463313",
+    "records": "6984441aaac60924de3189a835a1aa0725181a9c29cc1f48877cdd38a3ba1e46",
+    "modelSession": "6c8172dce0553cba030850e739c7abe6722385c641979ffaacd2e8fdec302cc5",
+    "modelEvidence": "28b1f19d3243c71ec09f7ca087384772d3288a3c0f3f1351b3f7d34d23df6856",
+    "sealed": false
+  },
+  "sampling": "provider default",
+  "tools": false,
+  "controllerSuppliesHistory": false,
+  "selectiveRetries": false,
+  "accountingMode": "conservative upper bound, actual charge unknown",
+  "seedCase": {
+    "recordId": "record-0282ddfdd9b3",
+    "answerFile": "results/weaker-models-2026-10-03T00-36-49-176Z/gemini-raw/answers/record-0282ddfdd9b3.json",
+    "answerSha256": "2096d8e04c60e3d6404936fab3d328327afed6134e646bd07e7b823d69cdfadf",
+    "requestFile": "results/weaker-models-2026-10-03T00-36-49-176Z/gemini-raw/requests/record-0282ddfdd9b3.json"
+  }
+}

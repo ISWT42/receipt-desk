@@ -1,0 +1,48 @@
+{
+  "recordId": "record-f814be1b029f",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "c424e0811896cf2ff9e402ad3aa6758ff2b5be3471daa7ab05d987daa6a6196c",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 876,
+    "outputTokens": 518,
+    "reasoningTokens": 258,
+    "outputTokensChargedForBound": 776,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.001145201,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.729166373,
+  "prediction": {
+    "recordId": "record-f814be1b029f",
+    "status": "not shown",
+    "reason": "The record only shows a shipit release of api-gateway 5.3.0 finished, but it does not include any final check or output from the production version endpoint confirming it reports api-gateway 5.3.0.",
+    "receipt": {
+      "sourceId": "1e34d9f57e100c8fba43f19b96fcdd976f4232fa508666e503047f1d97f8341e",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f814be1b029f",
+      "step": 1,
+      "line": 1,
+      "text": " $ shipit release api-gateway 5.3.0 --env prod",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-f814be1b029f\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record only shows a shipit release of api-gateway 5.3.0 finished, but it does not include any final check or output from the production version endpoint confirming it reports api-gateway 5.3.0.\",\n  \"receipt\": {\n    \"sourceId\": \"1e34d9f57e100c8fba43f19b96fcdd976f4232fa508666e503047f1d97f8341e\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f814be1b029f\",\n    \"step\": 1,\n    \"line\": 1,\n    \"text\": \" $ shipit release api-gateway 5.3.0 --env prod\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211833-835-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 876/518/258; time 6761 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:18:40.619Z"
+}

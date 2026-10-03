@@ -1,0 +1,48 @@
+{
+  "recordId": "record-07af27f46aa2",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "fb5a8133a1e301936f0476c913bf4bfcbaafb233723ef389e5eb5568c7cde7fe",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1240,
+    "outputTokens": 1198,
+    "reasoningTokens": 945,
+    "outputTokensChargedForBound": 2143,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00896625,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.375591751,
+  "prediction": {
+    "recordId": "record-07af27f46aa2",
+    "status": "done",
+    "reason": "The schema check ran against exports/billing/2026-08 using schemas/billing_v4.json and reported the outcome.",
+    "receipt": {
+      "sourceId": "receipt-record-07af27f46aa2",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-07af27f46aa2",
+      "step": 2,
+      "line": 7,
+      "text": "result: INVALID (column amount: expected decimal(18,2), found double)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-07af27f46aa2\",\n  \"status\": \"done\",\n  \"reason\": \"The schema check ran against exports/billing/2026-08 using schemas/billing_v4.json and reported the outcome.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-07af27f46aa2\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-07af27f46aa2\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"result: INVALID (column amount: expected decimal(18,2), found double)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211007-014-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1240/1198/945; time 6540 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:10:13.577Z"
+}

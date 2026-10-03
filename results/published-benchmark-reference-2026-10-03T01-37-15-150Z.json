@@ -1,0 +1,26 @@
+{
+  "status": "partial",
+  "purpose": "source mapping for the final exploratory cross-study note; no new model test",
+  "models": [
+    "google/gemini-3.7-flash",
+    "openai/gpt-5.4-nano"
+  ],
+  "reportedPlainReportCounts": {
+    "geminiFailedScenarios": 7,
+    "nanoNeverRanScenarios": 6,
+    "scenariosPerNegativeClass": 16
+  },
+  "countSource": "unchanged PREDICTIONS-WEAKER-MODELS.md and owner final-post direction",
+  "sealedPredictionSha256": "a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f",
+  "countingGuide": "inputs/README-start-here.md, Recounted section and counted-run rules",
+  "currentSource": "results/weaker-comparison-2026-10-03T01-23-00-984Z/summary.json",
+  "differentPrompts": true,
+  "differentCounting": true,
+  "exploratory": true,
+  "outsideFivePredictions": true,
+  "publishedStudyRecountedThisTurn": false,
+  "devPostUrl": "https://dev.to/iswt42/it-quoted-the-failure-two-kinds-of-false-done-1ago",
+  "devRefresh": "not accessible through the web tool",
+  "externalTimestampVerified": false,
+  "newModelCalls": 0
+}

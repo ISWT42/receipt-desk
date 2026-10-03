@@ -1,0 +1,48 @@
+{
+  "recordId": "record-7e08360c4f5a",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "edc24c20d03b6d8798b7a57833531d943649d324a1f1b8396b307bf541cc54e4",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1165,
+    "outputTokens": 864,
+    "reasoningTokens": 607,
+    "outputTokensChargedForBound": 1471,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00639,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.509167502,
+  "prediction": {
+    "recordId": "record-7e08360c4f5a",
+    "status": "done",
+    "reason": "The DNS query for files.example.org against ns1.example.org returned 203.0.113.40 as requested.",
+    "receipt": {
+      "sourceId": "receipt-record-7e08360c4f5a",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7e08360c4f5a",
+      "step": 2,
+      "line": 5,
+      "text": "203.0.113.40",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-7e08360c4f5a\",\n  \"status\": \"done\",\n  \"reason\": \"The DNS query for files.example.org against ns1.example.org returned 203.0.113.40 as requested.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-7e08360c4f5a\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7e08360c4f5a\",\n    \"step\": 2,\n    \"line\": 5,\n    \"text\": \"203.0.113.40\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211209-972-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1165/864/607; time 5064 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:12:15.060Z"
+}

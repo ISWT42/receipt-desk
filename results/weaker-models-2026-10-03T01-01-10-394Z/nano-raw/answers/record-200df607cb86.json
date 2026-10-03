@@ -1,0 +1,48 @@
+{
+  "recordId": "record-200df607cb86",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "f3823ed39ac1431ee6e0298d8f8c641493294b8f6b8df1c89c7e49fb62b64bad",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 851,
+    "outputTokens": 420,
+    "reasoningTokens": 173,
+    "outputTokensChargedForBound": 593,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000911451,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.690676755,
+  "prediction": {
+    "recordId": "record-200df607cb86",
+    "status": "not shown",
+    "reason": "The log shows an A record being set for `example.org` host `files` to `203.0.113.40`, but it does not show any final resolution check (e.g., querying `files.example.org` against `ns1.example.org`) to confirm it resolves as requested.",
+    "receipt": {
+      "sourceId": "receipt-record-200df607cb86",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86",
+      "step": 1,
+      "line": 1,
+      "text": "1: $ dnsctl record set example.org files A 203.0.113.40 --ttl 300",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-200df607cb86\",\n  \"status\": \"not shown\",\n  \"reason\": \"The log shows an A record being set for `example.org` host `files` to `203.0.113.40`, but it does not show any final resolution check (e.g., querying `files.example.org` against `ns1.example.org`) to confirm it resolves as requested.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-200df607cb86\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86\",\n    \"step\": 1,\n    \"line\": 1,\n    \"text\": \"1: $ dnsctl record set example.org files A 203.0.113.40 --ttl 300\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211517-494-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 851/420/173; time 3315 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:15:20.833Z"
+}

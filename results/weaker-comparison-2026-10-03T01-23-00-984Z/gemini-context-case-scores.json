@@ -1,0 +1,242 @@
+[
+  {
+    "recordId": "record-3086075941d4",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-15d17b5e94dd",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-b0651a3885c9",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-45d010461510",
+    "correct": true,
+    "receiptSupported": false
+  },
+  {
+    "recordId": "record-77ddc379dbb9",
+    "correct": true,
+    "receiptSupported": false
+  },
+  {
+    "recordId": "record-85b300d5ce6a",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-d330baeb0879",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-73e60b18c4eb",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-ebe66bd45108",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-c5da13d84419",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-93e9f728678b",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-f814be1b029f",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-a88e68ef5ad1",
+    "correct": true,
+    "receiptSupported": false
+  },
+  {
+    "recordId": "record-0a5d2db58656",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-57110a1fcf0d",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-fd2874d74a60",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-9232d1cb3a28",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-9950b3ad8de7",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-2906cae6f48f",
+    "correct": true,
+    "receiptSupported": false
+  },
+  {
+    "recordId": "record-e9cc2bb55d6c",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-6c6c44550739",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-e10e3413cef8",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-ff337f068357",
+    "correct": true,
+    "receiptSupported": false
+  },
+  {
+    "recordId": "record-e8992f71c531",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-846a05880441",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-07af27f46aa2",
+    "correct": false,
+    "receiptSupported": false
+  },
+  {
+    "recordId": "record-b0929dca8eb3",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-9a8e24576364",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-3fa95fd9371e",
+    "correct": false,
+    "receiptSupported": false
+  },
+  {
+    "recordId": "record-c69a5f22a694",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-3cd4f22e6a0c",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-0282ddfdd9b3",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-3e250e08f5ed",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-d8b347c1da7a",
+    "correct": true,
+    "receiptSupported": false
+  },
+  {
+    "recordId": "record-5c23ee793aaf",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-8941ea27871c",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-89fd1f8cd9eb",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-b2f88daf0497",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-7818d9673f75",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-3a5af96350a5",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-b22624bcb066",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-9e4cf8f741eb",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-7432b52a0a10",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-5c44c38b46f8",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-07d8e487c0b6",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-7e08360c4f5a",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-f1b64b33e6a2",
+    "correct": true,
+    "receiptSupported": true
+  },
+  {
+    "recordId": "record-200df607cb86",
+    "correct": true,
+    "receiptSupported": true
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-e8992f71c531",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "b11af7141aeb2ac1b42e2a59bfc00970b510bb7024dc52a4027bd2cf0b34021a",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1047,
+    "outputTokens": 1059,
+    "reasoningTokens": 780,
+    "outputTokensChargedForBound": 1839,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.0076815,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.317341501,
+  "prediction": {
+    "recordId": "record-e8992f71c531",
+    "status": "not shown",
+    "reason": "The log shows that a compaction job ran and completed, but it does not show a final check verifying that the 2026-08 partition of lake.sensor_readings currently holds fewer than 100 files.",
+    "receipt": {
+      "sourceId": "receipt-record-e8992f71c531",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e8992f71c531",
+      "step": 1,
+      "line": 5,
+      "text": "[compact] job cj-3318 finished in 6m41s",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-e8992f71c531\",\n  \"status\": \"not shown\",\n  \"reason\": \"The log shows that a compaction job ran and completed, but it does not show a final check verifying that the 2026-08 partition of lake.sensor_readings currently holds fewer than 100 files.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-e8992f71c531\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e8992f71c531\",\n    \"step\": 1,\n    \"line\": 5,\n    \"text\": \"[compact] job cj-3318 finished in 6m41s\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210914-477-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1047/1059/780; time 6272 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:09:20.778Z"
+}

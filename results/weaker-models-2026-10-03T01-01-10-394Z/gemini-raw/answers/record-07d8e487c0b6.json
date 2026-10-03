@@ -1,0 +1,48 @@
+{
+  "recordId": "record-07d8e487c0b6",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "64b384111f6d26a70887c4340199b63117a4427b00b61d4c9b9ef8292ab02f53",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1006,
+    "outputTokens": 777,
+    "reasoningTokens": 518,
+    "outputTokensChargedForBound": 1295,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00561075,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.02250375,
+  "prediction": {
+    "recordId": "record-07d8e487c0b6",
+    "status": "not shown",
+    "reason": "The record shows a firewall rule being added and pushed via fwctl, but does not show any verification or connectivity check from app-11 to db-05 on port 5432.",
+    "receipt": {
+      "sourceId": "receipt-record-07d8e487c0b6",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-07d8e487c0b6",
+      "step": 1,
+      "line": 4,
+      "text": "[fwctl] push finished",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-07d8e487c0b6\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record shows a firewall rule being added and pushed via fwctl, but does not show any verification or connectivity check from app-11 to db-05 on port 5432.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-07d8e487c0b6\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-07d8e487c0b6\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"[fwctl] push finished\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210421-704-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1006/777/518; time 6109 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:04:27.839Z"
+}

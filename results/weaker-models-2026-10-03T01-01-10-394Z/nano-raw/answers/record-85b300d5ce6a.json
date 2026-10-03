@@ -1,0 +1,48 @@
+{
+  "recordId": "record-85b300d5ce6a",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "5d9e505bce16ab457bd046e1fb1fa630f4ab67fa82a16d18f5c9e93a5a1e9be7",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 834,
+    "outputTokens": 403,
+    "reasoningTokens": 179,
+    "outputTokensChargedForBound": 582,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.0008943,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.707840712,
+  "prediction": {
+    "recordId": "record-85b300d5ce6a",
+    "status": "not shown",
+    "reason": "The supplied evidence only shows file moves and import rewriting; it does not include any pytest collection output (e.g., the number of collected tests) needed to verify that pytest collects all 148 ingest tests.",
+    "receipt": {
+      "sourceId": "receipt-record-85b300d5ce6a",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-85b300d5ce6a",
+      "step": 2,
+      "line": 3,
+      "text": "rewrote 23 import lines in 11 files",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-85b300d5ce6a\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied evidence only shows file moves and import rewriting; it does not include any pytest collection output (e.g., the number of collected tests) needed to verify that pytest collects all 148 ingest tests.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-85b300d5ce6a\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-85b300d5ce6a\",\n    \"step\": 2,\n    \"line\": 3,\n    \"text\": \"rewrote 23 import lines in 11 files\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211645-079-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 834/403/179; time 2744 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:16:47.847Z"
+}

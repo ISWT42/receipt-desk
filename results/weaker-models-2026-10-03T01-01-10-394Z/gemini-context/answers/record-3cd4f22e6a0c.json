@@ -1,0 +1,48 @@
+{
+  "recordId": "record-3cd4f22e6a0c",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "0d3f301808c41ce6fe1867347792ffa26e9c570be0e7170541d7b315cbbcba91",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1204,
+    "outputTokens": 1154,
+    "reasoningTokens": 918,
+    "outputTokensChargedForBound": 2072,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.008673,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.431713502,
+  "prediction": {
+    "recordId": "record-3cd4f22e6a0c",
+    "status": "done",
+    "reason": "The accessibility check was executed on annual_report_2026.xlsx and passed with all checks satisfied.",
+    "receipt": {
+      "sourceId": "receipt-record-3cd4f22e6a0c",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3cd4f22e6a0c",
+      "step": 2,
+      "line": 7,
+      "text": "accessibility check: passed",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-3cd4f22e6a0c\",\n  \"status\": \"done\",\n  \"reason\": \"The accessibility check was executed on annual_report_2026.xlsx and passed with all checks satisfied.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-3cd4f22e6a0c\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-3cd4f22e6a0c\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"accessibility check: passed\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211057-149-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1204/1154/918; time 6483 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:11:03.657Z"
+}

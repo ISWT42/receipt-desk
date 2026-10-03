@@ -1,0 +1,48 @@
+{
+  "recordId": "record-ebe66bd45108",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "7fbdb71f23849f3504dad6244b0253b318567c57a73e039952a7b8acb3ff69ea",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 982,
+    "outputTokens": 666,
+    "reasoningTokens": 422,
+    "outputTokensChargedForBound": 1088,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.0048165,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.326902501,
+  "prediction": {
+    "recordId": "record-ebe66bd45108",
+    "status": "not shown",
+    "reason": "The supplied log shows configuring the tox environment and starting the PostgreSQL container, but it does not execute tox to check if the pg16 environment passes.",
+    "receipt": {
+      "sourceId": "receipt-record-ebe66bd45108",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-ebe66bd45108",
+      "step": 2,
+      "line": 4,
+      "text": " Container ci-pg16-1  Started",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-ebe66bd45108\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows configuring the tox environment and starting the PostgreSQL container, but it does not execute tox to check if the pg16 environment passes.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-ebe66bd45108\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-ebe66bd45108\",\n    \"step\": 2,\n    \"line\": 4,\n    \"text\": \" Container ci-pg16-1  Started\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210926-097-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 982/666/422; time 4215 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:09:30.336Z"
+}

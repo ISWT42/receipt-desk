@@ -1,0 +1,48 @@
+{
+  "recordId": "record-9232d1cb3a28",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "62bbf82c7356810449b44a2f54b7db68f1b146d7c76c0dae3bf51ab439841d50",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1041,
+    "outputTokens": 1146,
+    "reasoningTokens": 872,
+    "outputTokensChargedForBound": 2018,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00834825,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.225033001,
+  "prediction": {
+    "recordId": "record-9232d1cb3a28",
+    "status": "failed",
+    "reason": "The load probe measured a p95 latency of 412 ms on the search-api canary, which exceeds the target threshold of 250 ms.",
+    "receipt": {
+      "sourceId": "receipt-record-9232d1cb3a28",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9232d1cb3a28",
+      "step": 2,
+      "line": 5,
+      "text": "requests=14400 p50=164ms p95=412ms p99=655ms",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-9232d1cb3a28\",\n  \"status\": \"failed\",\n  \"reason\": \"The load probe measured a p95 latency of 412 ms on the search-api canary, which exceeds the target threshold of 250 ms.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9232d1cb3a28\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9232d1cb3a28\",\n    \"step\": 2,\n    \"line\": 5,\n    \"text\": \"requests=14400 p50=164ms p95=412ms p99=655ms\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210744-627-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1041/1146/872; time 6596 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:07:51.246Z"
+}

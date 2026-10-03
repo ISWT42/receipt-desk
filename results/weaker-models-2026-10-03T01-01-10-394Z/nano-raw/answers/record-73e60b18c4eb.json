@@ -1,0 +1,48 @@
+{
+  "recordId": "record-73e60b18c4eb",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "2b941939a8cbc653ca72db0cb5e4427b0ee33a7d2820d338fae19254bff84662",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 912,
+    "outputTokens": 375,
+    "reasoningTokens": 146,
+    "outputTokensChargedForBound": 521,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00083365,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.70184966,
+  "prediction": {
+    "recordId": "record-73e60b18c4eb",
+    "status": "failed",
+    "reason": "The record shows the pg16 tox environment test run failing: `tox -e pg16` ends with `pg16: FAIL code 1`.",
+    "receipt": {
+      "sourceId": "receipt-record-73e60b18c4eb",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-73e60b18c4eb",
+      "step": 3,
+      "line": 7,
+      "text": "   pg16: FAIL code 1 (49.77=setup[10.85]+cmd[38.92] seconds)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 8
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-73e60b18c4eb\",\n  \"status\": \"failed\",\n  \"reason\": \"The record shows the pg16 tox environment test run failing: `tox -e pg16` ends with `pg16: FAIL code 1`.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-73e60b18c4eb\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-73e60b18c4eb\",\n    \"step\": 3,\n    \"line\": 7,\n    \"text\": \"   pg16: FAIL code 1 (49.77=setup[10.85]+cmd[38.92] seconds)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 8\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211614-574-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 912/375/146; time 3445 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:16:18.041Z"
+}

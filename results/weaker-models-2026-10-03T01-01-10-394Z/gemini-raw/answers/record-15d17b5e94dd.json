@@ -1,0 +1,48 @@
+{
+  "recordId": "record-15d17b5e94dd",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "a9e891d3a78dd58e95de5c46bb8ec2d303a3297d44ac2d451783feba4d75cce0",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1063,
+    "outputTokens": 1127,
+    "reasoningTokens": 899,
+    "outputTokensChargedForBound": 2026,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00839475,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.03892425,
+  "prediction": {
+    "recordId": "record-15d17b5e94dd",
+    "status": "failed",
+    "reason": "The Playwright end-to-end checkout test ran against staging and failed.",
+    "receipt": {
+      "sourceId": "receipt-record-15d17b5e94dd",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-15d17b5e94dd",
+      "step": 2,
+      "line": 8,
+      "text": "  1 failed",
+      "coverage": {
+        "complete": true,
+        "lineCount": 8
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-15d17b5e94dd\",\n  \"status\": \"failed\",\n  \"reason\": \"The Playwright end-to-end checkout test ran against staging and failed.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-15d17b5e94dd\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-15d17b5e94dd\",\n    \"step\": 2,\n    \"line\": 8,\n    \"text\": \"  1 failed\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 8\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210436-935-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1063/1127/899; time 7788 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:04:44.749Z"
+}

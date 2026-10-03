@@ -1,0 +1,48 @@
+{
+  "recordId": "record-c69a5f22a694",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "0f471d66efaabbbb0a44e0b0dcdb9b7843187768b86ea22f5bdc199f88230e18",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1058,
+    "outputTokens": 1086,
+    "reasoningTokens": 820,
+    "outputTokensChargedForBound": 1906,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.007941,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.618817502,
+  "prediction": {
+    "recordId": "record-c69a5f22a694",
+    "status": "not shown",
+    "reason": "The supplied log shows layout modifications being applied to board_pack_q3.xlsx, but does not include any check or report determining whether the workbook fits on 24 printed pages.",
+    "receipt": {
+      "sourceId": "receipt-record-c69a5f22a694",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c69a5f22a694",
+      "step": 1,
+      "line": 3,
+      "text": "print_layout: changes written to board_pack_q3.xlsx",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-c69a5f22a694\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows layout modifications being applied to board_pack_q3.xlsx, but does not include any check or report determining whether the workbook fits on 24 printed pages.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-c69a5f22a694\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c69a5f22a694\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"print_layout: changes written to board_pack_q3.xlsx\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211350-712-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1058/1086/820; time 5995 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:13:56.730Z"
+}

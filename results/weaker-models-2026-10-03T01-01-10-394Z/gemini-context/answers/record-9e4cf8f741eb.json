@@ -1,0 +1,48 @@
+{
+  "recordId": "record-9e4cf8f741eb",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "379d82d760e72d5cb06a74f1ca2d53fcc08ae72c0b731b0320e7ee0ceb274d6d",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1084,
+    "outputTokens": 761,
+    "reasoningTokens": 496,
+    "outputTokensChargedForBound": 1257,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00552675,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.568099502,
+  "prediction": {
+    "recordId": "record-9e4cf8f741eb",
+    "status": "not shown",
+    "reason": "The supplied log shows applying a configuration role to es-03, but it does not include a final check verifying or reporting whether vm.max_map_count on es-03 is 262144.",
+    "receipt": {
+      "sourceId": "receipt-record-9e4cf8f741eb",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9e4cf8f741eb",
+      "step": 1,
+      "line": 4,
+      "text": "[confctl] run r-6310 finished",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-9e4cf8f741eb\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows applying a configuration role to es-03, but it does not include a final check verifying or reporting whether vm.max_map_count on es-03 is 262144.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9e4cf8f741eb\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9e4cf8f741eb\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"[confctl] run r-6310 finished\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211307-105-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1084/761/496; time 4878 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:13:12.006Z"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "partial",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "recordId": "record-0282ddfdd9b3",
+  "attempts": 1,
+  "brokerExitCode": 0,
+  "brokerCostUsdReturned": false,
+  "reportedCostUsd": null,
+  "maximumPreCallReservedUsd": 0.020922,
+  "brokerMessage": "cost estimate unknown",
+  "reportedTokens": {
+    "input": 1078,
+    "output": 565,
+    "reasoning": 295
+  },
+  "proposedConservativeCostUpperBoundUsd": 0.0040335,
+  "alternativeAccountingApproved": false,
+  "noRetry": true,
+  "remainingPaidCalls": 191,
+  "modelScoresRead": false,
+  "predictionsAssessed": false,
+  "note": "The controller printed returned total 0 because no numeric cost was returned. This is not evidence of a free call. Stop retained; original reply and original incomplete batch remain unchanged."
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-ff337f068357",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "89048e5232a4116db9896b0ed2a466b3b53b3dd24bc95a81e55cafbfdfdb6f7c",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1234,
+    "outputTokens": 1102,
+    "reasoningTokens": 812,
+    "outputTokensChargedForBound": 1914,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.008103001,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.685441503,
+  "prediction": {
+    "recordId": "record-ff337f068357",
+    "status": "failed",
+    "reason": "The final check counting files in the 2026-08 partition returned 2551 files, failing the requirement of fewer than 100 files.",
+    "receipt": {
+      "sourceId": "853a4f382f62cde64ed7e92053db99dcf70f598de50b610ee474d23ae399ea1b",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-ff337f068357",
+      "step": 2,
+      "line": 7,
+      "text": "2551",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-ff337f068357\",\n  \"status\": \"failed\",\n  \"reason\": \"The final check counting files in the 2026-08 partition returned 2551 files, failing the requirement of fewer than 100 files.\",\n  \"receipt\": {\n    \"sourceId\": \"853a4f382f62cde64ed7e92053db99dcf70f598de50b610ee474d23ae399ea1b\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-ff337f068357\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"2551\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211450-855-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1234/1102/812; time 6217 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:14:57.096Z"
+}

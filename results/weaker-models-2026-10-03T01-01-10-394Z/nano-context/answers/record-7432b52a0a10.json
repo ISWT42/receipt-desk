@@ -1,0 +1,48 @@
+{
+  "recordId": "record-7432b52a0a10",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "b255efcd6baddb8bf0ffd8dd3d75de382716bc91c9bf18ff1e97405c9a4f2a80",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1051,
+    "outputTokens": 408,
+    "reasoningTokens": 187,
+    "outputTokensChargedForBound": 595,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000953951,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.74643688,
+  "prediction": {
+    "recordId": "record-7432b52a0a10",
+    "status": "done",
+    "reason": "The record includes a connectivity check from app-11 to db-05.example.internal on port 5432 using nc, and the output confirms the connection succeeded.",
+    "receipt": {
+      "sourceId": "receipt-record-7432b52a0a10",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7432b52a0a10",
+      "step": 2,
+      "line": 6,
+      "text": "Connection to db-05.example.internal 5432 port [tcp/postgresql] succeeded!",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-7432b52a0a10\",\n  \"status\": \"done\",\n  \"reason\": \"The record includes a connectivity check from app-11 to db-05.example.internal on port 5432 using nc, and the output confirms the connection succeeded.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-7432b52a0a10\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7432b52a0a10\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"Connection to db-05.example.internal 5432 port [tcp/postgresql] succeeded!\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212009-943-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1051/408/187; time 3422 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:20:13.389Z"
+}

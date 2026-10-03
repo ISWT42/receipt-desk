@@ -1,0 +1,48 @@
+{
+  "recordId": "record-c5da13d84419",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "1f709c86be253cb243004ddbfc8f87db7c441f48e19b22d0066c39d0f5ecf90a",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1212,
+    "outputTokens": 849,
+    "reasoningTokens": 539,
+    "outputTokensChargedForBound": 1388,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.006114,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.610876502,
+  "prediction": {
+    "recordId": "record-c5da13d84419",
+    "status": "done",
+    "reason": "The production version endpoint was queried via curl and returned 'api-gateway 5.3.0 (build 4be19c07, started 2026-09-16T10:42:08Z)', confirming the requested version.",
+    "receipt": {
+      "sourceId": "receipt-record-c5da13d84419",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c5da13d84419",
+      "step": 2,
+      "line": 6,
+      "text": "api-gateway 5.3.0 (build 4be19c07, started 2026-09-16T10:42:08Z)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-c5da13d84419\",\n  \"status\": \"done\",\n  \"reason\": \"The production version endpoint was queried via curl and returned 'api-gateway 5.3.0 (build 4be19c07, started 2026-09-16T10:42:08Z)', confirming the requested version.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-c5da13d84419\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c5da13d84419\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"api-gateway 5.3.0 (build 4be19c07, started 2026-09-16T10:42:08Z)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211345-559-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1212/849/539; time 4392 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:13:49.973Z"
+}

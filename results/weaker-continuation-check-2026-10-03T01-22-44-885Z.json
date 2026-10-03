@@ -1,0 +1,1751 @@
+{
+  "status": "done",
+  "runDirectory": "results/weaker-models-2026-10-03T01-01-10-394Z",
+  "attempted": 192,
+  "newCalls": 191,
+  "originalSeedCalls": 1,
+  "costUpperBoundUsd": 0.773990991,
+  "capUsd": 2,
+  "actualTotalCostKnown": false,
+  "preCallReservationsVerified": true,
+  "originalFirstReplyUnchanged": true,
+  "originalPromptBytesMatch": true,
+  "nineOriginalFrozenFilesUnchanged": true,
+  "originalInputsUnchanged": true,
+  "sealedPredictionsCorrectionAndProofUnchanged": true,
+  "reportedBoundsClippedToPreCallMaximum": 2,
+  "missingUsageDebitedAtFullMaximum": 0,
+  "rows": [
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-0282ddfdd9b3",
+      "seed": true,
+      "preCallMaximumUsd": 0.020922,
+      "costUpperBoundUsd": 0.0040335,
+      "cumulativeCostUpperBoundUsd": 0.0040335
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-07af27f46aa2",
+      "seed": false,
+      "preCallMaximumUsd": 0.0209295,
+      "costUpperBoundUsd": 0.0128595,
+      "cumulativeCostUpperBoundUsd": 0.016893
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-07d8e487c0b6",
+      "seed": false,
+      "preCallMaximumUsd": 0.0207375,
+      "costUpperBoundUsd": 0.00561075,
+      "cumulativeCostUpperBoundUsd": 0.02250375
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-0a5d2db58656",
+      "seed": false,
+      "preCallMaximumUsd": 0.020811,
+      "costUpperBoundUsd": 0.00802575,
+      "cumulativeCostUpperBoundUsd": 0.0305295
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-15d17b5e94dd",
+      "seed": false,
+      "preCallMaximumUsd": 0.0209055,
+      "costUpperBoundUsd": 0.00839475,
+      "cumulativeCostUpperBoundUsd": 0.03892425
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-200df607cb86",
+      "seed": false,
+      "preCallMaximumUsd": 0.020736,
+      "costUpperBoundUsd": 0.00610425,
+      "cumulativeCostUpperBoundUsd": 0.0450285
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-2906cae6f48f",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208815,
+      "costUpperBoundUsd": 0.004599,
+      "cumulativeCostUpperBoundUsd": 0.0496275
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-3086075941d4",
+      "seed": false,
+      "preCallMaximumUsd": 0.0209115,
+      "costUpperBoundUsd": 0.0209115,
+      "cumulativeCostUpperBoundUsd": 0.070539
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-3a5af96350a5",
+      "seed": false,
+      "preCallMaximumUsd": 0.020772,
+      "costUpperBoundUsd": 0.006534,
+      "cumulativeCostUpperBoundUsd": 0.077073
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-3cd4f22e6a0c",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208845,
+      "costUpperBoundUsd": 0.008149501,
+      "cumulativeCostUpperBoundUsd": 0.085222501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-3e250e08f5ed",
+      "seed": false,
+      "preCallMaximumUsd": 0.02078325,
+      "costUpperBoundUsd": 0.004566,
+      "cumulativeCostUpperBoundUsd": 0.089788501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-3fa95fd9371e",
+      "seed": false,
+      "preCallMaximumUsd": 0.02090625,
+      "costUpperBoundUsd": 0.013977,
+      "cumulativeCostUpperBoundUsd": 0.103765501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-45d010461510",
+      "seed": false,
+      "preCallMaximumUsd": 0.02079975,
+      "costUpperBoundUsd": 0.0073605,
+      "cumulativeCostUpperBoundUsd": 0.111126001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-57110a1fcf0d",
+      "seed": false,
+      "preCallMaximumUsd": 0.02073975,
+      "costUpperBoundUsd": 0.0037425,
+      "cumulativeCostUpperBoundUsd": 0.114868501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-5c23ee793aaf",
+      "seed": false,
+      "preCallMaximumUsd": 0.02078925,
+      "costUpperBoundUsd": 0.0106365,
+      "cumulativeCostUpperBoundUsd": 0.125505001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-5c44c38b46f8",
+      "seed": false,
+      "preCallMaximumUsd": 0.02084025,
+      "costUpperBoundUsd": 0.00786075,
+      "cumulativeCostUpperBoundUsd": 0.133365751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-6c6c44550739",
+      "seed": false,
+      "preCallMaximumUsd": 0.0207735,
+      "costUpperBoundUsd": 0.0057795,
+      "cumulativeCostUpperBoundUsd": 0.139145251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-73e60b18c4eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.020835,
+      "costUpperBoundUsd": 0.00586575,
+      "cumulativeCostUpperBoundUsd": 0.145011001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-7432b52a0a10",
+      "seed": false,
+      "preCallMaximumUsd": 0.02083575,
+      "costUpperBoundUsd": 0.0056745,
+      "cumulativeCostUpperBoundUsd": 0.150685501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-77ddc379dbb9",
+      "seed": false,
+      "preCallMaximumUsd": 0.02079975,
+      "costUpperBoundUsd": 0.0163815,
+      "cumulativeCostUpperBoundUsd": 0.167067001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-7818d9673f75",
+      "seed": false,
+      "preCallMaximumUsd": 0.02077425,
+      "costUpperBoundUsd": 0.0051645,
+      "cumulativeCostUpperBoundUsd": 0.172231501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-7e08360c4f5a",
+      "seed": false,
+      "preCallMaximumUsd": 0.02078925,
+      "costUpperBoundUsd": 0.02078925,
+      "cumulativeCostUpperBoundUsd": 0.193020751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-846a05880441",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208875,
+      "costUpperBoundUsd": 0.00633375,
+      "cumulativeCostUpperBoundUsd": 0.199354501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-85b300d5ce6a",
+      "seed": false,
+      "preCallMaximumUsd": 0.020733,
+      "costUpperBoundUsd": 0.00424275,
+      "cumulativeCostUpperBoundUsd": 0.203597251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-8941ea27871c",
+      "seed": false,
+      "preCallMaximumUsd": 0.0207165,
+      "costUpperBoundUsd": 0.0067905,
+      "cumulativeCostUpperBoundUsd": 0.210387751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-89fd1f8cd9eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.02088,
+      "costUpperBoundUsd": 0.006297,
+      "cumulativeCostUpperBoundUsd": 0.216684751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-9232d1cb3a28",
+      "seed": false,
+      "preCallMaximumUsd": 0.02082225,
+      "costUpperBoundUsd": 0.00834825,
+      "cumulativeCostUpperBoundUsd": 0.225033001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-93e9f728678b",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208785,
+      "costUpperBoundUsd": 0.00600975,
+      "cumulativeCostUpperBoundUsd": 0.231042751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-9950b3ad8de7",
+      "seed": false,
+      "preCallMaximumUsd": 0.02072325,
+      "costUpperBoundUsd": 0.00566625,
+      "cumulativeCostUpperBoundUsd": 0.236709001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-9a8e24576364",
+      "seed": false,
+      "preCallMaximumUsd": 0.02090625,
+      "costUpperBoundUsd": 0.00662325,
+      "cumulativeCostUpperBoundUsd": 0.243332251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-9e4cf8f741eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.0207315,
+      "costUpperBoundUsd": 0.00538875,
+      "cumulativeCostUpperBoundUsd": 0.248721001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-a88e68ef5ad1",
+      "seed": false,
+      "preCallMaximumUsd": 0.02081325,
+      "costUpperBoundUsd": 0.00538575,
+      "cumulativeCostUpperBoundUsd": 0.254106751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-b0651a3885c9",
+      "seed": false,
+      "preCallMaximumUsd": 0.02076,
+      "costUpperBoundUsd": 0.0049575,
+      "cumulativeCostUpperBoundUsd": 0.259064251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-b0929dca8eb3",
+      "seed": false,
+      "preCallMaximumUsd": 0.0207885,
+      "costUpperBoundUsd": 0.006216,
+      "cumulativeCostUpperBoundUsd": 0.265280251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-b22624bcb066",
+      "seed": false,
+      "preCallMaximumUsd": 0.02077125,
+      "costUpperBoundUsd": 0.00688725,
+      "cumulativeCostUpperBoundUsd": 0.272167501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-b2f88daf0497",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208875,
+      "costUpperBoundUsd": 0.01029975,
+      "cumulativeCostUpperBoundUsd": 0.282467251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-c5da13d84419",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208785,
+      "costUpperBoundUsd": 0.005856,
+      "cumulativeCostUpperBoundUsd": 0.288323251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-c69a5f22a694",
+      "seed": false,
+      "preCallMaximumUsd": 0.02074875,
+      "costUpperBoundUsd": 0.00636225,
+      "cumulativeCostUpperBoundUsd": 0.294685501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-d330baeb0879",
+      "seed": false,
+      "preCallMaximumUsd": 0.02082675,
+      "costUpperBoundUsd": 0.00705825,
+      "cumulativeCostUpperBoundUsd": 0.301743751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-d8b347c1da7a",
+      "seed": false,
+      "preCallMaximumUsd": 0.02078925,
+      "costUpperBoundUsd": 0.00468075,
+      "cumulativeCostUpperBoundUsd": 0.306424501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-e10e3413cef8",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208875,
+      "costUpperBoundUsd": 0.0032355,
+      "cumulativeCostUpperBoundUsd": 0.309660001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-e8992f71c531",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208275,
+      "costUpperBoundUsd": 0.0076815,
+      "cumulativeCostUpperBoundUsd": 0.317341501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-e9cc2bb55d6c",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208995,
+      "costUpperBoundUsd": 0.0047445,
+      "cumulativeCostUpperBoundUsd": 0.322086001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-ebe66bd45108",
+      "seed": false,
+      "preCallMaximumUsd": 0.02070975,
+      "costUpperBoundUsd": 0.0048165,
+      "cumulativeCostUpperBoundUsd": 0.326902501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-f1b64b33e6a2",
+      "seed": false,
+      "preCallMaximumUsd": 0.02078925,
+      "costUpperBoundUsd": 0.0088605,
+      "cumulativeCostUpperBoundUsd": 0.335763001
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-f814be1b029f",
+      "seed": false,
+      "preCallMaximumUsd": 0.0207795,
+      "costUpperBoundUsd": 0.00378075,
+      "cumulativeCostUpperBoundUsd": 0.339543751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-fd2874d74a60",
+      "seed": false,
+      "preCallMaximumUsd": 0.0208215,
+      "costUpperBoundUsd": 0.0071535,
+      "cumulativeCostUpperBoundUsd": 0.346697251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "recordId": "record-ff337f068357",
+      "seed": false,
+      "preCallMaximumUsd": 0.020889,
+      "costUpperBoundUsd": 0.016467,
+      "cumulativeCostUpperBoundUsd": 0.363164251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-0282ddfdd9b3",
+      "seed": false,
+      "preCallMaximumUsd": 0.021318,
+      "costUpperBoundUsd": 0.00346125,
+      "cumulativeCostUpperBoundUsd": 0.366625501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-07af27f46aa2",
+      "seed": false,
+      "preCallMaximumUsd": 0.0213255,
+      "costUpperBoundUsd": 0.00896625,
+      "cumulativeCostUpperBoundUsd": 0.375591751
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-07d8e487c0b6",
+      "seed": false,
+      "preCallMaximumUsd": 0.02095725,
+      "costUpperBoundUsd": 0.00523875,
+      "cumulativeCostUpperBoundUsd": 0.380830501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-0a5d2db58656",
+      "seed": false,
+      "preCallMaximumUsd": 0.0212895,
+      "costUpperBoundUsd": 0.00493575,
+      "cumulativeCostUpperBoundUsd": 0.385766251
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-15d17b5e94dd",
+      "seed": false,
+      "preCallMaximumUsd": 0.02134275,
+      "costUpperBoundUsd": 0.00804825,
+      "cumulativeCostUpperBoundUsd": 0.393814501
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-200df607cb86",
+      "seed": false,
+      "preCallMaximumUsd": 0.0209145,
+      "costUpperBoundUsd": 0.008248501,
+      "cumulativeCostUpperBoundUsd": 0.402063002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-2906cae6f48f",
+      "seed": false,
+      "preCallMaximumUsd": 0.0212775,
+      "costUpperBoundUsd": 0.00903,
+      "cumulativeCostUpperBoundUsd": 0.411093002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-3086075941d4",
+      "seed": false,
+      "preCallMaximumUsd": 0.02134875,
+      "costUpperBoundUsd": 0.00462,
+      "cumulativeCostUpperBoundUsd": 0.415713002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-3a5af96350a5",
+      "seed": false,
+      "preCallMaximumUsd": 0.02112675,
+      "costUpperBoundUsd": 0.0073275,
+      "cumulativeCostUpperBoundUsd": 0.423040502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-3cd4f22e6a0c",
+      "seed": false,
+      "preCallMaximumUsd": 0.0212805,
+      "costUpperBoundUsd": 0.008673,
+      "cumulativeCostUpperBoundUsd": 0.431713502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-3e250e08f5ed",
+      "seed": false,
+      "preCallMaximumUsd": 0.021003,
+      "costUpperBoundUsd": 0.014799,
+      "cumulativeCostUpperBoundUsd": 0.446512502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-3fa95fd9371e",
+      "seed": false,
+      "preCallMaximumUsd": 0.021261,
+      "costUpperBoundUsd": 0.00423,
+      "cumulativeCostUpperBoundUsd": 0.450742502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-45d010461510",
+      "seed": false,
+      "preCallMaximumUsd": 0.0211665,
+      "costUpperBoundUsd": 0.00873,
+      "cumulativeCostUpperBoundUsd": 0.459472502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-57110a1fcf0d",
+      "seed": false,
+      "preCallMaximumUsd": 0.021042,
+      "costUpperBoundUsd": 0.00291825,
+      "cumulativeCostUpperBoundUsd": 0.462390752
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-5c23ee793aaf",
+      "seed": false,
+      "preCallMaximumUsd": 0.02110275,
+      "costUpperBoundUsd": 0.00427275,
+      "cumulativeCostUpperBoundUsd": 0.466663502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-5c44c38b46f8",
+      "seed": false,
+      "preCallMaximumUsd": 0.021195,
+      "costUpperBoundUsd": 0.004335,
+      "cumulativeCostUpperBoundUsd": 0.470998502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-6c6c44550739",
+      "seed": false,
+      "preCallMaximumUsd": 0.02099325,
+      "costUpperBoundUsd": 0.00610875,
+      "cumulativeCostUpperBoundUsd": 0.477107252
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-73e60b18c4eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.02132475,
+      "costUpperBoundUsd": 0.00492675,
+      "cumulativeCostUpperBoundUsd": 0.482034002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-7432b52a0a10",
+      "seed": false,
+      "preCallMaximumUsd": 0.0211905,
+      "costUpperBoundUsd": 0.005043,
+      "cumulativeCostUpperBoundUsd": 0.487077002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-77ddc379dbb9",
+      "seed": false,
+      "preCallMaximumUsd": 0.0211665,
+      "costUpperBoundUsd": 0.01006725,
+      "cumulativeCostUpperBoundUsd": 0.497144252
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-7818d9673f75",
+      "seed": false,
+      "preCallMaximumUsd": 0.0210465,
+      "costUpperBoundUsd": 0.00563325,
+      "cumulativeCostUpperBoundUsd": 0.502777502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-7e08360c4f5a",
+      "seed": false,
+      "preCallMaximumUsd": 0.02110275,
+      "costUpperBoundUsd": 0.00639,
+      "cumulativeCostUpperBoundUsd": 0.509167502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-846a05880441",
+      "seed": false,
+      "preCallMaximumUsd": 0.0212835,
+      "costUpperBoundUsd": 0.0042675,
+      "cumulativeCostUpperBoundUsd": 0.513435002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-85b300d5ce6a",
+      "seed": false,
+      "preCallMaximumUsd": 0.02096475,
+      "costUpperBoundUsd": 0.007743,
+      "cumulativeCostUpperBoundUsd": 0.521178002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-8941ea27871c",
+      "seed": false,
+      "preCallMaximumUsd": 0.020895,
+      "costUpperBoundUsd": 0.0063705,
+      "cumulativeCostUpperBoundUsd": 0.527548502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-89fd1f8cd9eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.02128725,
+      "costUpperBoundUsd": 0.0050715,
+      "cumulativeCostUpperBoundUsd": 0.532620002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-9232d1cb3a28",
+      "seed": false,
+      "preCallMaximumUsd": 0.02113575,
+      "costUpperBoundUsd": 0.0127785,
+      "cumulativeCostUpperBoundUsd": 0.545398502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-93e9f728678b",
+      "seed": false,
+      "preCallMaximumUsd": 0.02123325,
+      "costUpperBoundUsd": 0.0076815,
+      "cumulativeCostUpperBoundUsd": 0.553080002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-9950b3ad8de7",
+      "seed": false,
+      "preCallMaximumUsd": 0.02090175,
+      "costUpperBoundUsd": 0.0045915,
+      "cumulativeCostUpperBoundUsd": 0.557671502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-9a8e24576364",
+      "seed": false,
+      "preCallMaximumUsd": 0.021261,
+      "costUpperBoundUsd": 0.00490125,
+      "cumulativeCostUpperBoundUsd": 0.562572752
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-9e4cf8f741eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.02095125,
+      "costUpperBoundUsd": 0.00552675,
+      "cumulativeCostUpperBoundUsd": 0.568099502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-a88e68ef5ad1",
+      "seed": false,
+      "preCallMaximumUsd": 0.02129175,
+      "costUpperBoundUsd": 0.00534825,
+      "cumulativeCostUpperBoundUsd": 0.573447752
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-b0651a3885c9",
+      "seed": false,
+      "preCallMaximumUsd": 0.02097975,
+      "costUpperBoundUsd": 0.0040305,
+      "cumulativeCostUpperBoundUsd": 0.577478252
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-b0929dca8eb3",
+      "seed": false,
+      "preCallMaximumUsd": 0.02100825,
+      "costUpperBoundUsd": 0.00601425,
+      "cumulativeCostUpperBoundUsd": 0.583492502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-b22624bcb066",
+      "seed": false,
+      "preCallMaximumUsd": 0.021126,
+      "costUpperBoundUsd": 0.00669825,
+      "cumulativeCostUpperBoundUsd": 0.590190752
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-b2f88daf0497",
+      "seed": false,
+      "preCallMaximumUsd": 0.02129475,
+      "costUpperBoundUsd": 0.01457175,
+      "cumulativeCostUpperBoundUsd": 0.604762502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-c5da13d84419",
+      "seed": false,
+      "preCallMaximumUsd": 0.02123325,
+      "costUpperBoundUsd": 0.006114,
+      "cumulativeCostUpperBoundUsd": 0.610876502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-c69a5f22a694",
+      "seed": false,
+      "preCallMaximumUsd": 0.02092725,
+      "costUpperBoundUsd": 0.007941,
+      "cumulativeCostUpperBoundUsd": 0.618817502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-d330baeb0879",
+      "seed": false,
+      "preCallMaximumUsd": 0.0213165,
+      "costUpperBoundUsd": 0.006723,
+      "cumulativeCostUpperBoundUsd": 0.625540502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-d8b347c1da7a",
+      "seed": false,
+      "preCallMaximumUsd": 0.02110275,
+      "costUpperBoundUsd": 0.016512,
+      "cumulativeCostUpperBoundUsd": 0.642052502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-e10e3413cef8",
+      "seed": false,
+      "preCallMaximumUsd": 0.0212835,
+      "costUpperBoundUsd": 0.00319275,
+      "cumulativeCostUpperBoundUsd": 0.645245252
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-e8992f71c531",
+      "seed": false,
+      "preCallMaximumUsd": 0.0210885,
+      "costUpperBoundUsd": 0.00627825,
+      "cumulativeCostUpperBoundUsd": 0.651523502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-e9cc2bb55d6c",
+      "seed": false,
+      "preCallMaximumUsd": 0.0212955,
+      "costUpperBoundUsd": 0.009198,
+      "cumulativeCostUpperBoundUsd": 0.660721502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-ebe66bd45108",
+      "seed": false,
+      "preCallMaximumUsd": 0.020982,
+      "costUpperBoundUsd": 0.003054,
+      "cumulativeCostUpperBoundUsd": 0.663775502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-f1b64b33e6a2",
+      "seed": false,
+      "preCallMaximumUsd": 0.02110275,
+      "costUpperBoundUsd": 0.0045435,
+      "cumulativeCostUpperBoundUsd": 0.668319002
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-f814be1b029f",
+      "seed": false,
+      "preCallMaximumUsd": 0.02099925,
+      "costUpperBoundUsd": 0.0049545,
+      "cumulativeCostUpperBoundUsd": 0.673273502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-fd2874d74a60",
+      "seed": false,
+      "preCallMaximumUsd": 0.021135,
+      "costUpperBoundUsd": 0.004065,
+      "cumulativeCostUpperBoundUsd": 0.677338502
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "recordId": "record-ff337f068357",
+      "seed": false,
+      "preCallMaximumUsd": 0.021285,
+      "costUpperBoundUsd": 0.008103001,
+      "cumulativeCostUpperBoundUsd": 0.685441503
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-0282ddfdd9b3",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065792,
+      "costUpperBoundUsd": 0.000884451,
+      "cumulativeCostUpperBoundUsd": 0.686325954
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-07af27f46aa2",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065812,
+      "costUpperBoundUsd": 0.00077305,
+      "cumulativeCostUpperBoundUsd": 0.687099004
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-07d8e487c0b6",
+      "seed": false,
+      "preCallMaximumUsd": 0.00653,
+      "costUpperBoundUsd": 0.001142,
+      "cumulativeCostUpperBoundUsd": 0.688241004
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-0a5d2db58656",
+      "seed": false,
+      "preCallMaximumUsd": 0.006549601,
+      "costUpperBoundUsd": 0.00074015,
+      "cumulativeCostUpperBoundUsd": 0.688981154
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-15d17b5e94dd",
+      "seed": false,
+      "preCallMaximumUsd": 0.006574801,
+      "costUpperBoundUsd": 0.00078415,
+      "cumulativeCostUpperBoundUsd": 0.689765304
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-200df607cb86",
+      "seed": false,
+      "preCallMaximumUsd": 0.006529601,
+      "costUpperBoundUsd": 0.000911451,
+      "cumulativeCostUpperBoundUsd": 0.690676755
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-2906cae6f48f",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065684,
+      "costUpperBoundUsd": 0.00071905,
+      "cumulativeCostUpperBoundUsd": 0.691395805
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-3086075941d4",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065764,
+      "costUpperBoundUsd": 0.00069255,
+      "cumulativeCostUpperBoundUsd": 0.692088355
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-3a5af96350a5",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065392,
+      "costUpperBoundUsd": 0.0011675,
+      "cumulativeCostUpperBoundUsd": 0.693255855
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-3cd4f22e6a0c",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065692,
+      "costUpperBoundUsd": 0.000760601,
+      "cumulativeCostUpperBoundUsd": 0.694016456
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-3e250e08f5ed",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065422,
+      "costUpperBoundUsd": 0.000963101,
+      "cumulativeCostUpperBoundUsd": 0.694979557
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-3fa95fd9371e",
+      "seed": false,
+      "preCallMaximumUsd": 0.006575,
+      "costUpperBoundUsd": 0.00087125,
+      "cumulativeCostUpperBoundUsd": 0.695850807
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-45d010461510",
+      "seed": false,
+      "preCallMaximumUsd": 0.006546601,
+      "costUpperBoundUsd": 0.000711351,
+      "cumulativeCostUpperBoundUsd": 0.696562158
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-57110a1fcf0d",
+      "seed": false,
+      "preCallMaximumUsd": 0.006530601,
+      "costUpperBoundUsd": 0.001037601,
+      "cumulativeCostUpperBoundUsd": 0.697599759
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-5c23ee793aaf",
+      "seed": false,
+      "preCallMaximumUsd": 0.006543801,
+      "costUpperBoundUsd": 0.00078365,
+      "cumulativeCostUpperBoundUsd": 0.698383409
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-5c44c38b46f8",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065574,
+      "costUpperBoundUsd": 0.001446351,
+      "cumulativeCostUpperBoundUsd": 0.69982976
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-6c6c44550739",
+      "seed": false,
+      "preCallMaximumUsd": 0.006539601,
+      "costUpperBoundUsd": 0.00118625,
+      "cumulativeCostUpperBoundUsd": 0.70101601
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-73e60b18c4eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.006556,
+      "costUpperBoundUsd": 0.00083365,
+      "cumulativeCostUpperBoundUsd": 0.70184966
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-7432b52a0a10",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065562,
+      "costUpperBoundUsd": 0.000918701,
+      "cumulativeCostUpperBoundUsd": 0.702768361
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-77ddc379dbb9",
+      "seed": false,
+      "preCallMaximumUsd": 0.006546601,
+      "costUpperBoundUsd": 0.0013788,
+      "cumulativeCostUpperBoundUsd": 0.704147161
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-7818d9673f75",
+      "seed": false,
+      "preCallMaximumUsd": 0.006539801,
+      "costUpperBoundUsd": 0.00108025,
+      "cumulativeCostUpperBoundUsd": 0.705227411
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-7e08360c4f5a",
+      "seed": false,
+      "preCallMaximumUsd": 0.006543801,
+      "costUpperBoundUsd": 0.001090951,
+      "cumulativeCostUpperBoundUsd": 0.706318362
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-846a05880441",
+      "seed": false,
+      "preCallMaximumUsd": 0.00657,
+      "costUpperBoundUsd": 0.00062805,
+      "cumulativeCostUpperBoundUsd": 0.706946412
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-85b300d5ce6a",
+      "seed": false,
+      "preCallMaximumUsd": 0.006528801,
+      "costUpperBoundUsd": 0.0008943,
+      "cumulativeCostUpperBoundUsd": 0.707840712
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-8941ea27871c",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065244,
+      "costUpperBoundUsd": 0.0014088,
+      "cumulativeCostUpperBoundUsd": 0.709249512
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-89fd1f8cd9eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.006568,
+      "costUpperBoundUsd": 0.00074715,
+      "cumulativeCostUpperBoundUsd": 0.709996662
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-9232d1cb3a28",
+      "seed": false,
+      "preCallMaximumUsd": 0.006552601,
+      "costUpperBoundUsd": 0.0006603,
+      "cumulativeCostUpperBoundUsd": 0.710656962
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-93e9f728678b",
+      "seed": false,
+      "preCallMaximumUsd": 0.006567601,
+      "costUpperBoundUsd": 0.000967201,
+      "cumulativeCostUpperBoundUsd": 0.711624163
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-9950b3ad8de7",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065262,
+      "costUpperBoundUsd": 0.00100425,
+      "cumulativeCostUpperBoundUsd": 0.712628413
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-9a8e24576364",
+      "seed": false,
+      "preCallMaximumUsd": 0.006575,
+      "costUpperBoundUsd": 0.0008204,
+      "cumulativeCostUpperBoundUsd": 0.713448813
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-9e4cf8f741eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065284,
+      "costUpperBoundUsd": 0.001215951,
+      "cumulativeCostUpperBoundUsd": 0.714664764
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-a88e68ef5ad1",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065502,
+      "costUpperBoundUsd": 0.000722851,
+      "cumulativeCostUpperBoundUsd": 0.715387615
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-b0651a3885c9",
+      "seed": false,
+      "preCallMaximumUsd": 0.006536,
+      "costUpperBoundUsd": 0.000805701,
+      "cumulativeCostUpperBoundUsd": 0.716193316
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-b0929dca8eb3",
+      "seed": false,
+      "preCallMaximumUsd": 0.006543601,
+      "costUpperBoundUsd": 0.00094125,
+      "cumulativeCostUpperBoundUsd": 0.717134566
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-b22624bcb066",
+      "seed": false,
+      "preCallMaximumUsd": 0.006539,
+      "costUpperBoundUsd": 0.000747701,
+      "cumulativeCostUpperBoundUsd": 0.717882267
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-b2f88daf0497",
+      "seed": false,
+      "preCallMaximumUsd": 0.00657,
+      "costUpperBoundUsd": 0.0013909,
+      "cumulativeCostUpperBoundUsd": 0.719273167
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-c5da13d84419",
+      "seed": false,
+      "preCallMaximumUsd": 0.006567601,
+      "costUpperBoundUsd": 0.00105765,
+      "cumulativeCostUpperBoundUsd": 0.720330817
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-c69a5f22a694",
+      "seed": false,
+      "preCallMaximumUsd": 0.006533,
+      "costUpperBoundUsd": 0.000801101,
+      "cumulativeCostUpperBoundUsd": 0.721131918
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-d330baeb0879",
+      "seed": false,
+      "preCallMaximumUsd": 0.006553801,
+      "costUpperBoundUsd": 0.000988952,
+      "cumulativeCostUpperBoundUsd": 0.72212087
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-d8b347c1da7a",
+      "seed": false,
+      "preCallMaximumUsd": 0.006543801,
+      "costUpperBoundUsd": 0.0010899,
+      "cumulativeCostUpperBoundUsd": 0.72321077
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-e10e3413cef8",
+      "seed": false,
+      "preCallMaximumUsd": 0.00657,
+      "costUpperBoundUsd": 0.000755451,
+      "cumulativeCostUpperBoundUsd": 0.723966221
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-e8992f71c531",
+      "seed": false,
+      "preCallMaximumUsd": 0.006554,
+      "costUpperBoundUsd": 0.0014093,
+      "cumulativeCostUpperBoundUsd": 0.725375521
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-e9cc2bb55d6c",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065732,
+      "costUpperBoundUsd": 0.000682951,
+      "cumulativeCostUpperBoundUsd": 0.726058472
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-ebe66bd45108",
+      "seed": false,
+      "preCallMaximumUsd": 0.006522601,
+      "costUpperBoundUsd": 0.00094655,
+      "cumulativeCostUpperBoundUsd": 0.727005022
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-f1b64b33e6a2",
+      "seed": false,
+      "preCallMaximumUsd": 0.006543801,
+      "costUpperBoundUsd": 0.00101615,
+      "cumulativeCostUpperBoundUsd": 0.728021172
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-f814be1b029f",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065412,
+      "costUpperBoundUsd": 0.001145201,
+      "cumulativeCostUpperBoundUsd": 0.729166373
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-fd2874d74a60",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065524,
+      "costUpperBoundUsd": 0.000809101,
+      "cumulativeCostUpperBoundUsd": 0.729975474
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "recordId": "record-ff337f068357",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065704,
+      "costUpperBoundUsd": 0.00076465,
+      "cumulativeCostUpperBoundUsd": 0.730740124
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-0282ddfdd9b3",
+      "seed": false,
+      "preCallMaximumUsd": 0.006684801,
+      "costUpperBoundUsd": 0.000644351,
+      "cumulativeCostUpperBoundUsd": 0.731384475
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-07af27f46aa2",
+      "seed": false,
+      "preCallMaximumUsd": 0.006686801,
+      "costUpperBoundUsd": 0.0007765,
+      "cumulativeCostUpperBoundUsd": 0.732160975
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-07d8e487c0b6",
+      "seed": false,
+      "preCallMaximumUsd": 0.006588601,
+      "costUpperBoundUsd": 0.00083105,
+      "cumulativeCostUpperBoundUsd": 0.732992025
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-0a5d2db58656",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066772,
+      "costUpperBoundUsd": 0.00062875,
+      "cumulativeCostUpperBoundUsd": 0.733620775
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-15d17b5e94dd",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066914,
+      "costUpperBoundUsd": 0.00076205,
+      "cumulativeCostUpperBoundUsd": 0.734382825
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-200df607cb86",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065772,
+      "costUpperBoundUsd": 0.00119605,
+      "cumulativeCostUpperBoundUsd": 0.735578875
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-2906cae6f48f",
+      "seed": false,
+      "preCallMaximumUsd": 0.006674,
+      "costUpperBoundUsd": 0.000772701,
+      "cumulativeCostUpperBoundUsd": 0.736351576
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-3086075941d4",
+      "seed": false,
+      "preCallMaximumUsd": 0.006693,
+      "costUpperBoundUsd": 0.000641701,
+      "cumulativeCostUpperBoundUsd": 0.736993277
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-3a5af96350a5",
+      "seed": false,
+      "preCallMaximumUsd": 0.006633801,
+      "costUpperBoundUsd": 0.00092005,
+      "cumulativeCostUpperBoundUsd": 0.737913327
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-3cd4f22e6a0c",
+      "seed": false,
+      "preCallMaximumUsd": 0.006674801,
+      "costUpperBoundUsd": 0.00067675,
+      "cumulativeCostUpperBoundUsd": 0.738590077
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-3e250e08f5ed",
+      "seed": false,
+      "preCallMaximumUsd": 0.006600801,
+      "costUpperBoundUsd": 0.00069965,
+      "cumulativeCostUpperBoundUsd": 0.739289727
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-3fa95fd9371e",
+      "seed": false,
+      "preCallMaximumUsd": 0.006669601,
+      "costUpperBoundUsd": 0.00066525,
+      "cumulativeCostUpperBoundUsd": 0.739954977
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-45d010461510",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066444,
+      "costUpperBoundUsd": 0.000696351,
+      "cumulativeCostUpperBoundUsd": 0.740651328
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-57110a1fcf0d",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066112,
+      "costUpperBoundUsd": 0.0008393,
+      "cumulativeCostUpperBoundUsd": 0.741490628
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-5c23ee793aaf",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066274,
+      "costUpperBoundUsd": 0.00112925,
+      "cumulativeCostUpperBoundUsd": 0.742619878
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-5c44c38b46f8",
+      "seed": false,
+      "preCallMaximumUsd": 0.006652,
+      "costUpperBoundUsd": 0.000922851,
+      "cumulativeCostUpperBoundUsd": 0.743542729
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-6c6c44550739",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065982,
+      "costUpperBoundUsd": 0.0010853,
+      "cumulativeCostUpperBoundUsd": 0.744628029
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-73e60b18c4eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.006686601,
+      "costUpperBoundUsd": 0.0008549,
+      "cumulativeCostUpperBoundUsd": 0.745482929
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-7432b52a0a10",
+      "seed": false,
+      "preCallMaximumUsd": 0.006650801,
+      "costUpperBoundUsd": 0.000953951,
+      "cumulativeCostUpperBoundUsd": 0.74643688
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-77ddc379dbb9",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066444,
+      "costUpperBoundUsd": 0.0006363,
+      "cumulativeCostUpperBoundUsd": 0.74707318
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-7818d9673f75",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066124,
+      "costUpperBoundUsd": 0.001432851,
+      "cumulativeCostUpperBoundUsd": 0.748506031
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-7e08360c4f5a",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066274,
+      "costUpperBoundUsd": 0.0007203,
+      "cumulativeCostUpperBoundUsd": 0.749226331
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-846a05880441",
+      "seed": false,
+      "preCallMaximumUsd": 0.006675601,
+      "costUpperBoundUsd": 0.00117775,
+      "cumulativeCostUpperBoundUsd": 0.750404081
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-85b300d5ce6a",
+      "seed": false,
+      "preCallMaximumUsd": 0.006590601,
+      "costUpperBoundUsd": 0.0010508,
+      "cumulativeCostUpperBoundUsd": 0.751454881
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-8941ea27871c",
+      "seed": false,
+      "preCallMaximumUsd": 0.006572,
+      "costUpperBoundUsd": 0.001038401,
+      "cumulativeCostUpperBoundUsd": 0.752493282
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-89fd1f8cd9eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.006676601,
+      "costUpperBoundUsd": 0.000732,
+      "cumulativeCostUpperBoundUsd": 0.753225282
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-9232d1cb3a28",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066362,
+      "costUpperBoundUsd": 0.000829851,
+      "cumulativeCostUpperBoundUsd": 0.754055133
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-93e9f728678b",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066622,
+      "costUpperBoundUsd": 0.000699951,
+      "cumulativeCostUpperBoundUsd": 0.754755084
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-9950b3ad8de7",
+      "seed": false,
+      "preCallMaximumUsd": 0.006573801,
+      "costUpperBoundUsd": 0.000787601,
+      "cumulativeCostUpperBoundUsd": 0.755542685
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-9a8e24576364",
+      "seed": false,
+      "preCallMaximumUsd": 0.006669601,
+      "costUpperBoundUsd": 0.00105315,
+      "cumulativeCostUpperBoundUsd": 0.756595835
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-9e4cf8f741eb",
+      "seed": false,
+      "preCallMaximumUsd": 0.006587,
+      "costUpperBoundUsd": 0.001035,
+      "cumulativeCostUpperBoundUsd": 0.757630835
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-a88e68ef5ad1",
+      "seed": false,
+      "preCallMaximumUsd": 0.006677801,
+      "costUpperBoundUsd": 0.000700201,
+      "cumulativeCostUpperBoundUsd": 0.758331036
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-b0651a3885c9",
+      "seed": false,
+      "preCallMaximumUsd": 0.006594601,
+      "costUpperBoundUsd": 0.0008785,
+      "cumulativeCostUpperBoundUsd": 0.759209536
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-b0929dca8eb3",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066022,
+      "costUpperBoundUsd": 0.0009153,
+      "cumulativeCostUpperBoundUsd": 0.760124836
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-b22624bcb066",
+      "seed": false,
+      "preCallMaximumUsd": 0.006633601,
+      "costUpperBoundUsd": 0.00102275,
+      "cumulativeCostUpperBoundUsd": 0.761147586
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-b2f88daf0497",
+      "seed": false,
+      "preCallMaximumUsd": 0.006678601,
+      "costUpperBoundUsd": 0.0011495,
+      "cumulativeCostUpperBoundUsd": 0.762297086
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-c5da13d84419",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066622,
+      "costUpperBoundUsd": 0.0007904,
+      "cumulativeCostUpperBoundUsd": 0.763087486
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-c69a5f22a694",
+      "seed": false,
+      "preCallMaximumUsd": 0.006580601,
+      "costUpperBoundUsd": 0.001528201,
+      "cumulativeCostUpperBoundUsd": 0.764615687
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-d330baeb0879",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066844,
+      "costUpperBoundUsd": 0.001343951,
+      "cumulativeCostUpperBoundUsd": 0.765959638
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-d8b347c1da7a",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066274,
+      "costUpperBoundUsd": 0.00066675,
+      "cumulativeCostUpperBoundUsd": 0.766626388
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-e10e3413cef8",
+      "seed": false,
+      "preCallMaximumUsd": 0.006675601,
+      "costUpperBoundUsd": 0.000798701,
+      "cumulativeCostUpperBoundUsd": 0.767425089
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-e8992f71c531",
+      "seed": false,
+      "preCallMaximumUsd": 0.006623601,
+      "costUpperBoundUsd": 0.00116155,
+      "cumulativeCostUpperBoundUsd": 0.768586639
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-e9cc2bb55d6c",
+      "seed": false,
+      "preCallMaximumUsd": 0.006678801,
+      "costUpperBoundUsd": 0.000787851,
+      "cumulativeCostUpperBoundUsd": 0.76937449
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-ebe66bd45108",
+      "seed": false,
+      "preCallMaximumUsd": 0.0065952,
+      "costUpperBoundUsd": 0.000810201,
+      "cumulativeCostUpperBoundUsd": 0.770184691
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-f1b64b33e6a2",
+      "seed": false,
+      "preCallMaximumUsd": 0.0066274,
+      "costUpperBoundUsd": 0.00096925,
+      "cumulativeCostUpperBoundUsd": 0.771153941
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-f814be1b029f",
+      "seed": false,
+      "preCallMaximumUsd": 0.006599801,
+      "costUpperBoundUsd": 0.00093675,
+      "cumulativeCostUpperBoundUsd": 0.772090691
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-fd2874d74a60",
+      "seed": false,
+      "preCallMaximumUsd": 0.006636,
+      "costUpperBoundUsd": 0.0008274,
+      "cumulativeCostUpperBoundUsd": 0.772918091
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "recordId": "record-ff337f068357",
+      "seed": false,
+      "preCallMaximumUsd": 0.006676,
+      "costUpperBoundUsd": 0.0010729,
+      "cumulativeCostUpperBoundUsd": 0.773990991
+    }
+  ],
+  "labelsRead": false,
+  "modelsScored": false,
+  "externalTimestampVerified": false
+}

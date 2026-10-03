@@ -1,0 +1,48 @@
+{
+  "recordId": "record-7432b52a0a10",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "b255efcd6baddb8bf0ffd8dd3d75de382716bc91c9bf18ff1e97405c9a4f2a80",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1189,
+    "outputTokens": 690,
+    "reasoningTokens": 417,
+    "outputTokensChargedForBound": 1107,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.005043,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.487077002,
+  "prediction": {
+    "recordId": "record-7432b52a0a10",
+    "status": "done",
+    "reason": "Step 2 executed an ssh command from app-11 testing connectivity to db-05 on port 5432 via netcat, and the output confirmed that the connection succeeded.",
+    "receipt": {
+      "sourceId": "receipt-record-7432b52a0a10",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7432b52a0a10",
+      "step": 2,
+      "line": 6,
+      "text": "Connection to db-05.example.internal 5432 port [tcp/postgresql] succeeded!",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-7432b52a0a10\",\n  \"status\": \"done\",\n  \"reason\": \"Step 2 executed an ssh command from app-11 testing connectivity to db-05 on port 5432 via netcat, and the output confirmed that the connection succeeded.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-7432b52a0a10\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7432b52a0a10\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"Connection to db-05.example.internal 5432 port [tcp/postgresql] succeeded!\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211151-185-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1189/690/417; time 4383 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:11:55.592Z"
+}

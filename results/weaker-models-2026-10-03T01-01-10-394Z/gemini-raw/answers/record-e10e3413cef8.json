@@ -1,0 +1,48 @@
+{
+  "recordId": "record-e10e3413cef8",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "0ecb5f3bc702a361a63f8537f70ae1b38e1ef81616552f372fb6738e8a6736ac",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1089,
+    "outputTokens": 446,
+    "reasoningTokens": 199,
+    "outputTokensChargedForBound": 645,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.0032355,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.309660001,
+  "prediction": {
+    "recordId": "record-e10e3413cef8",
+    "status": "done",
+    "reason": "The final check counted 37 files in the 2026-08 partition of lake.sensor_readings, which confirms it holds fewer than 100 files.",
+    "receipt": {
+      "sourceId": "receipt-record-e10e3413cef8",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e10e3413cef8",
+      "step": 2,
+      "line": 7,
+      "text": "37",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-e10e3413cef8\",\n  \"status\": \"done\",\n  \"reason\": \"The final check counted 37 files in the 2026-08 partition of lake.sensor_readings, which confirms it holds fewer than 100 files.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-e10e3413cef8\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e10e3413cef8\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"37\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210910-397-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1089/446/199; time 3332 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:09:13.753Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-93e9f728678b",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "3bbde43f483f3f49997c829865f961d130f6cc94ca05ab74d5206a59b49b1f73",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 936,
+    "outputTokens": 427,
+    "reasoningTokens": 197,
+    "outputTokensChargedForBound": 624,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000967201,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.711624163,
+  "prediction": {
+    "recordId": "record-93e9f728678b",
+    "status": "failed",
+    "reason": "The production endpoint response shows api-gateway 5.2.4, not api-gateway 5.3.0.",
+    "receipt": {
+      "sourceId": "receipt-record-93e9f728678b",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-93e9f728678b",
+      "step": 2,
+      "line": 6,
+      "text": "api-gateway 5.2.4 (build 77a0e3d1, started 2026-09-02T07:15:33Z)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-93e9f728678b\",\n  \"status\": \"failed\",\n  \"reason\": \"The production endpoint response shows api-gateway 5.2.4, not api-gateway 5.3.0.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-93e9f728678b\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-93e9f728678b\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"api-gateway 5.2.4 (build 77a0e3d1, started 2026-09-02T07:15:33Z)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211703-516-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 936/427/197; time 4266 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:17:07.806Z"
+}

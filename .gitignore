@@ -8,6 +8,5 @@ results/private/
 dist/
 .sanity/
 *.log
-# Added for the public candidate: no environment files, no zip packages
 .env*
 *.zip

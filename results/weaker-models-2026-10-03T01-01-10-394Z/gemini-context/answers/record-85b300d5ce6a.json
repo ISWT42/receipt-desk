@@ -1,0 +1,48 @@
+{
+  "recordId": "record-85b300d5ce6a",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "0c9ebda97d7cad1d6757e0dfb1f82d2aeba1daa4f327b7ee499f8ee9f0d1c676",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1059,
+    "outputTokens": 1051,
+    "reasoningTokens": 802,
+    "outputTokensChargedForBound": 1853,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.007743,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.521178002,
+  "prediction": {
+    "recordId": "record-85b300d5ce6a",
+    "status": "not shown",
+    "reason": "The supplied record shows moving a fixture file and rewriting imports, but does not show running pytest to check test collection for the ingest package.",
+    "receipt": {
+      "sourceId": "receipt-record-85b300d5ce6a",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-85b300d5ce6a",
+      "step": 2,
+      "line": 3,
+      "text": "rewrote 23 import lines in 11 files",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-85b300d5ce6a\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied record shows moving a fixture file and rewriting imports, but does not show running pytest to check test collection for the ingest package.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-85b300d5ce6a\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-85b300d5ce6a\",\n    \"step\": 2,\n    \"line\": 3,\n    \"text\": \"rewrote 23 import lines in 11 files\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211220-125-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1059/1051/802; time 6034 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:12:26.183Z"
+}

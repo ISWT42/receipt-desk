@@ -1,0 +1,22 @@
+{
+  "recordId": "record-0282ddfdd9b3",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "7e7f6ba4fb5fb0c3a00b5191571a1372d4c255706f39344300dea17fcf6635f1",
+  "costUsd": null,
+  "cumulativeCostUsd": 0,
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "reply": null,
+  "prediction": {
+    "recordId": "record-0282ddfdd9b3",
+    "status": null,
+    "receipt": null,
+    "error": "missing or invalid model reply"
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-0282ddfdd9b3\",\n  \"status\": \"failed\",\n  \"reason\": \"The final check ran `a11ycheck annual_report_2026.xlsx --standard wcag21-aa` and failed with text contrast issues on the Summary sheet.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-0282ddfdd9b3\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0282ddfdd9b3\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"accessibility check: failed (sheet Summary: text contrast 2.9:1, needs 4.5:1)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/203700-540-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1078/565/295; time 4018 ms; cost estimate unknown\n",
+  "stopReason": "BROKER_COST_UNKNOWN",
+  "completedAt": "2026-10-03T00:37:04.582Z"
+}

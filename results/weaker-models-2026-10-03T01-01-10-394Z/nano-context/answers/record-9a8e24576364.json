@@ -1,0 +1,48 @@
+{
+  "recordId": "record-9a8e24576364",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "636c446eb9c51adc97bc6ace585e43a7d54e98ae8b32524983cd8d63395965e0",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1047,
+    "outputTokens": 454,
+    "reasoningTokens": 221,
+    "outputTokensChargedForBound": 675,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00105315,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.756595835,
+  "prediction": {
+    "recordId": "record-9a8e24576364",
+    "status": "done",
+    "reason": "The final check shows the generated PDF has exactly 24 pages (“Pages:           24”), so board_pack_q3.xlsx fits on 24 printed pages.",
+    "receipt": {
+      "sourceId": "9d833c0767a92491b877c719b49cb538973a6930ed00bc332d8f2f86b4d13a14",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9a8e24576364",
+      "step": 2,
+      "line": 6,
+      "text": "Pages:           24",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-9a8e24576364\",\n  \"status\": \"done\",\n  \"reason\": \"The final check shows the generated PDF has exactly 24 pages (“Pages:           24”), so board_pack_q3.xlsx fits on 24 printed pages.\",\n  \"receipt\": {\n    \"sourceId\": \"9d833c0767a92491b877c719b49cb538973a6930ed00bc332d8f2f86b4d13a14\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9a8e24576364\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"Pages:           24\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212101-817-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1047/454/221; time 3989 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:21:05.830Z"
+}

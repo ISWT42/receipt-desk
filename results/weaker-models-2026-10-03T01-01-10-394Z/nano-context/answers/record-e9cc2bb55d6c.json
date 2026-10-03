@@ -1,0 +1,48 @@
+{
+  "recordId": "record-e9cc2bb55d6c",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "0315fa9b007ab4d7b8db9bd8a511e9a9568446595d3ff8ead0ed1af254bdda1b",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1058,
+    "outputTokens": 351,
+    "reasoningTokens": 110,
+    "outputTokensChargedForBound": 461,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000787851,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.76937449,
+  "prediction": {
+    "recordId": "record-e9cc2bb55d6c",
+    "status": "failed",
+    "reason": "The final PII scan check reports: \"scan result: failed (2,117 email addresses in column requester_email)\" for analytics.support_tickets.",
+    "receipt": {
+      "sourceId": "92078b0c092376ae543977837851ff7b4d02823ca51b200e83b3459d3f1290a1",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e9cc2bb55d6c",
+      "step": 2,
+      "line": 7,
+      "text": "scan result: failed (2,117 email addresses in column requester_email)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-e9cc2bb55d6c\",\n  \"status\": \"failed\",\n  \"reason\": \"The final PII scan check reports: \\\"scan result: failed (2,117 email addresses in column requester_email)\\\" for analytics.support_tickets.\",\n  \"receipt\": {\n    \"sourceId\": \"92078b0c092376ae543977837851ff7b4d02823ca51b200e83b3459d3f1290a1\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e9cc2bb55d6c\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"scan result: failed (2,117 email addresses in column requester_email)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212201-846-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1058/351/110; time 4005 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:22:05.875Z"
+}

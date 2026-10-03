@@ -1,0 +1,48 @@
+{
+  "recordId": "record-b0651a3885c9",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "7a3a3bd55738220db6ffe96ba1ccfa4ef4e1847fceac66e34739914b22d29137",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 995,
+    "outputTokens": 688,
+    "reasoningTokens": 435,
+    "outputTokensChargedForBound": 1123,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.0049575,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.259064251,
+  "prediction": {
+    "recordId": "record-b0651a3885c9",
+    "status": "not shown",
+    "reason": "The supplied log only shows the catalogue seeding script running against staging; it does not show the execution or results of the end-to-end checkout test.",
+    "receipt": {
+      "sourceId": "receipt-record-b0651a3885c9",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b0651a3885c9",
+      "step": 1,
+      "line": 4,
+      "text": "seed: finished in 9.4s",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-b0651a3885c9\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log only shows the catalogue seeding script running against staging; it does not show the execution or results of the end-to-end checkout test.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-b0651a3885c9\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b0651a3885c9\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"seed: finished in 9.4s\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210821-256-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 995/688/435; time 4962 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:08:26.250Z"
+}

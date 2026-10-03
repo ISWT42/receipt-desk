@@ -1,0 +1,48 @@
+{
+  "recordId": "record-9232d1cb3a28",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "62bbf82c7356810449b44a2f54b7db68f1b146d7c76c0dae3bf51ab439841d50",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 889,
+    "outputTokens": 301,
+    "reasoningTokens": 85,
+    "outputTokensChargedForBound": 386,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.0006603,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.710656962,
+  "prediction": {
+    "recordId": "record-9232d1cb3a28",
+    "status": "failed",
+    "reason": "The recorded canary results show p95 latency for search-api as 412ms, which is not under 250ms.",
+    "receipt": {
+      "sourceId": "receipt-record-9232d1cb3a28",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9232d1cb3a28",
+      "step": 2,
+      "line": 5,
+      "text": "requests=14400 p50=164ms p95=412ms p99=655ms",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-9232d1cb3a28\",\n  \"status\": \"failed\",\n  \"reason\": \"The recorded canary results show p95 latency for search-api as 412ms, which is not under 250ms.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9232d1cb3a28\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9232d1cb3a28\",\n    \"step\": 2,\n    \"line\": 5,\n    \"text\": \"requests=14400 p50=164ms p95=412ms p99=655ms\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211659-507-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 889/301/85; time 3266 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:17:02.797Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-c69a5f22a694",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "82b46eb33670eb4b18e1aecbf5a371646e0891cb2ddc81b25a3537bc8658cf9a",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 843,
+    "outputTokens": 385,
+    "reasoningTokens": 121,
+    "outputTokensChargedForBound": 506,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000801101,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.721131918,
+  "prediction": {
+    "recordId": "record-c69a5f22a694",
+    "status": "not shown",
+    "reason": "The record shows the print layout was set to be 1 page wide (8 sheets landscape), but it never reports the total number of printed pages (nor a comparison to 24). The final check for “fits on 24 printed pages” is not evidenced.",
+    "receipt": {
+      "sourceId": "4ee4026cff7be90949a21d10e9273f6eae7e500f86d60c81411b03ae0858b544",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c69a5f22a694",
+      "step": 1,
+      "line": 2,
+      "text": "print_layout: 8 sheets set to landscape, 1 page wide",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-c69a5f22a694\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record shows the print layout was set to be 1 page wide (8 sheets landscape), but it never reports the total number of printed pages (nor a comparison to 24). The final check for “fits on 24 printed pages” is not evidenced.\",\n  \"receipt\": {\n    \"sourceId\": \"4ee4026cff7be90949a21d10e9273f6eae7e500f86d60c81411b03ae0858b544\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c69a5f22a694\",\n    \"step\": 1,\n    \"line\": 2,\n    \"text\": \"print_layout: 8 sheets set to landscape, 1 page wide\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211753-342-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 843/385/121; time 3435 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:17:56.800Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-846a05880441",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "dfe5cca0aa347a6d3540585491c33cde6beb1867080e422c57c936b00cf23308",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1070,
+    "outputTokens": 494,
+    "reasoningTokens": 277,
+    "outputTokensChargedForBound": 771,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00117775,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.750404081,
+  "prediction": {
+    "recordId": "record-846a05880441",
+    "status": "done",
+    "reason": "The log runs schemacheck on exports/billing/2026-08 against schemas/billing_v4.json and reports result VALID.",
+    "receipt": {
+      "sourceId": "059aeefc0df67015795ca8dc514ec01ee67045c88aedd030e9001039679d912a",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-846a05880441",
+      "step": 2,
+      "line": 7,
+      "text": "result: VALID",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-846a05880441\",\n  \"status\": \"done\",\n  \"reason\": \"The log runs schemacheck on exports/billing/2026-08 against schemas/billing_v4.json and reports result VALID.\",\n  \"receipt\": {\n    \"sourceId\": \"059aeefc0df67015795ca8dc514ec01ee67045c88aedd030e9001039679d912a\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-846a05880441\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"result: VALID\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212027-914-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1070/494/277; time 6511 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:20:34.451Z"
+}

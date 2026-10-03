@@ -1,0 +1,48 @@
+{
+  "recordId": "record-f1b64b33e6a2",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "26f449611f55da1f1a41d04f44697dcbdef7c5de5b2e4619220590c9f6815812",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 887,
+    "outputTokens": 456,
+    "reasoningTokens": 215,
+    "outputTokensChargedForBound": 671,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00101615,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.728021172,
+  "prediction": {
+    "recordId": "record-f1b64b33e6a2",
+    "status": "failed",
+    "reason": "The final DNS resolution check against ns1.example.org returned 198.51.100.7 instead of the expected 203.0.113.40.",
+    "receipt": {
+      "sourceId": "ea5a6622f3ff5cafe2f12a4edee0bdf618607190f77ed20b1fa91873b33c87d5",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f1b64b33e6a2",
+      "step": 2,
+      "line": 5,
+      "text": "198.51.100.7",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-f1b64b33e6a2\",\n  \"status\": \"failed\",\n  \"reason\": \"The final DNS resolution check against ns1.example.org returned 198.51.100.7 instead of the expected 203.0.113.40.\",\n  \"receipt\": {\n    \"sourceId\": \"ea5a6622f3ff5cafe2f12a4edee0bdf618607190f77ed20b1fa91873b33c87d5\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-f1b64b33e6a2\",\n    \"step\": 2,\n    \"line\": 5,\n    \"text\": \"198.51.100.7\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211829-677-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 887/456/215; time 3417 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:18:33.118Z"
+}

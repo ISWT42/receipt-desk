@@ -1,0 +1,18 @@
+{
+  "inputsManifest": "work/weaker-inputs-2026-10-03T00-21-25-484Z/inputs-manifest.json",
+  "systemFile": "work/weaker-system-candidate-2026-10-03T00-27-28-065Z.txt",
+  "systemSha256": "c44cd5f333afc1ecfd0ebe2a77a1939d4251c6df72bf5bc852a6c77fed736f92",
+  "schemaTransportApproved": true,
+  "tokenAccountingApproved": true,
+  "resultDirectory": "results/weaker-models-2026-10-03T01-01-10-394Z",
+  "seedCase": {
+    "recordId": "record-0282ddfdd9b3",
+    "answerFile": "results/weaker-models-2026-10-03T00-36-49-176Z/gemini-raw/answers/record-0282ddfdd9b3.json",
+    "answerSha256": "2096d8e04c60e3d6404936fab3d328327afed6134e646bd07e7b823d69cdfadf",
+    "requestFile": "results/weaker-models-2026-10-03T00-36-49-176Z/gemini-raw/requests/record-0282ddfdd9b3.json"
+  },
+  "capUsd": 2,
+  "modelHarnessSha256": "2aed720b2135ca37d749f6e23d0c6d873a5573d1681707211fd9c1a8c57ebf55",
+  "accountingSha256": "9baf39c79fc32d75fbd05950e605bcba40a129a680c29882435a203e4298cd19",
+  "decoderSha256": "a66947336cf0fcb21ca92fc412f8848f6f15f5c7eff78427ee8df67d04872425"
+}

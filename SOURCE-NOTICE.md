@@ -6,7 +6,7 @@ The supplied dataset metadata lists CC BY 4.0. The derivation separates command 
 
 The original staged files remain local, with their recorded SHA-256 hashes. They are not in the proposed public runtime package. Sanity uploads contain only the sanitized export.
 
-The owner has not chosen a licence for the new application code. Do not infer a code licence from the benchmark's licence.
+The application code is under the MIT licence (see LICENSE). The 48 logs and the historical model replies come from the dataset "It Quoted the Failure: Benchmark Evidence" by Joshua Bauer (ISWT42), CC BY 4.0, https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence.
 
 ## Doubts considered and dismissed
 - A source licence also licences the new application. They are separate choices.

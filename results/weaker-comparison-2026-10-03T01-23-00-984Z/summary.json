@@ -1,0 +1,314 @@
+{
+  "status": "done",
+  "provider": "Owner broker, OpenRouter",
+  "models": [
+    "google/gemini-3.7-flash",
+    "openai/gpt-5.4-nano"
+  ],
+  "runDirectory": "results/weaker-models-2026-10-03T01-01-10-394Z",
+  "systems": {
+    "gemini-raw": {
+      "total": 48,
+      "classTotals": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctByClass": {
+        "done": 16,
+        "failed": 14,
+        "not shown": 16
+      },
+      "correctTotal": 46,
+      "supportedByClass": {
+        "done": 14,
+        "failed": 11,
+        "not shown": 16
+      },
+      "receiptScore": 0.6015625,
+      "falseDoneFailed": 2,
+      "falseDoneNotShown": 0,
+      "invalid": 0,
+      "confusion": {
+        "done": {
+          "done": 16,
+          "failed": 0,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "failed": {
+          "done": 2,
+          "failed": 14,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "not shown": {
+          "done": 0,
+          "failed": 0,
+          "not shown": 16,
+          "invalid": 0
+        }
+      }
+    },
+    "gemini-context": {
+      "total": 48,
+      "classTotals": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctByClass": {
+        "done": 16,
+        "failed": 14,
+        "not shown": 16
+      },
+      "correctTotal": 46,
+      "supportedByClass": {
+        "done": 12,
+        "failed": 12,
+        "not shown": 16
+      },
+      "receiptScore": 0.5625,
+      "falseDoneFailed": 2,
+      "falseDoneNotShown": 0,
+      "invalid": 0,
+      "confusion": {
+        "done": {
+          "done": 16,
+          "failed": 0,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "failed": {
+          "done": 2,
+          "failed": 14,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "not shown": {
+          "done": 0,
+          "failed": 0,
+          "not shown": 16,
+          "invalid": 0
+        }
+      }
+    },
+    "nano-raw": {
+      "total": 48,
+      "classTotals": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctByClass": {
+        "done": 16,
+        "failed": 15,
+        "not shown": 16
+      },
+      "correctTotal": 47,
+      "supportedByClass": {
+        "done": 13,
+        "failed": 7,
+        "not shown": 4
+      },
+      "receiptScore": 0.0888671875,
+      "falseDoneFailed": 1,
+      "falseDoneNotShown": 0,
+      "invalid": 0,
+      "confusion": {
+        "done": {
+          "done": 16,
+          "failed": 0,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "failed": {
+          "done": 1,
+          "failed": 15,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "not shown": {
+          "done": 0,
+          "failed": 0,
+          "not shown": 16,
+          "invalid": 0
+        }
+      }
+    },
+    "nano-context": {
+      "total": 48,
+      "classTotals": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 16
+      },
+      "correctByClass": {
+        "done": 16,
+        "failed": 16,
+        "not shown": 15
+      },
+      "correctTotal": 47,
+      "supportedByClass": {
+        "done": 13,
+        "failed": 8,
+        "not shown": 11
+      },
+      "receiptScore": 0.279296875,
+      "falseDoneFailed": 0,
+      "falseDoneNotShown": 1,
+      "invalid": 0,
+      "confusion": {
+        "done": {
+          "done": 16,
+          "failed": 0,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "failed": {
+          "done": 0,
+          "failed": 16,
+          "not shown": 0,
+          "invalid": 0
+        },
+        "not shown": {
+          "done": 1,
+          "failed": 0,
+          "not shown": 15,
+          "invalid": 0
+        }
+      }
+    }
+  },
+  "predictions": [
+    {
+      "id": "P1",
+      "hit": true,
+      "criterion": "Gemini raw: at least 2 false done on failed checks",
+      "observed": 2,
+      "result": "hit",
+      "evaluableAsCompletedTest": true
+    },
+    {
+      "id": "P2",
+      "hit": false,
+      "criterion": "Nano raw: at least 2 false done on missing checks",
+      "observed": 0,
+      "result": "miss",
+      "evaluableAsCompletedTest": true
+    },
+    {
+      "id": "P3",
+      "hit": false,
+      "criterion": "Every model with at least 2 raw false done has no more than half through Context",
+      "qualifyingModels": [
+        {
+          "model": "google/gemini-3.7-flash",
+          "raw": 2,
+          "context": 2
+        }
+      ],
+      "vacuous": false,
+      "result": "miss",
+      "evaluableAsCompletedTest": true
+    },
+    {
+      "id": "P4",
+      "hit": true,
+      "criterion": "For each model, Context correct status >= raw",
+      "models": [
+        {
+          "model": "google/gemini-3.7-flash",
+          "raw": 46,
+          "context": 46
+        },
+        {
+          "model": "openai/gpt-5.4-nano",
+          "raw": 47,
+          "context": 47
+        }
+      ],
+      "result": "hit",
+      "evaluableAsCompletedTest": true
+    },
+    {
+      "id": "P5",
+      "hit": false,
+      "criterion": "For each model, Context receipt score >= raw",
+      "models": [
+        {
+          "model": "google/gemini-3.7-flash",
+          "raw": 0.6015625,
+          "context": 0.5625
+        },
+        {
+          "model": "openai/gpt-5.4-nano",
+          "raw": 0.0888671875,
+          "context": 0.279296875
+        }
+      ],
+      "result": "miss",
+      "evaluableAsCompletedTest": true
+    }
+  ],
+  "totalAttempted": 192,
+  "reportedCostUsd": null,
+  "costUpperBoundUsd": 0.773990991,
+  "actualTotalCostKnown": false,
+  "newCalls": 191,
+  "originalSeedCalls": 1,
+  "capUsd": 2,
+  "budgetWithinCap": true,
+  "stopReason": null,
+  "arms": [
+    {
+      "name": "gemini-raw",
+      "model": "google/gemini-3.7-flash",
+      "arm": "raw",
+      "attempted": 48,
+      "missingOrInvalid": 0,
+      "complete": true
+    },
+    {
+      "name": "gemini-context",
+      "model": "google/gemini-3.7-flash",
+      "arm": "context",
+      "attempted": 48,
+      "missingOrInvalid": 0,
+      "complete": true
+    },
+    {
+      "name": "nano-raw",
+      "model": "openai/gpt-5.4-nano",
+      "arm": "raw",
+      "attempted": 48,
+      "missingOrInvalid": 0,
+      "complete": true
+    },
+    {
+      "name": "nano-context",
+      "model": "openai/gpt-5.4-nano",
+      "arm": "context",
+      "attempted": 48,
+      "missingOrInvalid": 0,
+      "complete": true
+    }
+  ],
+  "frozen": {
+    "plan": "12fabc9393b62bb76e902c59642ece98cf71909934751dc5462001625c2b3ee2",
+    "predictions": "201f7ed4b13c78deef4d6a17e5da479c099621a29b487c85d3cd065f14325e45",
+    "prompt": "1672067e24df40ca6601567d20ed9a2c5393dcc108c085fb8498c7cce4f788b7",
+    "responseSchema": "170e9cf7695880f79f97c2a935206a30c2e72b7794d23a5c9be7830721e0ca90",
+    "questions": "9dc69aac2febbbe01f3c46c127328f172a6178ab6ee67eb9e6a9a9fae8664f30",
+    "scorer": "4552fb18043d4b2636a1c8d08c5273ab6ca798beb21f09320331324d59463313",
+    "records": "6984441aaac60924de3189a835a1aa0725181a9c29cc1f48877cdd38a3ba1e46",
+    "modelSession": "6c8172dce0553cba030850e739c7abe6722385c641979ffaacd2e8fdec302cc5",
+    "modelEvidence": "28b1f19d3243c71ec09f7ca087384772d3288a3c0f3f1351b3f7d34d23df6856",
+    "sealed": false
+  },
+  "sealedPredictionsSha256": "a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f",
+  "correctionSha256": "6790686ac85ffbbeec70946ed0aa2f2a7eccf5388e7788bae0c705bdd4eae6b2",
+  "otsSha256": "9793494d417848aab3ea34c60f83e7ed1fc6ad596ab9a68a056e18c23fc32604",
+  "externalTimestampVerified": false,
+  "headline": "Original GPT-6.1 comparison tied; this addition is secondary."
+}

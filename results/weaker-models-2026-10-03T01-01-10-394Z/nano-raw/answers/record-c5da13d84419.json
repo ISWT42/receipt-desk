@@ -1,0 +1,48 @@
+{
+  "recordId": "record-c5da13d84419",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "0543d612cadc7ccfbb02721e7d84be19d14e0063dc9c6520d67fc85aa3ba827c",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 932,
+    "outputTokens": 460,
+    "reasoningTokens": 237,
+    "outputTokensChargedForBound": 697,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00105765,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.720330817,
+  "prediction": {
+    "recordId": "record-c5da13d84419",
+    "status": "done",
+    "reason": "The production version endpoint was queried and returned “api-gateway 5.3.0”, matching the requested version.",
+    "receipt": {
+      "sourceId": "receipt-record-c5da13d84419",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c5da13d84419",
+      "step": 2,
+      "line": 6,
+      "text": "api-gateway 5.3.0 (build 4be19c07, started 2026-09-16T10:42:08Z)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-c5da13d84419\",\n  \"status\": \"done\",\n  \"reason\": \"The production version endpoint was queried and returned “api-gateway 5.3.0”, matching the requested version.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-c5da13d84419\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c5da13d84419\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"api-gateway 5.3.0 (build 4be19c07, started 2026-09-16T10:42:08Z)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211749-160-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 932/460/237; time 3475 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:17:52.659Z"
+}

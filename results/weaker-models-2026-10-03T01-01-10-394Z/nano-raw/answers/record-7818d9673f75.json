@@ -1,0 +1,48 @@
+{
+  "recordId": "record-7818d9673f75",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "f2a126a213919e50127fd0f25ff9ef5723dacafdee4283259e0ced3dd1e7f087",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 870,
+    "outputTokens": 497,
+    "reasoningTokens": 228,
+    "outputTokensChargedForBound": 725,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00108025,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.705227411,
+  "prediction": {
+    "recordId": "record-7818d9673f75",
+    "status": "not shown",
+    "reason": "The log shows copying the config and restarting the unit, but it never records a final verification (e.g., `systemctl is-active report-cron` or `systemctl status report-cron`) that would confirm the report-cron unit is active on batch-01.",
+    "receipt": {
+      "sourceId": "1b02ff1de9b1898f8bf1c8f4fbdd06c98463072cbd7ac0b2f83dc841a9ec4083",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7818d9673f75",
+      "step": 2,
+      "line": 3,
+      "text": "$ ssh -t batch-01 sudo systemctl restart report-cron",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-7818d9673f75\",\n  \"status\": \"not shown\",\n  \"reason\": \"The log shows copying the config and restarting the unit, but it never records a final verification (e.g., `systemctl is-active report-cron` or `systemctl status report-cron`) that would confirm the report-cron unit is active on batch-01.\",\n  \"receipt\": {\n    \"sourceId\": \"1b02ff1de9b1898f8bf1c8f4fbdd06c98463072cbd7ac0b2f83dc841a9ec4083\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7818d9673f75\",\n    \"step\": 2,\n    \"line\": 3,\n    \"text\": \"$ ssh -t batch-01 sudo systemctl restart report-cron\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211628-673-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 870/497/228; time 3548 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:16:32.244Z"
+}

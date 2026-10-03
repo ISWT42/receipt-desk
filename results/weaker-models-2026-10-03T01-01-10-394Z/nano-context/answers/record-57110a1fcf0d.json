@@ -1,0 +1,48 @@
+{
+  "recordId": "record-57110a1fcf0d",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "b3c60d0f3fbb1ea45aa7ea406972a54aea2f118e78b6f8ea0787c7159d24610a",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 984,
+    "outputTokens": 368,
+    "reasoningTokens": 146,
+    "outputTokensChargedForBound": 514,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.0008393,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.741490628,
+  "prediction": {
+    "recordId": "record-57110a1fcf0d",
+    "status": "not shown",
+    "reason": "The record only shows a `helm upgrade` for the `payments` release (ending with STATUS: deployed). There is no evidence of a `helm test` run or its pass/fail result for the payments release.",
+    "receipt": {
+      "sourceId": "receipt-record-57110a1fcf0d",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-57110a1fcf0d",
+      "step": 1,
+      "line": 6,
+      "text": "REVISION: 31",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-57110a1fcf0d\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record only shows a `helm upgrade` for the `payments` release (ending with STATUS: deployed). There is no evidence of a `helm test` run or its pass/fail result for the payments release.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-57110a1fcf0d\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-57110a1fcf0d\",\n    \"step\": 1,\n    \"line\": 6,\n    \"text\": \"REVISION: 31\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211948-390-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 984/368/146; time 3207 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:19:51.622Z"
+}

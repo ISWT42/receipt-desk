@@ -1,0 +1,48 @@
+{
+  "recordId": "record-7818d9673f75",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "4e583e84ffef7df3a7035a2db2f91d97b00d47c5b087d8745905ddf52d9398df",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 983,
+    "outputTokens": 619,
+    "reasoningTokens": 370,
+    "outputTokensChargedForBound": 989,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.001432851,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.748506031,
+  "prediction": {
+    "recordId": "record-7818d9673f75",
+    "status": "not shown",
+    "reason": "The record shows restarting `report-cron` on batch-01, but it does not include a final `systemctl is-active`/`status` (or equivalent) check proving the unit is active.",
+    "receipt": {
+      "sourceId": "1b02ff1de9b1898f8bf1c8f4fbdd06c98463072cbd7ac0b2f83dc841a9ec4083",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7818d9673f75",
+      "step": 2,
+      "line": 4,
+      "text": "Connection to batch-01 closed.",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-7818d9673f75\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record shows restarting `report-cron` on batch-01, but it does not include a final `systemctl is-active`/`status` (or equivalent) check proving the unit is active.\",\n  \"receipt\": {\n    \"sourceId\": \"1b02ff1de9b1898f8bf1c8f4fbdd06c98463072cbd7ac0b2f83dc841a9ec4083\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7818d9673f75\",\n    \"step\": 2,\n    \"line\": 4,\n    \"text\": \"Connection to batch-01 closed.\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212018-488-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 983/619/370; time 5364 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:20:23.876Z"
+}

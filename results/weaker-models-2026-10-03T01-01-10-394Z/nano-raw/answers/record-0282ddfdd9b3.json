@@ -1,0 +1,48 @@
+{
+  "recordId": "record-0282ddfdd9b3",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "7e7f6ba4fb5fb0c3a00b5191571a1372d4c255706f39344300dea17fcf6635f1",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 916,
+    "outputTokens": 408,
+    "reasoningTokens": 153,
+    "outputTokensChargedForBound": 561,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000884451,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.686325954,
+  "prediction": {
+    "recordId": "record-0282ddfdd9b3",
+    "status": "failed",
+    "reason": "The accessibility check for annual_report_2026.xlsx explicitly reports failure due to insufficient text contrast (2.9:1 vs required 4.5:1).",
+    "receipt": {
+      "sourceId": "5038e4b87f8d7e4461ffeedd0cb3dc00de035478607d00ae4807fe909187bb5b",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0282ddfdd9b3",
+      "step": 2,
+      "line": 7,
+      "text": "accessibility check: failed (sheet Summary: text contrast 2.9:1, needs 4.5:1)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 7
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-0282ddfdd9b3\",\n  \"status\": \"failed\",\n  \"reason\": \"The accessibility check for annual_report_2026.xlsx explicitly reports failure due to insufficient text contrast (2.9:1 vs required 4.5:1).\",\n  \"receipt\": {\n    \"sourceId\": \"5038e4b87f8d7e4461ffeedd0cb3dc00de035478607d00ae4807fe909187bb5b\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-0282ddfdd9b3\",\n    \"step\": 2,\n    \"line\": 7,\n    \"text\": \"accessibility check: failed (sheet Summary: text contrast 2.9:1, needs 4.5:1)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 7\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211457-827-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 916/408/153; time 3942 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:15:01.794Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-e8992f71c531",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "946f9ba1faf361035ac1a8da43a59d62da194a5b5af089ba29c579cb80c64330",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 989,
+    "outputTokens": 516,
+    "reasoningTokens": 255,
+    "outputTokensChargedForBound": 771,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00116155,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.768586639,
+  "prediction": {
+    "recordId": "record-e8992f71c531",
+    "status": "not shown",
+    "reason": "The supplied log shows a compaction job running, but it does not include any final check or output of the number of files in the `lake.sensor_readings` partition for `month=2026-08`. Therefore, it does not demonstrate that the partition holds fewer than 100 files.",
+    "receipt": {
+      "sourceId": "dd05d4606fd63498bdcc61bebbe1e39f028705db23bdde870f190b6db0c91773",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e8992f71c531",
+      "step": 1,
+      "line": 4,
+      "text": "[compact] wrote 38.1 GB of new files",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-e8992f71c531\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows a compaction job running, but it does not include any final check or output of the number of files in the `lake.sensor_readings` partition for `month=2026-08`. Therefore, it does not demonstrate that the partition holds fewer than 100 files.\",\n  \"receipt\": {\n    \"sourceId\": \"dd05d4606fd63498bdcc61bebbe1e39f028705db23bdde870f190b6db0c91773\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-e8992f71c531\",\n    \"step\": 1,\n    \"line\": 4,\n    \"text\": \"[compact] wrote 38.1 GB of new files\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212157-043-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 989/516/255; time 4015 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:22:01.083Z"
+}

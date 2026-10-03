@@ -1,0 +1,48 @@
+{
+  "recordId": "record-9950b3ad8de7",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "77bc35fccc881bcc317ba9b4a40fc4bb117cef1cd5b386d5ba7176e8c4326a6c",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 913,
+    "outputTokens": 359,
+    "reasoningTokens": 125,
+    "outputTokensChargedForBound": 484,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000787601,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.755542685,
+  "prediction": {
+    "recordId": "record-9950b3ad8de7",
+    "status": "not shown",
+    "reason": "The supplied log only shows deploying/restarting the search-api canary. It does not include any measurement or report of p95 latency for the search-api canary, so it cannot be verified that p95 latency is under 250 ms.",
+    "receipt": {
+      "sourceId": "receipt-record-9950b3ad8de7",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9950b3ad8de7",
+      "step": 1,
+      "line": 3,
+      "text": "canary search-api: 2/2 pods restarted and ready",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-9950b3ad8de7\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log only shows deploying/restarting the search-api canary. It does not include any measurement or report of p95 latency for the search-api canary, so it cannot be verified that p95 latency is under 250 ms.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9950b3ad8de7\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9950b3ad8de7\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"canary search-api: 2/2 pods restarted and ready\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212057-338-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 913/359/125; time 3715 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:21:01.078Z"
+}

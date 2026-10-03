@@ -1,0 +1,48 @@
+{
+  "recordId": "record-45d010461510",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "adb774b5984189fe11d9ed67cd36ae13014fbe440fe7d252e7a4a3656cafa339",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1013,
+    "outputTokens": 293,
+    "reasoningTokens": 102,
+    "outputTokensChargedForBound": 395,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000696351,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.740651328,
+  "prediction": {
+    "recordId": "record-45d010461510",
+    "status": "done",
+    "reason": "The final collection check shows pytest collecting exactly 148 tests for `tests/ingest`.",
+    "receipt": {
+      "sourceId": "receipt-record-45d010461510",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-45d010461510",
+      "step": 3,
+      "line": 5,
+      "text": "148 tests collected in 0.52s",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-45d010461510\",\n  \"status\": \"done\",\n  \"reason\": \"The final collection check shows pytest collecting exactly 148 tests for `tests/ingest`.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-45d010461510\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-45d010461510\",\n    \"step\": 3,\n    \"line\": 5,\n    \"text\": \"148 tests collected in 0.52s\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211944-636-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1013/293/102; time 2928 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:19:47.588Z"
+}

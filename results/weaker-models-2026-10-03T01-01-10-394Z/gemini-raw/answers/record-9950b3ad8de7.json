@@ -1,0 +1,48 @@
+{
+  "recordId": "record-9950b3ad8de7",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "784a5cce0d745df4d73d0cc3d451c66ac2a925e390b14385ba77922989b794d4",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 965,
+    "outputTokens": 791,
+    "reasoningTokens": 527,
+    "outputTokensChargedForBound": 1318,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00566625,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.236709001,
+  "prediction": {
+    "recordId": "record-9950b3ad8de7",
+    "status": "not shown",
+    "reason": "The supplied log only shows applying a configuration update and restarting canary pods. It does not contain any check or report measuring whether the p95 latency of the search-api canary is under 250 ms.",
+    "receipt": {
+      "sourceId": "receipt-record-9950b3ad8de7",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9950b3ad8de7",
+      "step": 1,
+      "line": 3,
+      "text": "canary search-api: 2/2 pods restarted and ready",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-9950b3ad8de7\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log only shows applying a configuration update and restarting canary pods. It does not contain any check or report measuring whether the p95 latency of the search-api canary is under 250 ms.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-9950b3ad8de7\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9950b3ad8de7\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"canary search-api: 2/2 pods restarted and ready\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210757-607-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 965/791/527; time 4560 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:08:02.192Z"
+}

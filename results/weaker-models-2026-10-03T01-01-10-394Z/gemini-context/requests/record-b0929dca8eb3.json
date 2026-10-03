@@ -1,0 +1,21 @@
+{
+  "recordId": "record-b0929dca8eb3",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "promptFile": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-b0929dca8eb3.txt",
+  "promptSha256": "e4aef9c8ba80d7c925236d45298efd1aa6b3d66e3d3ddd318a891875f29f8318",
+  "systemSha256": "c44cd5f333afc1ecfd0ebe2a77a1939d4251c6df72bf5bc852a6c77fed736f92",
+  "reservation": {
+    "inputTokenUpperBound": 8011,
+    "outputTokenCap": 4000,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "worstNanoUsd": 21008250,
+    "worstCaseUsd": 0.02100825,
+    "spentUsd": 0.577478252,
+    "permitted": true
+  },
+  "startedAt": "2026-10-03T01:13:21.433Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-c69a5f22a694",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "0f471d66efaabbbb0a44e0b0dcdb9b7843187768b86ea22f5bdc199f88230e18",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 916,
+    "outputTokens": 645,
+    "reasoningTokens": 431,
+    "outputTokensChargedForBound": 1076,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.001528201,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.764615687,
+  "prediction": {
+    "recordId": "record-c69a5f22a694",
+    "status": "done",
+    "reason": "The recorded print layout output shows the document is set to 1 page wide across 8 sheets, implying it will print within the 24-page limit.",
+    "receipt": {
+      "sourceId": "receipt-record-c69a5f22a694",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c69a5f22a694",
+      "step": 1,
+      "line": 2,
+      "text": "print_layout: 8 sheets set to landscape, 1 page wide",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-c69a5f22a694\",\n  \"status\": \"done\",\n  \"reason\": \"The recorded print layout output shows the document is set to 1 page wide across 8 sheets, implying it will print within the 24-page limit.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-c69a5f22a694\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-c69a5f22a694\",\n    \"step\": 1,\n    \"line\": 2,\n    \"text\": \"print_layout: 8 sheets set to landscape, 1 page wide\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/212138-648-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 916/645/431; time 5119 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:21:43.790Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-200df607cb86",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "f3823ed39ac1431ee6e0298d8f8c641493294b8f6b8df1c89c7e49fb62b64bad",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1009,
+    "outputTokens": 852,
+    "reasoningTokens": 574,
+    "outputTokensChargedForBound": 1426,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.00610425,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.0450285,
+  "prediction": {
+    "recordId": "record-200df607cb86",
+    "status": "not shown",
+    "reason": "The log shows a DNS record update committed via dnsctl, but no check was performed to verify that files.example.org resolves to 203.0.113.40 on ns1.example.org.",
+    "receipt": {
+      "sourceId": "receipt-record-200df607cb86",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86",
+      "step": 1,
+      "line": 3,
+      "text": "change c-88217 committed (zone serial 2026091604)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-200df607cb86\",\n  \"status\": \"not shown\",\n  \"reason\": \"The log shows a DNS record update committed via dnsctl, but no check was performed to verify that files.example.org resolves to 203.0.113.40 on ns1.example.org.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-200df607cb86\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"change c-88217 committed (zone serial 2026091604)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210445-529-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1009/852/574; time 5970 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:04:51.523Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-d8b347c1da7a",
+  "model": "google/gemini-3.7-flash",
+  "arm": "context",
+  "inputSha256": "d439f55901e56ea5d5a1687e89d94131b545a9b4b4c72d932f8a6ef188fcc4da",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1156,
+    "outputTokens": 2246,
+    "reasoningTokens": 1926,
+    "outputTokensChargedForBound": 4172,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.016512,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.642052502,
+  "prediction": {
+    "recordId": "record-d8b347c1da7a",
+    "status": "done",
+    "reason": "The check was executed in step 2 with `python cellvalue.py invoices_q3.xlsx Invoices!H2 --recalculate`, which confirmed that Invoices!H2 is 48,210.75.",
+    "receipt": {
+      "sourceId": "9bfe7058e9b3d7d114fe1601cb38f14b55ee5a04306f2060a0754711435a3474",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-d8b347c1da7a",
+      "step": 2,
+      "line": 5,
+      "text": "Invoices!H2 = 48,210.75",
+      "coverage": {
+        "complete": true,
+        "lineCount": 5
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-d8b347c1da7a\",\n  \"status\": \"done\",\n  \"reason\": \"The check was executed in step 2 with `python cellvalue.py invoices_q3.xlsx Invoices!H2 --recalculate`, which confirmed that Invoices!H2 is 48,210.75.\",\n  \"receipt\": {\n    \"sourceId\": \"9bfe7058e9b3d7d114fe1601cb38f14b55ee5a04306f2060a0754711435a3474\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-d8b347c1da7a\",\n    \"step\": 2,\n    \"line\": 5,\n    \"text\": \"Invoices!H2 = 48,210.75\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 5\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211403-672-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1156/2246/1926; time 11268 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:14:14.968Z"
+}

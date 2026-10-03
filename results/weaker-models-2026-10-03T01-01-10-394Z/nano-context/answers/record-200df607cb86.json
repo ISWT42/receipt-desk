@@ -1,0 +1,48 @@
+{
+  "recordId": "record-200df607cb86",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "9bbd78e76fbc547eef4a00d9626d20eacb2087554bd68e743dda274d0aa5d91a",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 924,
+    "outputTokens": 515,
+    "reasoningTokens": 294,
+    "outputTokensChargedForBound": 809,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.00119605,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.735578875,
+  "prediction": {
+    "recordId": "record-200df607cb86",
+    "status": "not shown",
+    "reason": "The record only shows submitting/committing a DNS A record change; it does not show a final resolution check that files.example.org actually resolves to 203.0.113.40 on ns1.example.org.",
+    "receipt": {
+      "sourceId": "receipt-record-200df607cb86",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86",
+      "step": 1,
+      "line": 3,
+      "text": "change c-88217 committed (zone serial 2026091604)",
+      "coverage": {
+        "complete": true,
+        "lineCount": 3
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-200df607cb86\",\n  \"status\": \"not shown\",\n  \"reason\": \"The record only shows submitting/committing a DNS A record change; it does not show a final resolution check that files.example.org actually resolves to 203.0.113.40 on ns1.example.org.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-200df607cb86\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-200df607cb86\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"change c-88217 committed (zone serial 2026091604)\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 3\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211913-353-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 924/515/294; time 4654 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:19:18.043Z"
+}

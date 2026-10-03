@@ -1,0 +1,48 @@
+{
+  "recordId": "record-5c44c38b46f8",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "inputSha256": "6ad05ad71e17d28b6416c1af334b04b4db7f869343cad92ccab2785f1832ae11",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1058,
+    "outputTokens": 394,
+    "reasoningTokens": 175,
+    "outputTokensChargedForBound": 569,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.000922851,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.743542729,
+  "prediction": {
+    "recordId": "record-5c44c38b46f8",
+    "status": "failed",
+    "reason": "The final connectivity check from app-11 to db-05 on port 5432 fails with \"Connection refused\".",
+    "receipt": {
+      "sourceId": "receipt-record-5c44c38b46f8",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-5c44c38b46f8",
+      "step": 2,
+      "line": 6,
+      "text": "nc: connect to db-05.example.internal port 5432 (tcp) failed: Connection refused",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-5c44c38b46f8\",\n  \"status\": \"failed\",\n  \"reason\": \"The final connectivity check from app-11 to db-05 on port 5432 fails with \\\"Connection refused\\\".\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-5c44c38b46f8\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-5c44c38b46f8\",\n    \"step\": 2,\n    \"line\": 6,\n    \"text\": \"nc: connect to db-05.example.internal port 5432 (tcp) failed: Connection refused\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211957-304-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1058/394/175; time 3235 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:20:00.564Z"
+}

@@ -1,0 +1,21 @@
+{
+  "recordId": "record-3a5af96350a5",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "context",
+  "promptFile": "work/weaker-inputs-2026-10-03T00-21-25-484Z/context/record-3a5af96350a5.txt",
+  "promptSha256": "45271002080d2ba0db43fcd0feeb2719fbcf9c83553cee567c5ab01ca040dad0",
+  "systemSha256": "c44cd5f333afc1ecfd0ebe2a77a1939d4251c6df72bf5bc852a6c77fed736f92",
+  "reservation": {
+    "inputTokenUpperBound": 8169,
+    "outputTokenCap": 4000,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "worstNanoUsd": 6633801,
+    "worstCaseUsd": 0.006633801,
+    "spentUsd": 0.736993277,
+    "permitted": true
+  },
+  "startedAt": "2026-10-03T01:19:26.247Z"
+}

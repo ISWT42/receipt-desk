@@ -1,0 +1,48 @@
+{
+  "recordId": "record-7818d9673f75",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "f2a126a213919e50127fd0f25ff9ef5723dacafdee4283259e0ced3dd1e7f087",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1006,
+    "outputTokens": 717,
+    "reasoningTokens": 459,
+    "outputTokensChargedForBound": 1176,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.0051645,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.172231501,
+  "prediction": {
+    "recordId": "record-7818d9673f75",
+    "status": "not shown",
+    "reason": "The supplied log shows transferring a configuration file and restarting the service, but it does not include a final check or output reporting whether the report-cron unit is active on batch-01.",
+    "receipt": {
+      "sourceId": "receipt-record-7818d9673f75",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7818d9673f75",
+      "step": 2,
+      "line": 4,
+      "text": "Connection to batch-01 closed.",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-7818d9673f75\",\n  \"status\": \"not shown\",\n  \"reason\": \"The supplied log shows transferring a configuration file and restarting the service, but it does not include a final check or output reporting whether the report-cron unit is active on batch-01.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-7818d9673f75\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-7818d9673f75\",\n    \"step\": 2,\n    \"line\": 4,\n    \"text\": \"Connection to batch-01 closed.\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210653-214-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1006/717/459; time 5337 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:06:58.577Z"
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "record-9e4cf8f741eb",
+  "model": "openai/gpt-5.4-nano",
+  "arm": "raw",
+  "inputSha256": "fd6000cf9dfa58a248e267ead8e54310b28e77a2fd51f97af6f9c09d64617602",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 861,
+    "outputTokens": 553,
+    "reasoningTokens": 282,
+    "outputTokensChargedForBound": 835,
+    "pricesUsdPerMillion": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "costUpperBoundUsd": 0.001215951,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.714664764,
+  "prediction": {
+    "recordId": "record-9e4cf8f741eb",
+    "status": "not shown",
+    "reason": "The log shows only that confctl wrote the sysctl config file for es-03, but it does not show any final check of the actual value of vm.max_map_count (e.g., via sysctl) to confirm it is 262144.",
+    "receipt": {
+      "sourceId": "f181683daa9ac38bfe5e094a634885b0e69d4cb32a0d0b2d11cb0b3759b99e67",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9e4cf8f741eb",
+      "step": 1,
+      "line": 3,
+      "text": "[confctl] es-03: wrote /etc/sysctl.d/90-search-node.conf",
+      "coverage": {
+        "complete": true,
+        "lineCount": 4
+      }
+    }
+  },
+  "brokerStdout": "{\n  \"recordId\": \"record-9e4cf8f741eb\",\n  \"status\": \"not shown\",\n  \"reason\": \"The log shows only that confctl wrote the sysctl config file for es-03, but it does not show any final check of the actual value of vm.max_map_count (e.g., via sysctl) to confirm it is 262144.\",\n  \"receipt\": {\n    \"sourceId\": \"f181683daa9ac38bfe5e094a634885b0e69d4cb32a0d0b2d11cb0b3759b99e67\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-9e4cf8f741eb\",\n    \"step\": 1,\n    \"line\": 3,\n    \"text\": \"[confctl] es-03: wrote /etc/sysctl.d/90-search-node.conf\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 4\n    }\n  }\n}\n",
+  "brokerStderr": "[broker] OK\n[broker] model: openai/gpt-5.4-nano (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/211721-376-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 861/553/282; time 4395 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:17:25.794Z"
+}

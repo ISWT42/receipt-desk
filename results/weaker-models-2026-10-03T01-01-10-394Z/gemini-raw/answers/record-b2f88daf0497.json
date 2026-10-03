@@ -1,0 +1,48 @@
+{
+  "recordId": "record-b2f88daf0497",
+  "model": "google/gemini-3.7-flash",
+  "arm": "raw",
+  "inputSha256": "666c595d3228ca2f264a31b109340dbcf7310f0c01457fe38d0e069701b120c1",
+  "seedFromOriginalCall": false,
+  "originalSeedSource": null,
+  "accounting": {
+    "inputTokens": 1063,
+    "outputTokens": 1399,
+    "reasoningTokens": 1135,
+    "outputTokensChargedForBound": 2534,
+    "pricesUsdPerMillion": {
+      "input": 0.75,
+      "output": 3.75
+    },
+    "costUpperBoundUsd": 0.01029975,
+    "actualCostUsd": null,
+    "method": "Owner list prices times reported tokens; reasoning counted in addition to output; upper bound, not returned costUsd.",
+    "boundClippedToPreCallMaximum": false,
+    "costSource": "reported tokens at owner list prices, including reasoning again"
+  },
+  "cumulativeCostUpperBoundUsd": 0.282467251,
+  "prediction": {
+    "recordId": "record-b2f88daf0497",
+    "status": "done",
+    "reason": "The final check queried the active status of the report-cron unit on batch-01 and returned the current state.",
+    "receipt": {
+      "sourceId": "receipt-record-b2f88daf0497",
+      "sourceUrl": "https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence",
+      "documentUrl": "https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b2f88daf0497",
+      "step": 3,
+      "line": 6,
+      "text": "     Active: failed (Result: exit-code) since Wed 2026-09-16 11:20:06 UTC",
+      "coverage": {
+        "complete": true,
+        "lineCount": 6
+      }
+    }
+  },
+  "brokerStdout": "```json\n{\n  \"recordId\": \"record-b2f88daf0497\",\n  \"status\": \"done\",\n  \"reason\": \"The final check queried the active status of the report-cron unit on batch-01 and returned the current state.\",\n  \"receipt\": {\n    \"sourceId\": \"receipt-record-b2f88daf0497\",\n    \"sourceUrl\": \"https://www.kaggle.com/datasets/iswt42/it-quoted-the-failure-evidence\",\n    \"documentUrl\": \"https://ixoe9uvf.api.sanity.io/v2026-10-01/data/doc/production/receipt-record-b2f88daf0497\",\n    \"step\": 3,\n    \"line\": 6,\n    \"text\": \"     Active: failed (Result: exit-code) since Wed 2026-09-16 11:20:06 UTC\",\n    \"coverage\": {\n      \"complete\": true,\n      \"lineCount\": 6\n    }\n  }\n}\n```\n",
+  "brokerStderr": "[broker] OK\n[broker] model: google/gemini-3.7-flash (effort: unknown) via OpenRouter (model from: request; effort from: reasoning.enabled sent without an effort; the model's default applies)\n[broker] recorded in ledger/2026-10-02/210839-458-openrouter-sanity-weak\n[broker] tokens in/out/reasoning: 1063/1399/1135; time 7702 ms; cost estimate unknown\n",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "stopReason": null,
+  "completedAt": "2026-10-03T01:08:47.188Z"
+}
