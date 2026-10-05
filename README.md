@@ -13,12 +13,12 @@ By Joshua Bauer (ISWT42). Built for the DEV Sanity Challenge, Path One, in Octob
 ## Try it
 
 - **The recorded demo:** open `docs/index.html`, or the GitHub Pages copy of it. It replays the GPT-6.1 comparison, 48 answers from raw logs and 48 through Context, with every copied receipt, its credit, and filters for the misses. It makes no network calls and no model requests.
-- **The write-up:** the DEV post for this entry. It holds the full results, the two hits and three misses of my sealed predictions, and the Knowledge Base finding.
+- **The write-up:** the DEV post for this entry. It holds the full results, my sealed predictions, and the Knowledge Base finding.
 
 ## What I found, in short
 
 - **GPT-6.1 tied:** 48 of 48 correct statuses both from raw logs and through Sanity Context, with a receipt score of 0.87890625 in both arms.
-- **Two weaker models, Gemini 3.7 Flash and GPT-5.4 nano,** made very few false "done" at this desk, and Context didn't reduce them further. It did help nano cite the right line: its credited receipts rose from 24 of 48 to 32 of 48. My five sealed predictions scored two hits and three misses, all reported in `WEAKER-MODEL-REPORT.md`.
+- **Two weaker models, Gemini 3.7 Flash and GPT-5.4 nano,** made very few false "done" at this desk, and Context didn't reduce them further. It did help nano cite the right line: its credited receipts rose from 24 of 48 to 32 of 48. I sealed five predictions before the first weaker-model call. The full results are in `WEAKER-MODEL-REPORT.md`.
 - **Sanity's Knowledge Base** flagged two separate records as one "conflict", and offered to settle it by making the models' claim the standing truth. I left it untouched. The details are in `KB-QUALITY-FINDING-2026-10-03.md`.
 
 ## Run it yourself
@@ -49,6 +49,8 @@ npm run build            # the Sanity Studio, built locally
 | `public/` | The sanitized content and earlier viewers |
 
 The sealed file's SHA-256 is `a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f`. You can check it with `sha256sum PREDICTIONS-WEAKER-MODELS.md`, and check the timestamp with `ots verify`. The proof is complete: it is anchored in Bitcoin block 969650, timestamped 00:20 UTC on 3 October 2026, before the first weaker-model call (after 00:36:49 UTC, see `results/`).
+
+**Note, 5 October 2026.** The sealed file `PREDICTIONS-WEAKER-MODELS.md` carries an earlier scoring format: each prediction scored hit or miss. Under my rule of 4 October 2026, public results are reported without hit or miss tallies. The sealed file is unchanged, and its seal still verifies. Two other records keep that format as they were written: the pre-run protocol (`WEAKER-MODEL-PREPARATION-PROTOCOL-2026-10-03.md`) and the scoring script's output in `results/weaker-comparison-2026-10-03T01-23-00-984Z/`.
 
 ## Limits
 

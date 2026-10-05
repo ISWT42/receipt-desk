@@ -11,21 +11,23 @@ The four arms each attempted all 48 records once. All 192 replies are retained a
 | openai/gpt-5.4-nano, raw | 47/48 | 1/16 | 0/16 | 13/16, 7/16, 4/16 | 0.0888671875 |
 | openai/gpt-5.4-nano, Context | 47/48 | 0/16 | 1/16 | 13/16, 8/16, 11/16 | 0.279296875 |
 
-The five pre-registered predictions produced two hits beside three misses.
+The five pre-registered predictions were sealed before the first weaker-model call. The measurements they name are listed in the next section.
 
 Context's one observed gain was nano's cited-receipt score, 0.09 to 0.28 after rounding. The exact scores are in the table. Credited receipts rose from 24/48 to 32/48, while status accuracy tied at 47/48. Gemini's receipt score fell.
 
 ## Sealed predictions
 
-| Prediction | Result | Observation |
-| --- | --- | --- |
-| P1: Gemini raw has at least two false done on failed checks | HIT | Two of 16. |
-| P2: nano raw has at least two false done on missing checks | MISS | Zero of 16. |
-| P3: Context at least halves false done for each model with at least two in raw | MISS | Only Gemini qualifies. Its count stayed at two; the criterion required at most one. |
-| P4: Context correct status is at least as high for each model | HIT | Gemini tied at 46/48; nano tied at 47/48. |
-| P5: Context receipt score is at least as high for each model | MISS | Nano rose from 0.0888671875 to 0.279296875, but Gemini fell from 0.6015625 to 0.5625. |
+The predictions are worded in the sealed file, PREDICTIONS-WEAKER-MODELS.md. The measurements they name, P1 to P5, are:
 
-P3 is not vacuous: Gemini has the required raw errors. Nano's raw error count is below the qualifying threshold. P4 counts a tie as a hit because the sealed criterion says "at least as high." It does not show improvement.
+| Measure | Observation |
+| --- | --- |
+| P1: Gemini raw, false done on failed checks | Two of 16. |
+| P2: nano raw, false done on missing checks | Zero of 16. |
+| P3: false done on failed and missing checks combined, raw then Context | Gemini two, then two; nano one, then one. |
+| P4: correct status, raw then Context | Gemini 46/48, then 46/48; nano 47/48, then 47/48. |
+| P5: receipt score, raw then Context | Gemini 0.6015625, then 0.5625; nano 0.0888671875, then 0.279296875. |
+
+Both models tied on correct status, which shows no improvement.
 
 The supplied prediction fingerprint matches a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2c4b3155f93409f. The sealed file, its time correction, and the proof sidecar are unchanged. No external calendar or chain service was used to verify the OpenTimestamps proof.
 
@@ -86,16 +88,11 @@ This cross-study note is exploratory. It was not one of the five sealed predicti
 "WEAKER MODEL TEST ATTEMPTS COMPLETE: 192 retained attempts; four 48-record arms; no selective retries."
 "WEAKER MODEL BUDGET VERIFIED: conservative cost upper bound 0.77399099 USD; cap 2 USD; actual charge unknown; results/weaker-models-2026-10-03T01-01-10-394Z"
 "WEAKER MODEL COMPARISONS SCORED: two model pairs; unchanged scorer; P1 to P5 assessed; results/weaker-comparison-2026-10-03T01-23-00-984Z"
-"P1: HIT"
-"P2: MISS"
-"P3: MISS"
-"P4: HIT"
-"P5: MISS"
 
 ## Doubts considered and dismissed
 
 - Context improved status accuracy here. Each pair tied. A new, separately declared trial would be needed to support a different result.
-- Better nano receipts satisfy P5. The prediction applies to each model, and Gemini's score fell.
+- Better nano receipts mean Context improved receipts for both models. Gemini's receipt score fell.
 - The first attempt was retried. Its original file digest and exact reply are preserved; the new run has no new request for that seed. A duplicate request would invalidate that statement.
 - The bound proves actual billing. The broker reported no costUsd. The approved conservative price method is labelled as a bound.
 - Every uncredited receipt is invented. The retained text shows wrong identifiers, altered spaces, wrong step references, and the fixed criterion, as well as wrong statuses.
