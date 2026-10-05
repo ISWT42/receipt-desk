@@ -33,13 +33,15 @@ The supplied prediction fingerprint matches a72239f4cafe21e9402fbbc1dd161875548f
 
 ## Status misses beside hits
 
+A reply's own reason, where quoted below, is more text the model wrote. Read it for clues, but don't treat it as proof of how the model got there.
+
 Gemini raw called record-3fa95fd9371e done while exactly quoting line 6, "Pages:           61", against a request for 24 printed pages. It also called record-b2f88daf0497 done while quoting the failed service status.
 
 Gemini Context repeated the 61-page error. Its other false done is record-07af27f46aa2: it quotes line 7, "result: INVALID (column amount: expected decimal(18,2), found double)", but calls the task done.
 
 Nano raw called record-b2f88daf0497 done while its own reason says the unit is not active. Its quoted text also has one extra leading space.
 
-Nano Context called record-c69a5f22a694 done from "print_layout: 8 sheets set to landscape, 1 page wide". That record ends before PDF conversion and a page-count check. Its reason infers a page limit from layout settings.
+Nano Context called record-c69a5f22a694 done, quoting "print_layout: 8 sheets set to landscape, 1 page wide". That record ends before PDF conversion and a page-count check. Its reason infers a page limit from layout settings.
 
 Supported examples are retained beside these misses: Gemini raw correctly reports record-15d17b5e94dd failed with the exact final summary; Gemini Context, nano raw, and nano Context each correctly report record-3086075941d4 done with a credited receipt. Full replies, reasons, and all case grades are in the run and comparison folders.
 
@@ -76,7 +78,7 @@ The [published Kaggle benchmark](https://www.kaggle.com/datasets/iswt42/it-quote
 
 This cross-study note is exploratory. It was not one of the five sealed predictions. The prompts and counting differ, so the contrast doesn't isolate a prompt effect. Low false done also appeared in the raw arms; Context alone doesn't explain it.
 
-## Evidence and proving lines
+## Evidence and the controller's closing lines
 
 - Run: results/weaker-models-2026-10-03T01-01-10-394Z.
 - Scores and prediction observations: results/weaker-comparison-2026-10-03T01-23-00-984Z/summary.json.
@@ -88,6 +90,8 @@ This cross-study note is exploratory. It was not one of the five sealed predicti
 "WEAKER MODEL TEST ATTEMPTS COMPLETE: 192 retained attempts; four 48-record arms; no selective retries."
 "WEAKER MODEL BUDGET VERIFIED: conservative cost upper bound 0.77399099 USD; cap 2 USD; actual charge unknown; results/weaker-models-2026-10-03T01-01-10-394Z"
 "WEAKER MODEL COMPARISONS SCORED: two model pairs; unchanged scorer; P1 to P5 assessed; results/weaker-comparison-2026-10-03T01-23-00-984Z"
+
+These three lines are the test's own summary of itself, written by its own tooling. Read them as "shown, as far as this log goes". Two catches remain: **Who kept the log.** A log the agent could write or edit is still the agent's word. These lines did not come from a record kept outside the test. **A name is not the content.** The lines name the work. The answers and scores are in the folders listed above.
 
 ## Doubts considered and dismissed
 
