@@ -1,7 +1,7 @@
 {
   "title": "Receipt Desk: show me the line, or it isn't done",
   "upload_type": "software",
-  "description": "<p>A status desk that won't take an AI agent's word for \"done\". It answers done, failed, or not shown, with the command step and the exact output line that proves it, read from the original record through Sanity Context. Built on my method, the Sonny Test: a check counts only if its verdict comes from a record the agent can't change, and only if it has already caught a fault planted on purpose. Entry for the DEV Sanity Challenge (Path One), October 2026.</p>",
+  "description": "<p>A status desk that won't take an AI agent's word for \"done\". It answers done, failed, or not shown, with the command step and the exact output line it copied, read from the original record through Sanity Context. Built on my method, the Sonny Test: a check counts only if its verdict comes from a record the agent can't change, and only if it has already caught a fault planted on purpose. Entry for the DEV Sanity Challenge (Path One), October 2026.</p>",
   "creators": [
     {
       "name": "Bauer, Joshua",
