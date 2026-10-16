@@ -1,6 +1,5 @@
 # Receipt Desk
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23116559.svg)](https://doi.org/10.5281/zenodo.23116559)
 
 **Show me the line, or it isn't done.**
 
@@ -61,7 +60,7 @@ The sealed file's SHA-256 is `a72239f4cafe21e9402fbbc1dd161875548f0f6f20f64c56e2
 
 ## Cite
 
-Bauer, J. (2026). *Receipt Desk: show me the line, or it isn't done* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23116560
+Bauer, J. (2026). *Receipt Desk: show me the line, or it isn't done* (v1.0.0). https://github.com/ISWT42/receipt-desk
 
 ## Licence
 
